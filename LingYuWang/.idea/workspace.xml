@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4afbddc-9664-4cbb-a7b0-42356dc43dc9" name="Default Changelist" comment="topType">
-      <change afterPath="$PROJECT_DIR$/Index/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/LunBoTu/7ea2ba031d763930798ab73ff98b04d6.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/LingYuWang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LingYuWang.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07be3f23-ac5d-48fb-98b6-894024838856.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d99089c-7ba7-4553-894e-69e418e580e1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5d99089c-7ba7-4553-894e-69e418e580e1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Index/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LingYuWang/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LingYuWang/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LingYuWang/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LingYuWang/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LunBo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LunBo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunBo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/LunBo/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LunBo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/LunBo/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topType/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/topType/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topType/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/topType/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topType/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/topType/templates/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/topType/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/topType/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,13 +49,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="LingYuDB: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="LingYuDB@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="LingYuDB: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="LunBo_lunbo: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -63,10 +57,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LingYuWang/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="128" column="52" lean-forward="true" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LingYuWang/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <folding>
+                <element signature="e#634#666#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Index/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="144">
               <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -76,34 +91,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LingYuWang/urls.py">
+        <entry file="file://$PROJECT_DIR$/topType/templates/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Index/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/topType/views.py">
+        <entry file="file://$PROJECT_DIR$/LunBo/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -125,24 +125,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/topType/models.py" />
-        <option value="$PROJECT_DIR$/LunBo/models.py" />
-        <option value="$PROJECT_DIR$/topType/templates/Index.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/LingYuWang/settings.py" />
         <option value="$PROJECT_DIR$/LunBo/urls.py" />
         <option value="$PROJECT_DIR$/LunBo/views.py" />
         <option value="$PROJECT_DIR$/topType/urls.py" />
         <option value="$PROJECT_DIR$/topType/views.py" />
-        <option value="$PROJECT_DIR$/LingYuWang/urls.py" />
-        <option value="$PROJECT_DIR$/Index/urls.py" />
         <option value="$PROJECT_DIR$/Index/views.py" />
+        <option value="$PROJECT_DIR$/Index/urls.py" />
+        <option value="$PROJECT_DIR$/LingYuWang/urls.py" />
+        <option value="$PROJECT_DIR$/LunBo/models.py" />
+        <option value="$PROJECT_DIR$/topType/templates/Index.html" />
+        <option value="$PROJECT_DIR$/LingYuWang/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1061" />
+    <option name="x" value="563" />
+    <option name="y" value="79" />
+    <option name="width" value="1051" />
     <option name="height" value="853" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -151,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,13 +172,35 @@
             <path>
               <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
               <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
+              <item name="LunBo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="LunBoTu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
               <item name="topType" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,6 +213,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img/LunBoTu" />
       <recent name="$PROJECT_DIR$/Index" />
       <recent name="$PROJECT_DIR$/LunBo" />
     </key>
@@ -257,13 +281,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3999000" />
+    <option name="totallyTimeSpent" value="7679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2592798" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14903048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -280,12 +304,12 @@
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.1827027" />
-      <window_info anchor="bottom" id="manage.py@LingYuWang" order="14" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="manage.py@LingYuWang" order="14" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.21108033" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.23545706" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,20 +321,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="das://07be3f23-ac5d-48fb-98b6-894024838856/schema/LingYuDB/table/LunBo_lunbo" />
-    <entry file="file://$PROJECT_DIR$/LunBo/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topType/templates/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://5d99089c-7ba7-4553-894e-69e418e580e1/schema/LingYuDB/table/topType_top_type">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -318,71 +328,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://5d99089c-7ba7-4553-894e-69e418e580e1/schema/LingYuDB/table/LunBo_lunbo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LunBo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LunBo/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topType/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LunBo/urls.py" />
+    <entry file="file://$PROJECT_DIR$/topType/urls.py" />
     <entry file="file://$PROJECT_DIR$/topType/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LingYuWang/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1387">
-          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LingYuWang/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -396,13 +347,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index/views.py">
+    <entry file="file://$PROJECT_DIR$/Index/views.py" />
+    <entry file="file://$PROJECT_DIR$/LunBo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="144">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LingYuWang/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/LunBoTu/7ea2ba031d763930798ab73ff98b04d6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LunBo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5d99089c-7ba7-4553-894e-69e418e580e1/schema/LingYuDB/table/LunBo_lunbo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topType/templates/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LingYuWang/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="128" column="52" lean-forward="true" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
         </state>
       </provider>
     </entry>
