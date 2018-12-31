@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4afbddc-9664-4cbb-a7b0-42356dc43dc9" name="Default Changelist" comment="">
+    <list default="true" id="e4afbddc-9664-4cbb-a7b0-42356dc43dc9" name="Default Changelist" comment="部分app注册">
+      <change afterPath="$PROJECT_DIR$/Film_review/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuKaLaiLe/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Star/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Star_Photos/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TV_Play/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Welfare/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZhuanFang/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LingYuWang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LingYuWang.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LingYuWang/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LingYuWang/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topType/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/topType/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,13 +21,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LingYuWang/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+            <state relative-caret-position="475">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -31,6 +44,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/topType/models.py" />
         <option value="$PROJECT_DIR$/LingYuWang/settings.py" />
       </list>
     </option>
@@ -62,16 +77,6 @@
             <path>
               <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
               <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="LunBo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="Movie_column" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
               <item name="topType" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -86,6 +91,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../git_12-27/01" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -135,20 +141,21 @@
       <option name="presentableId" value="Default" />
       <updated>1546219455063</updated>
       <workItem from="1546219456209" duration="118000" />
-      <workItem from="1546220129437" duration="222000" />
+      <workItem from="1546222384778" duration="166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340000" />
+    <option name="totallyTimeSpent" value="1755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25263157" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25595567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="manage.py@LingYuWang" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -159,9 +166,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -173,10 +180,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/topType/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LingYuWang/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        <state relative-caret-position="475">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
         </state>
       </provider>
     </entry>

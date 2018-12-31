@@ -41,6 +41,13 @@ INSTALLED_APPS = [
     'LunBo',
     'topType',
     'Movie_column',
+    'Film_review',
+    'JuKaLaiLe',
+    'Star',
+    'Star_Photos',
+    'TV_Play',
+    'Welfare',
+    'ZhuanFang',
 
 ]
 
