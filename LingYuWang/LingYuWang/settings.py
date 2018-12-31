@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'TV_Play',
     'Welfare',
     'ZhuanFang',
-
+    'Index',
+    
 ]
 
 MIDDLEWARE = [

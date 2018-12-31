@@ -5,4 +5,4 @@ from LunBo.models import *
 # Create your views
 def Lun_Bo(request):
     LunBo_T = LunBo.objects.all()
-    return render(request, 'Index.html', {'LunBo_T': LunBo_T})
+    return LunBo_T
