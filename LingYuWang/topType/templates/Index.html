@@ -6,16 +6,41 @@
 </head>
 <style>
 
+     *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .topType{
+        background-color: red;
+        height: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .topType li{
+        list-style: none;
+        float: left;
+    }
 </style>
 
 <body>
 
+<div class="topType">
+    {% for TopType1 in TopType %}
+    <ul>
+        <li>{{ TopType1.TopType }}</li>
+    </ul>
+    {% endfor %}
+</div>
 
-{% for TopType1 in TopType %}
-<ul>
-    <li>{{ TopType1.TopType }}</li>
-</ul>
-{% endfor %}
+<div class="'LunBoTu">
+
+    {% for LunBo in LunBo_T %}
+    {{ LunBo.LunBo_title }}
+    {% endfor %}
+
+</div>
 
 </body>
 </html>
