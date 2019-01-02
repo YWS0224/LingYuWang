@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" />
+</head>
+<style>
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .topType{
+        height: 80px;
+    }
+
+    .LOGO{
+        background-image: url("{% static 'img/LunBoTu/7ea2ba031d763930798ab73ff98b04d6.jpg' %}");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 70px;
+        margin-top: 5px;
+    }
+
+    .DaoHang{
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 40px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .border_r{
+        border-right: 1px solid #c4c4c4;
+    }
+
+    .search div{
+        height: 80px;
+    }
+
+    .LunBoTu {
+        background-color: aqua;
+        height: 300px;
+        width: 100%;
+        text-align: center;
+    }
+
+</style>
+
+
+<body>
+
+<div class="topType row">
+    <div class="LOGO col-md-2 col-md-offset-2"></div>
+    <div class="DaoHang col-md-4 row">
+        <div class="col-md-2 border_r">资讯</div>
+        <div class="col-md-2 border_r">独家</div>
+        <div class="col-md-2 border_r">电影</div>
+        <div class="col-md-2 border_r">电视</div>
+        <div class="col-md-2 border_r">明星</div>
+        <div class="col-md-2">企业</div>
+    </div>
+    <div class="search col-md-2">
+        <div class="col-md-4" style="background-color: red"></div>
+        <div class="col-md-4" style="background-color: yellow"></div>
+        <div class="col-md-4" style="background-color: blue"></div>
+    </div>
+</div>
+
+</body>
+</html>
