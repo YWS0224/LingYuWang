@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link src="{% static 'css/bootstrap.js' %}" rel="stylesheet" type="text/css" />
 </head>
 <style>
 
@@ -22,6 +23,7 @@
     .topType li {
         list-style: none;
         float: left;
+        padding-left: 30px;
     }
 
     .LunBoTu {
@@ -32,6 +34,7 @@
     }
 
 </style>
+
 
 <body>
 
@@ -45,12 +48,17 @@
 
 
 <div class="LunBoTu">
-
+    <div class="row">
+        <div class=""></div>
+    </div>
     {% for LunBo in LunBo_T %}
       {{ LunBo.LunBo_title }}
     {% endfor %}
 
 </div>
+
+
+
 
 </body>
 </html>
