@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'LunBo',
-    'topType',
     'Movie_column',
     'Film_review',
     'JuKaLaiLe',

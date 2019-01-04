@@ -1,0 +1,297 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <style>
+        .DaoHangLan {
+            margin-bottom: 25px;
+            font-size: 18px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .logo{
+            height: 120px;
+            background-image: url("{% static 'img/Index_ing/logo.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .SouSuo1{
+            height: 28px;
+            background-image: url("{% static 'img/Index_ing/App下载.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .SouSuo2{
+            height: 28px;
+            background-image: url("{% static 'img/Index_ing/SouSuo.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .SouSuo3{
+            height: 28px;
+            background-image: url("{% static 'img/Index_ing/TouGao.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .DaoHang{
+            padding-top: 50px;
+        }
+
+        .DaoHangLan a{
+            color: black;
+        }
+
+        .border_r {
+            border-right: 2px solid #C4C4C4;
+        }
+
+
+
+
+
+
+        .Picture {
+            background-color: #d58512;
+            height: 500px;
+        }
+
+
+
+
+        .News_body {
+            margin-top: 50px;
+        }
+
+        .News_list {
+            height: 800px;
+        }
+
+        .Movie_Title{
+            background-image: url("{% static 'img/Index_ing/DianYing.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .dade {
+            background-color: #4cae4c;
+            height: 250px;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        .xiaode {
+            background-color: #c7254e;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+
+
+
+        .Exclusive_list {
+            height: 500px;
+            margin-bottom: 15px;
+        }
+
+        .Exclusive_Title{
+            background-image: url("{% static 'img/Index_ing/DuJiaZhuanFang.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .EX_Info{
+            background-color: yellow;
+            height: 450px;
+        }
+
+        .Scheme5 {
+            background-color: #ebccd1;
+            margin-bottom: 15px;
+            height: 600px;
+        }
+
+        .Lxwm {
+            color: black;
+            font-size: 20px;
+            padding-top: 40px;
+        }
+
+        .M li {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+
+        .ZiMeiTi{
+            padding-top: 15px;
+        }
+        .ZiMeiTi table {
+            margin-left: -60px;
+        }
+
+        .ZiMeiTi td {
+            padding: 0px 20px;
+        }
+
+        .Ewm_title {
+            padding-top: 60px;
+        }
+
+        .Yi li {
+            list-style: none;
+            display: inline;
+        }
+
+        .Yi2 li {
+            list-style: none;
+            padding-top: 10px;
+        }
+
+        .Yi3 {
+            padding-left: 60px;
+        }
+
+        .Lian {
+            width: 30px;
+            height: 30px;
+            margin-right: 20px;
+        }
+        .L li{
+            list-style: none;
+            padding-bottom: 20px;
+        }
+        .L{
+            margin-top: -30px;
+        }
+    </style>
+</head>
+<body>
+
+{#导航栏#}
+<div class="DaoHangLan row ">
+    <div class="col-md-2 col-md-offset-2 logo"></div>
+    <div class="col-md-3 DaoHang">
+        <div class="col-md-2 border_r"><a href="#">资讯</a></div>
+        <div class="col-md-2 border_r"><a href="#">独家</a></div>
+        <div class="col-md-2 border_r"><a href="#">电影</a></div>
+        <div class="col-md-2 border_r"><a href="#">电视</a></div>
+        <div class="col-md-2 border_r"><a href="#">明星</a></div>
+        <div class="col-md-2"><a href="#">产业</a></div>
+    </div>
+    <div class="col-md-2 col-md-offset-1 DaoHang">
+        <div class="col-md-4 SouSuo1"></div>
+        <div class="col-md-4 SouSuo2"></div>
+        <div class="col-md-4 SouSuo3"></div>
+    </div>
+</div>
+
+<div class="row Lunbotu">
+    <div class="col-md-8 col-md-offset-2 Picture">
+    </div>
+</div>
+
+
+<div class="row News_body">
+    <div class="col-md-5  col-md-offset-2 News_list ">
+        <div class="Movie_list row">
+            <div class="Movie_Title col-md-12">
+            </div>
+            <div class="dade col-md-12"></div>
+            <div class="xiaode col-md-12"></div>
+            <div class="xiaode col-md-12"></div>
+            <div class="xiaode col-md-12"></div>
+            <div class="xiaode col-md-12"></div>
+        </div>
+        <div class="TV_list"></div>
+        <div class="Star_list"></div>
+    </div>
+
+    <div class="col-md-3 row r-List">
+
+        <div class="col-md-11 col-md-offset-1 row Exclusive_list">
+            <div class="Exclusive_Title col-md-12"></div>
+            <div class="EX_Info col-md-12"></div>
+        </div>
+
+        <div class="col-md-11 col-md-offset-1 Scheme5">
+            <div class="row ">
+                <div class="col-md-11 col-md-offset-1 Lxwm">
+                    <img class="Lian" src="{% static 'img/Index_ing/形状.png' %}" alt="">联系我们
+                </div>
+            </div>
+            <div class="row Emil_title">
+                <div class="col-md-12 ">
+                    <ul class="M">
+                        <li>媒体公邮：lingmoviegoyuo@qq.com</li>
+                        <li>稿件合作：lingmoviegoyuo@qq.com</li>
+                        <li>媒法务联系：lingmoviegoyuo@qq.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ZiMeiTi">
+                <div class="col-md-3 col-md-offset-1">自媒体：</div>
+                <div class="col-md-7">
+                    <table>
+                        <tr>
+                            <td class="border_r">星影滙</td>
+                            <td class="border_r">大号风</td>
+                            <td class="border_r">头号条</td>
+                        </tr>
+                        <tr>
+                            <td class="border_r">百家号</td>
+                            <td>一点资讯</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="row Ewm_title">
+                <div class="row col-md-8 col-md-offset-2 ">
+                    <ul class="L">
+                        <li class="row">
+                            <div class="col-md-6"><img src="{% static 'img/Index_ing/二维码.png' %}" alt=""></div>
+                            <div class="col-md-6"><img src="{% static 'img/Index_ing/二维码.png' %}" alt=""></div>
+                        </li>
+                        <li class="row">
+                            <div class="col-md-6">扫一扫关注微博</div>
+                            <div class="col-md-6">扫一扫关注微信</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row Ba_title">
+                <div class="col-md-12">
+                    <ul class="Yi">
+                        <li class="border_r">关于我们&nbsp&nbsp</li>
+                        <li class="border_r">&nbsp&nbsp版权声明&nbsp&nbsp</li>
+                        <li>&nbsp&nbsp免责条款&nbsp</li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <ul class="Yi2">
+                        <li>零娱网 lingmovie.Com.ALL righes reserved.</li>
+                        <li>京ICP备11034519</li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <p class="Yi3">京公安网备 110112021001312</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

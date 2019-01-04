@@ -1,0 +1,46 @@
+.DaoHangLan {
+    margin-bottom: 25px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.logo{
+    height: 120px;
+    background-image: url("{% static 'img/Index_ing/logo.png' %}");
+    background-size: 100% 100%;
+    background-repeat: repeat;
+}
+
+.SouSuo1{
+    height: 28px;
+    background-image: url("{% static 'img/Index_ing/App下载.png' %}");
+    background-size: 100% 100%;
+    background-repeat: repeat;
+}
+
+.SouSuo2{
+    height: 28px;
+    background-image: url("{% static 'img/Index_ing/SouSuo.png' %}");
+    background-size: 100% 100%;
+    background-repeat: repeat;
+}
+
+.SouSuo3{
+    height: 28px;
+    background-image: url("{% static 'img/Index_ing/TouGao.png' %}");
+    background-size: 100% 100%;
+    background-repeat: repeat;
+}
+
+.DaoHang{
+    padding-top: 50px;
+}
+
+.DaoHangLan a{
+    color: black;
+}
+
+.border_r {
+    border-right: 2px solid #C4C4C4;
+}

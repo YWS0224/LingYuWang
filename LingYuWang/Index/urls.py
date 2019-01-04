@@ -9,5 +9,5 @@ app_name = 'Index'
 
 urlpatterns = [
     path('index/', Index_html, name='index'),
-    # re_path(r'^index2(\d{1,2})', views, dash, name='index2'),
+    # re_path(r'^index2(\d{1,2})', v iews, dash, name='index2'),
 ]
