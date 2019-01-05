@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4afbddc-9664-4cbb-a7b0-42356dc43dc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Index/templates/Index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/Index_css/Index_DaoHang_css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/App下载.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/DianYing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/DuJiaZhuanFang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/SouSuo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/TouGao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/二维码.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/形状.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Index/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Index/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LingYuWang/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LingYuWang/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/Index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Index2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Index/templates/Index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="133">
+              <caret line="215" column="35" lean-forward="true" selection-start-line="215" selection-start-column="35" selection-end-line="215" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -260,7 +248,7 @@
       <workItem from="1546391766962" duration="2111000" />
       <workItem from="1546408502865" duration="8453000" />
       <workItem from="1546585333976" duration="241000" />
-      <workItem from="1546585591281" duration="4862000" />
+      <workItem from="1546585591281" duration="5908000" />
     </task>
     <task id="LOCAL-00001" summary="topType">
       <created>1546223229842</created>
@@ -290,11 +278,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546411944177</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改index">
+      <created>1546593779471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546593779472</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26484000" />
+    <option name="totallyTimeSpent" value="27530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -476,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Index/templates/Index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="133">
+          <caret line="215" column="35" lean-forward="true" selection-start-line="215" selection-start-column="35" selection-end-line="215" selection-end-column="35" />
         </state>
       </provider>
     </entry>
