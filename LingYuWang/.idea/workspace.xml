@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4afbddc-9664-4cbb-a7b0-42356dc43dc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Welfare/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/Xshot-0195.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/daohanglan/Xshot-0195.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LingYuWang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LingYuWang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d99089c-7ba7-4553-894e-69e418e580e1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5d99089c-7ba7-4553-894e-69e418e580e1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/templates/Index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JuKaLaiLe/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/JuKaLaiLe/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JuKaLaiLe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/JuKaLaiLe/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LingYuWang/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LingYuWang/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LunBo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/LunBo/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Star/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Star/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_Photos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Star_Photos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Star_Photos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Star_Photos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Welfare/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Welfare/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Welfare/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Welfare/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,30 +64,30 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Index/templates/Index.html">
+        <entry file="file://$PROJECT_DIR$/Index/templates/Index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="87">
+              <caret line="198" lean-forward="true" selection-start-line="198" selection-end-line="198" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Index/templates/Index2.html">
+        <entry file="file://$PROJECT_DIR$/ZhuanFang/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="215" column="35" lean-forward="true" selection-start-line="215" selection-start-column="35" selection-end-line="215" selection-end-column="35" />
+            <state relative-caret-position="54">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/Index_css/Index_DaoHang_css.css">
+        <entry file="file://$USER_HOME$/.virtualenvs/env1/lib/python3.6/site-packages/django/contrib/admin/static/admin/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="30" column="33" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="245">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -106,15 +122,16 @@
         <option value="$PROJECT_DIR$/Index/views.py" />
         <option value="$PROJECT_DIR$/LingYuWang/settings.py" />
         <option value="$PROJECT_DIR$/static/css/Index_css/Index_DaoHang_css.css" />
+        <option value="$USER_HOME$/.virtualenvs/env1/lib/python3.6/site-packages/django/contrib/admin/static/admin/css/responsive.css" />
         <option value="$PROJECT_DIR$/Index/templates/Index2.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1055" />
+    <option name="x" value="1920" />
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,44 +150,28 @@
             <path>
               <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
               <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
               <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
               <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="Welfare" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
               <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="Index_css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="Index_ing" type="462c0819:PsiDirectoryNode" />
+              <item name="ZhuanFang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,13 +291,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27530000" />
+    <option name="totallyTimeSpent" value="31011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27590027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15734072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -312,12 +314,12 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32037815" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.1827027" />
-      <window_info anchor="bottom" id="manage.py@LingYuWang" order="14" visible="true" weight="0.33837837" />
+      <window_info anchor="bottom" id="manage.py@LingYuWang" order="14" visible="true" weight="0.113513514" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.21108033" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.23545706" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,13 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Welfare/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JuKaLaiLe/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -469,10 +464,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/env1/lib/python3.6/site-packages/django/contrib/admin/static/admin/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Index/templates/Index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="215" column="35" lean-forward="true" selection-start-line="215" selection-start-column="35" selection-end-line="215" selection-end-column="35" />
+        <state relative-caret-position="87">
+          <caret line="198" lean-forward="true" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Welfare/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhuanFang/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
