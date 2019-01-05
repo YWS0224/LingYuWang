@@ -13,39 +13,39 @@
             font-weight: 600;
         }
 
-        .logo{
+        .logo {
             height: 120px;
             background-image: url("{% static 'img/Index_ing/logo.png' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
         }
 
-        .SouSuo1{
+        .SouSuo1 {
             height: 28px;
             background-image: url("{% static 'img/Index_ing/App下载.png' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
         }
 
-        .SouSuo2{
+        .SouSuo2 {
             height: 28px;
             background-image: url("{% static 'img/Index_ing/SouSuo.png' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
         }
 
-        .SouSuo3{
+        .SouSuo3 {
             height: 28px;
             background-image: url("{% static 'img/Index_ing/TouGao.png' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
         }
 
-        .DaoHang{
+        .DaoHang {
             padding-top: 50px;
         }
 
-        .DaoHangLan a{
+        .DaoHangLan a {
             color: black;
         }
 
@@ -54,16 +54,10 @@
         }
 
 
-
-
-
-
         .Picture {
             background-color: #d58512;
             height: 500px;
         }
-
-
 
 
         .News_body {
@@ -74,7 +68,7 @@
             height: 800px;
         }
 
-        .Movie_Title{
+        .Movie_Title {
             background-image: url("{% static 'img/Index_ing/DianYing.png' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
@@ -95,21 +89,37 @@
         }
 
 
-
-
         .Exclusive_list {
             height: 500px;
             margin-bottom: 15px;
         }
 
-        .Exclusive_Title{
+        .Exclusive_Title {
             background-image: url("{% static 'img/Index_ing/DuJiaZhuanFang.png' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
             height: 45px;
         }
 
-        .EX_Info{
+        .Welfare_Title {
+            background-image: url("{% static 'img/Index_ing/i0.jpg' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 40px;
+        }
+
+        .Welfare_Info  li{
+            list-style: none;
+            margin-left: -20%;
+            line-height: 60px;
+        }
+
+        .Padding_L{
+            padding-left: 20px;
+        }
+
+
+        .EX_Info {
             background-color: yellow;
             height: 450px;
         }
@@ -121,40 +131,40 @@
             font-weight: 600;
         }
 
-        .LianXiWoMen_Title{
+        .LianXiWoMen_Title {
             background-image: url("{% static 'img/Index_ing/LianXiWoMen.png' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
             height: 45px;
         }
 
-        .ZiMeiTi{
+        .ZiMeiTi {
             padding-top: 20px;
             padding-bottom: 20px;
         }
 
-        .ZiMeiTi table{
+        .ZiMeiTi table {
             line-height: 26px;
         }
 
-        .ZiMeiTi td{
+        .ZiMeiTi td {
             width: 65px;
             text-align: center;
         }
 
-        .ErWeiMa{
+        .ErWeiMa {
             padding-top: 20px;
             padding-bottom: 40px;
         }
 
-        .Weibo{
+        .Weibo {
             background-image: url("{% static 'img/Index_ing/WeiBo.png' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
             height: 170px;
         }
 
-        .Weixin{
+        .Weixin {
             background-image: url("{% static 'img/Index_ing/WeiXin.png' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
@@ -179,11 +189,13 @@
         .Yi3 {
             padding-left: 60px;
         }
-        .L li{
+
+        .L li {
             list-style: none;
             padding-bottom: 20px;
         }
-        .L{
+
+        .L {
             margin-top: -30px;
         }
     </style>
@@ -261,15 +273,32 @@
 
 
         <div class="col-md-11 col-md-offset-1 row Exclusive_list">
-            <div class="Exclusive_Title col-md-12">
-
+            <div class="Welfare_Title col-md-12"></div>
+            <div class="Welfare_Info col-md-12">
+                <ul>
+                    <li><img class="col-md-12" src="{% static 'img/Index_ing/90.jpg' %}" alt=""></li>
+                    <li class="Padding_L">"键盘侠"老爸在线寻女创意满分</li>
+                    <li><img class="col-md-12" src="{% static 'img/Index_ing/u.png' %}" alt=""></li>
+                    <li class="Padding_L">《蜘蛛侠：平行宇宙》揭蜘蛛侠隐身之谜</li>
+                </ul>
             </div>
-            <div class="EX_Info col-md-12"></div>
         </div>
+
 
         <div class="col-md-11 col-md-offset-1 row Exclusive_list">
             <div class="Exclusive_Title col-md-12"></div>
-            <div class="EX_Info col-md-12"></div>
+            <div class="EX_Info col-md-12">
+                <p><img src="{% static 'img/Index_ing' %}" alt=""></p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+                 <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
         </div>
 
         <div class="col-md-11 col-md-offset-1 row Exclusive_list">
@@ -309,7 +338,9 @@
 
             <div class="row Ba_title">
                 <div class="col-md-12">
-                    <div class="col-md-11 col-md-offset-1">---------------------------------------------------------------</div>
+                    <div class="col-md-11 col-md-offset-1">
+                        ---------------------------------------------------------------
+                    </div>
                     <ul class="Yi">
                         <li class="border_r">关于我们&nbsp&nbsp</li>
                         <li class="border_r">&nbsp&nbsp版权声明&nbsp&nbsp</li>
@@ -328,8 +359,6 @@
             </div>
         </div>
     </div>
-
-
-
+</div>
 </body>
 </html>
