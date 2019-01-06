@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4afbddc-9664-4cbb-a7b0-42356dc43dc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/90.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/i0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/jiang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/ju.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/q.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/tu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/mei.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/templates/Index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Index2.html" afterDir="false" />
     </list>
@@ -59,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Index/templates/Index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="295" lean-forward="true" selection-start-line="295" selection-end-line="295" />
+            <state relative-caret-position="376">
+              <caret line="227" column="30" lean-forward="true" selection-start-line="227" selection-start-column="30" selection-end-line="227" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -130,10 +124,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1987" />
-    <option name="y" value="131" />
-    <option name="width" value="1843" />
-    <option name="height" value="789" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -315,14 +309,28 @@
       <option name="project" value="LOCAL" />
       <updated>1546677486187</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="福利社">
+      <created>1546680355135</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546680355135</updated>
+    </task>
+    <task id="LOCAL-00008" summary="巨咖来了">
+      <created>1546742774051</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546742774051</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32943000" />
+    <option name="totallyTimeSpent" value="41571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15734072" />
@@ -358,7 +366,9 @@
     <MESSAGE value="添加bootstrap" />
     <MESSAGE value="修改index" />
     <MESSAGE value="完整index2" />
-    <option name="LAST_COMMIT_MESSAGE" value="完整index2" />
+    <MESSAGE value="福利社" />
+    <MESSAGE value="巨咖来了" />
+    <option name="LAST_COMMIT_MESSAGE" value="巨咖来了" />
   </component>
   <component name="editorHistoryManager">
     <entry file="das://07be3f23-ac5d-48fb-98b6-894024838856/schema/LingYuDB/table/LunBo_lunbo" />
@@ -507,9 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/DuJiaZhuanFang.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/env1/lib/python3.6/site-packages/django/contrib/admin/static/admin/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -517,10 +524,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/SouSuo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/TouGao.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/DuJiaZhuanFang.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/DianYing.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/90.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/u.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/tu.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/jiang.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/ju.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/LianXiWoMen.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/Index_ing/q.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Index/templates/Index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="295" lean-forward="true" selection-start-line="295" selection-end-line="295" />
+        <state relative-caret-position="376">
+          <caret line="227" column="30" lean-forward="true" selection-start-line="227" selection-start-column="30" selection-end-line="227" selection-end-column="30" />
         </state>
       </provider>
     </entry>

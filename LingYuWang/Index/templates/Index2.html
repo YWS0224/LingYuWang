@@ -141,7 +141,22 @@
         }
 
         .daTu{
-            padding-bottom: 15px;
+            background-image: url("{% static 'img/Index_ing/q.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 230px;
+            margin-bottom: 25px;
+        }
+        .daTu div{
+            background-color: rgba(255,255,255,0.5);
+            line-height: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 180px;
+        }
+
+        .Ci{
+            padding-bottom: 25px;
         }
 
         .Scheme5 {
@@ -189,6 +204,13 @@
             background-size: 100% 100%;
             background-repeat: repeat;
             height: 170px;
+        }
+
+        .Mei{
+            background-image: url("{% static 'img/Index_ing/mei.jpg' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 40px;
         }
 
         .M li {
@@ -281,6 +303,8 @@
         <div class="Star_list"></div>
     </div>
 
+{#    福利社#}
+
     <div class="col-md-3 row r-List">
 
         <div class="col-md-11 col-md-offset-1 row Exclusive_list">
@@ -300,34 +324,37 @@
                 </ul>
             </div>
         </div>
-
+{#巨咖来了#}
 
         <div class="col-md-11 col-md-offset-1 row Exclusive_list">
             <div class="ju_Title col-md-12"></div>
             <div class="JU_Info col-md-12 ">
 
                 <div class="daTu row">
-                    <img class="col-md-12" src="{% static 'img/Index_ing/q.png' %}" alt="">
+                    <div>正邪较量谁胜谁负？ “大人物”永不言败</div>
                 </div>
 
                 <table class="col-md-12 row">
                     <tr>
-                        <td><img class="col-md-12" src="{% static 'img/Index_ing/jiang.png' %}" alt=""></td>
+                        <td><img class="col-md-12 Ci" src="{% static 'img/Index_ing/jiang.png' %}" alt=""></td>
                         <td>《大江大河》宝瓶大婚童谣一袭红妆出嫁</td>
                     </tr>
                     <tr>
-                        <td><img class="col-md-12" src="{% static 'img/Index_ing/tu.png' %}" alt=""></td>
+                        <td><img class="col-md-12 Ci" src="{% static 'img/Index_ing/tu.png' %}" alt=""></td>
                         <td>于湉全新单曲《Fighter》首发 Be a Fighter 勇者无畏</td>
                     </tr>
                 </table>
             </div>
         </div>
 
+{# 明星美图 #}
+
         <div class="col-md-11 col-md-offset-1 row Exclusive_list">
-            <div class="Exclusive_Title col-md-12"></div>
+            <div class="Mei col-md-12"></div>
             <div class="EX_Info col-md-12"></div>
         </div>
 
+{#  联系我们      #}
         <div class="col-md-11 row col-md-offset-1 Scheme5">
             <div class="col-md-12 LianXiWoMen_Title"></div>
             <div class="col-md-12 Emil_title">
