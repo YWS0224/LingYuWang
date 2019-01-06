@@ -101,6 +101,13 @@
             height: 45px;
         }
 
+        .ju_Title {
+            background-image: url("{% static 'img/Index_ing/ju.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 40px;
+        }
+
         .Welfare_Title {
             background-image: url("{% static 'img/Index_ing/i0.jpg' %}");
             background-size: 100% 100%;
@@ -108,13 +115,13 @@
             height: 40px;
         }
 
-        .Welfare_Info  li{
+        .Welfare_Info li {
             list-style: none;
             margin-left: -20%;
             line-height: 60px;
         }
 
-        .Padding_L{
+        .Padding_L {
             padding-left: 20px;
         }
 
@@ -122,6 +129,7 @@
         .EX_Info {
             background-color: yellow;
             height: 450px;
+            padding-top: 25px;
         }
 
         .Scheme5 {
@@ -195,9 +203,6 @@
             padding-bottom: 20px;
         }
 
-        .L {
-            margin-top: -30px;
-        }
     </style>
 </head>
 <body>
@@ -286,18 +291,23 @@
 
 
         <div class="col-md-11 col-md-offset-1 row Exclusive_list">
-            <div class="Exclusive_Title col-md-12"></div>
-            <div class="EX_Info col-md-12">
-                <p><img src="{% static 'img/Index_ing' %}" alt=""></p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                </ul>
+            <div class="ju_Title col-md-12"></div>
+            <div class="EX_Info col-md-12 ">
 
-                 <ul>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <div class="daTu">
+                    <img class="col-md-12" src="{% static 'img/Index_ing/q.png' %}" alt="">
+                </div>
+
+                <table class="col-md-12 row">
+                    <tr>
+                        <td><img class="col-md-6 border_l" src="{% static 'img/Index_ing/jiang.png' %}" alt=""></td>
+                        <td>《大江大河》宝瓶大婚童谣一袭红妆出嫁</td>
+                    </tr>
+                    <tr>
+                        <td><img class="col-md-6 border_l" src="{% static 'img/Index_ing/tu.png' %}" alt=""></td>
+                        <td>于湉全新单曲《Fighter》首发 Be a Fighter 勇者无畏</td>
+                    </tr>
+                </table>
             </div>
         </div>
 
