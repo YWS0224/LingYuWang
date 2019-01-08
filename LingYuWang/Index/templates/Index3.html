@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .JuZhong{
+            text-align: center;
+        }
+        .JuZhong table{
+            width: 300px;
+            margin: 0px auto;
+
+        }
+    </style>
+</head>
+<body>
+{#轮播图#}
+
+<div class="JuZhong">
+    <h1>轮播图</h1>
+    <table border="2px">
+        <tr>
+            <td>标题</td>
+            <td>操作</td>
+        </tr>
+        {% for LunBo in LunBo_T %}
+            <tr>
+                <td>{{ LunBo.LunBo_title }}</td>
+                <td>操作</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+
+
+{#独家专访#}
+<div class="JuZhong">
+    <h1>轮播图</h1>
+    <table border="2px">
+        <tr>
+            <td>标题</td>
+            <td>操作</td>
+        </tr>
+        {% for LunBo in LunBo_T %}
+            <tr>
+                <td>{{ LunBo.LunBo_title }}</td>
+                <td>操作</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+
+
+{#福利社#}
+<div class="JuZhong">
+    <h1>福利社</h1>
+    <table border="2px">
+        <tr>
+            <td>标题</td>
+            <td>操作</td>
+        </tr>
+
+        {% for welFare in Welfare_T %}
+            <tr>
+                <td>{{welFare.Welfare_Title}}</td>
+                <td>操作</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+
+{#巨咖来了#}
+<div class="JuZhong">
+    <h1>巨咖来了</h1>
+    <table border="2px">
+        <tr>
+            <td>标题</td>
+            <td>操作</td>
+        </tr>
+        {% for Juka in Jukalaile %}
+            <tr>
+                <td>{{ Juka.Jukalail_title}}</td>
+                <td>操作</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+
+
+{#明星美图#}
+<div class="JuZhong">
+    <h1>明星美图</h1>
+    <table border="2px">
+        <tr>
+            <td>标题</td>
+            <td>操作</td>
+        </tr>
+        {% for starP in Star_Phtos %}
+            <tr>
+                <td>{{ starP.Star_Title }}</td>
+                <td>操作</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+
+
+{#电影#}
+<div class="JuZhong">
+    <h1>电影</h1>
+    <table border="2px">
+        <tr>
+            <td>标题</td>
+            <td>操作</td>
+        </tr>
+        {% for Select_Movie in select_Movie%}
+            <tr>
+                <td>{{Select_Movie.Movie_Title}}</td>
+                <td>操作</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+
+
+{#电视剧/综艺#}
+<div class="JuZhong">
+    <h1>电视剧/综艺</h1>
+    <table border="2px">
+        <tr>
+            <td>标题</td>
+            <td>操作</td>
+        </tr>
+        {% for TvPlay1 in Tv_Play1 %}
+            <tr>
+                <td>{{ TvPlay1.Tv_Title }}</td>
+                <td>操作</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+
+
+{#明星#}
+<div class="JuZhong">
+    <h1>明星</h1>
+    <table border="2px">
+        <tr>
+            <td>标题</td>
+            <td>操作</td>
+        </tr>
+        {% for Star2 in Star1 %}
+            <tr>
+                <td>{{ Star2.Star_Title }}</td>
+                <td>操作</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+
+</body>
+</html>

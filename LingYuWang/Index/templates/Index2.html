@@ -55,8 +55,17 @@
 
 
         .Picture {
-            background-color: #d58512;
+            background-color: #4cae4c;
+            background-image: url("{% static 'img/LunBoTu/Lunbotu.png' %}");
             height: 500px;
+        }
+
+        .Picture div {
+            background-color: rgba(255,255,255,0.5);
+            font-weight: 600;
+            font-size: 35px;
+            color:white;
+            margin-top: 435px;
         }
 
 
@@ -258,9 +267,10 @@
         <div class="col-md-4 SouSuo3"></div>
     </div>
 </div>
-
+{#轮播图#}
 <div class="row Lunbotu">
     <div class="col-md-8 col-md-offset-2 Picture">
+        <div class="row"> 《无敌破坏王2》 中国首映最强动画阵容大战互联网</div>
     </div>
 </div>
 
@@ -290,9 +300,13 @@
         </div>
         <div class="TV_list"></div>
         <div class="Star_list"></div>
+
+
         <div class="Movie_list row">
             <div class="Movie_Title col-md-12">
+
             </div>
+
             <div class="dade col-md-12"></div>
             <div class="xiaode col-md-12"></div>
             <div class="xiaode col-md-12"></div>
@@ -318,7 +332,13 @@
             <div class="Welfare_Info col-md-12">
                 <ul>
                     <li><img class="col-md-12" src="{% static 'img/Index_ing/90.jpg' %}" alt=""></li>
-                    <li class="Padding_L">"键盘侠"老爸在线寻女创意满分</li>
+                    <li class="Padding_L">"键盘侠"老爸在线寻女创意满分
+
+                  {% for WelFare in Welfare_T %}
+                    {{ WelFare.Walfare_Info }}
+                  {% endfor %}
+
+                    </li>
                     <li><img class="col-md-12" src="{% static 'img/Index_ing/u.png' %}" alt=""></li>
                     <li class="Padding_L">《蜘蛛侠：平行宇宙》揭蜘蛛侠隐身之谜</li>
                 </ul>
@@ -331,7 +351,11 @@
             <div class="JU_Info col-md-12 ">
 
                 <div class="daTu row">
-                    <div>正邪较量谁胜谁负？ “大人物”永不言败</div>
+                    <div>正邪较量谁胜谁负？ “大人物”永不言败
+                    {% for Juka in Jukalaile %}
+                       {{ Juka.Jukalail_title }}
+                    {% endfor %}
+                    </div>
                 </div>
 
                 <table class="col-md-12 row">
@@ -352,12 +376,20 @@
         <div class="col-md-11 col-md-offset-1 row Exclusive_list">
             <div class="Mei col-md-12"></div>
             <div class="EX_Info col-md-12"></div>
+
+
+            {% for Star_Phto in Star_Phtos %}
+            {{ Star_Phto.Star_Info }}
+            {% endfor %}
+
         </div>
 
 {#  联系我们      #}
         <div class="col-md-11 row col-md-offset-1 Scheme5">
             <div class="col-md-12 LianXiWoMen_Title"></div>
             <div class="col-md-12 Emil_title">
+
+
                 <ul class="M">
                     <li>媒体公邮：lingmoviegoyuo@qq.com</li>
                     <li>稿件合作：lingmoviegoyuo@qq.com</li>

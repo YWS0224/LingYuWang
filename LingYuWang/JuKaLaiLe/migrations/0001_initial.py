@@ -12,12 +12,12 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Find_welfare_Info',
+            name='Jukalai_L',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('Welfare_Title', models.CharField(max_length=30)),
-                ('Walfare_Url', models.ImageField(upload_to='img')),
-                ('Walfare_Info', models.CharField(max_length=50)),
+                ('Jukalail_title', models.CharField(max_length=30)),
+                ('Jukalail_URL', models.ImageField(upload_to='img')),
+                ('Jukalail_Info', models.CharField(max_length=50)),
             ],
         ),
     ]
