@@ -85,17 +85,43 @@
         }
 
         .dade {
-            background-color: #4cae4c;
-            height: 250px;
+            height: 300px;
             margin-bottom: 10px;
             margin-top: 30px;
         }
 
-        .xiaode {
-            background-color: #c7254e;
-            height: 100px;
-            margin-bottom: 10px;
+        .DaDe_Img{
+            width: 100%;
+            height: 100%;
+            {% for m in Movie %}
+                background-image: url("/static/media/{{ m.img_url }}");
+            {% endfor %}
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            position:relative
         }
+
+        .Mtitle{
+            background-color: rgba(000,000,000,0.3);
+            font-size: 22px;
+            padding-left: 30px;
+            color: white;
+            font-weight: 600;
+            position:absolute;
+            bottom:0px;
+            width: 100%;
+        }
+
+        .xiaode {
+            height: 150px;
+        }
+
+        .xiaode img{
+            display:block;
+        }
+
+
+
 
 
         .Exclusive_list {
@@ -267,6 +293,7 @@
         <div class="col-md-4 SouSuo3"></div>
     </div>
 </div>
+
 {#轮播图#}
 <div class="row Lunbotu">
     <div class="col-md-8 col-md-offset-2 Picture">
@@ -276,16 +303,41 @@
 
 
 <div class="row News_body">
+    {#电影#}
     <div class="col-md-5  col-md-offset-2 News_list ">
         <div class="Movie_list row">
-            <div class="Movie_Title col-md-12">
+            <div class="Movie_Title col-md-12"></div>
+            <div class="dade col-md-12">
+                <a href="">
+                    <div class="DaDe_Img">
+                        {% for m in Movie %}
+                            <div class="Mtitle">
+                                {{ m.Movie_Title }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </a>
             </div>
-            <div class="dade col-md-12"></div>
-            <div class="xiaode col-md-12"></div>
-            <div class="xiaode col-md-12"></div>
-            <div class="xiaode col-md-12"></div>
-            <div class="xiaode col-md-12"></div>
+            {% for m_xd in Movie_xd %}
+                <div class="xiaode col-md-12">
+                    <div class="Movie_Img col-md-4">
+                        <a href="">
+                            <img src="/static/media/{{ m_xd.img_url }}" width="100%" height="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="Movie_Info col-md-8">
+                        <a href="">
+
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
+
+
+
+
+
         <div class="TV_list"></div>
         <div class="Star_list"></div>
 
@@ -293,10 +345,6 @@
             <div class="Movie_Title col-md-12">
             </div>
             <div class="dade col-md-12"></div>
-            <div class="xiaode col-md-12"></div>
-            <div class="xiaode col-md-12"></div>
-            <div class="xiaode col-md-12"></div>
-            <div class="xiaode col-md-12"></div>
         </div>
         <div class="TV_list"></div>
         <div class="Star_list"></div>
@@ -308,10 +356,6 @@
             </div>
 
             <div class="dade col-md-12"></div>
-            <div class="xiaode col-md-12"></div>
-            <div class="xiaode col-md-12"></div>
-            <div class="xiaode col-md-12"></div>
-            <div class="xiaode col-md-12"></div>
         </div>
         <div class="TV_list"></div>
         <div class="Star_list"></div>
@@ -334,9 +378,9 @@
                     <li><img class="col-md-12" src="{% static 'img/Index_ing/90.jpg' %}" alt=""></li>
                     <li class="Padding_L">"键盘侠"老爸在线寻女创意满分
 
-                  {% for WelFare in Welfare_T %}
-                    {{ WelFare.Walfare_Info }}
-                  {% endfor %}
+                    {% for WelFare in Welfare_T %}
+                        {{ WelFare.Walfare_Info }}
+                    {% endfor %}
 
                     </li>
                     <li><img class="col-md-12" src="{% static 'img/Index_ing/u.png' %}" alt=""></li>
@@ -379,7 +423,7 @@
 
 
             {% for Star_Phto in Star_Phtos %}
-            {{ Star_Phto.Star_Info }}
+                {{ Star_Phto.Star_Info }}
             {% endfor %}
 
         </div>

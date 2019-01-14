@@ -9,8 +9,6 @@ def select_Movie(request):
     return MList
 
 
-def uploadImg(request):
-    if request.method == 'POST':
-        img = Img(img_url=request.FILES.get('Movie'))
-        img.save()
-    return render(request, 'Index.html')
+def select_Movie_Xiaode(request):
+    MList_xiaode = Movie_xiaode.objects.all()
+    return MList_xiaode
