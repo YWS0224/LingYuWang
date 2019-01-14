@@ -1,4 +1,10 @@
-from django.contrib import admin
-from LunBo import models
+import xadmin
+from LunBo.models import *
 # Register your models here.
-admin.site.register(models.LunBo)
+
+
+@xadmin.sites.register(LunBo)
+class LunBo_admin(object):
+    list_display = ('id', 'LunBo_title', 'LunBo_Info', 'LunBo_URL')
+    list_display_links = ('id', 'LunBo_title')
+    model_icon = 'fa'

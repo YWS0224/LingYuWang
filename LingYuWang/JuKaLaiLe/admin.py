@@ -6,3 +6,4 @@ from JuKaLaiLe.models import *
 class Jukalai_L_admin(object):
     list_display = ('id', 'Jukalail_title', 'Jukalail_Info', 'Jukalail_URL')
     list_display_links = ('id', 'Jukalaile_title')
+    model_icon = 'fa'

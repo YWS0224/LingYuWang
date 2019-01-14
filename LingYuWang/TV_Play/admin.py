@@ -1,4 +1,10 @@
-from django.contrib import admin
-from TV_Play import models
+import xadmin
+from TV_Play.models import *
 # Register your models here.
-admin.site.register(models.Tv_Play)
+
+
+@xadmin.sites.register(Tv_Play)
+class Tv_Play_admin(object):
+    list_display = ('id', 'Tv_Title', 'Tv_Info', 'Tv_Url')
+    list_display_links = ('id', 'Tv_Title')
+    model_icon = 'fa'

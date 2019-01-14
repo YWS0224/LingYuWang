@@ -6,4 +6,4 @@ from Film_review.models import *
 class Film_review_admin(object):
     list_display = ('id', 'f_Title', 'f_Info', 'f_URL')
     list_display_links = ('id', 'f_Title')
-
+    model_icon = 'fa'
