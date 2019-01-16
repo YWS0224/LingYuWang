@@ -8,3 +8,4 @@ class LunBo_admin(object):
     list_display = ('id', 'LunBo_title', 'LunBo_Info', 'LunBo_URL')
     list_display_links = ('id', 'LunBo_title')
     model_icon = 'fa'
+    style_fields = {"LunBo_Info": "ueditor"}

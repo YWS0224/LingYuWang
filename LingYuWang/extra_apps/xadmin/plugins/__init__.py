@@ -22,6 +22,7 @@ PLUGINS = (
     'multiselect',
     'themes',
     'aggregation',
+
     # 'mobile',
     'passwords',
     'sitemenu',
@@ -29,6 +30,8 @@ PLUGINS = (
     'quickfilter',
     'sortablelist',
     'importexport'
+    
+    'ueditor',
 )
 
 

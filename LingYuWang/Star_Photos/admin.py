@@ -8,3 +8,4 @@ class Star_photos_admin(object):
     list_display = ('id', 'Star_Title', 'Star_Info', 'Star_Url')
     list_display_links = ('id', 'Star_Title')
     model_icon = 'fa'
+    style_fields = {"Star_Info": "ueditor"}

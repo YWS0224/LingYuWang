@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'xadmin',
     'crispy_forms',
+    'DjangoUeditor',
 
     'LunBo',
     'Movie_column',
