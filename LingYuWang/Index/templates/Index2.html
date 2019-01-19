@@ -61,10 +61,10 @@
         }
 
         .Picture div {
-            background-color: rgba(255,255,255,0.5);
+            background-color: rgba(255, 255, 255, 0.5);
             font-weight: 600;
             font-size: 35px;
-            color:white;
+            color: white;
             margin-top: 435px;
         }
 
@@ -84,44 +84,51 @@
             height: 45px;
         }
 
+         .Tv_Title {
+            background-image: url("{% static 'img/Index_ing/DianShiJu.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .Star_Title {
+            background-image: url("{% static 'img/Index_ing/Star.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
         .dade {
             height: 300px;
             margin-bottom: 10px;
             margin-top: 30px;
         }
 
-        .DaDe_Img{
+        .DaDe_Img {
             width: 100%;
             height: 100%;
-            {% for m in Movie %}
-                background-image: url("/static/media/{{ m.img_url }}");
-            {% endfor %}
+        {% for m in Movie %}
+            background-image: url("/static/media/{{ m.img_url }}");
+        {% endfor %}
             background-repeat: no-repeat;
             background-size: 100% 100%;
-            position:relative
+            position: relative
         }
 
-        .Mtitle{
-            background-color: rgba(000,000,000,0.3);
+        .Mtitle {
+            background-color: rgba(000, 000, 000, 0.3);
             font-size: 22px;
             padding-left: 30px;
             color: white;
             font-weight: 600;
-            position:absolute;
-            bottom:0px;
+            position: absolute;
+            bottom: 0px;
             width: 100%;
         }
 
-        .xiaode {
-            height: 150px;
+
+        .xiaode img {
+            display: block;
         }
-
-        .xiaode img{
-            display:block;
-        }
-
-
-
 
 
         .Exclusive_list {
@@ -157,7 +164,7 @@
             line-height: 60px;
         }
 
-        .Welfare_Info{
+        .Welfare_Info {
             padding-top: 15px;
         }
 
@@ -171,26 +178,27 @@
             padding-top: 25px;
         }
 
-        .JU_Info{
+        .JU_Info {
             padding-top: 25px;
         }
 
-        .daTu{
+        .daTu {
             background-image: url("{% static 'img/Index_ing/q.png' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
             height: 230px;
             margin-bottom: 25px;
         }
-        .daTu div{
-            background-color: rgba(255,255,255,0.5);
+
+        .daTu div {
+            background-color: rgba(255, 255, 255, 0.5);
             line-height: 50px;
             font-size: 18px;
             font-weight: 600;
             margin-top: 180px;
         }
 
-        .Ci{
+        .Ci {
             padding-bottom: 25px;
         }
 
@@ -234,6 +242,32 @@
             height: 170px;
         }
 
+        .Mx {
+            color: black;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .Mxx {
+            color: #8c8c8c;
+
+        }
+
+        .mx {
+            padding-top: 30px;
+        }
+
+
+        .Mx_photos {
+            width: 30px;
+            height: 30px;
+        }
+
+        .Tu1 {
+            border-bottom: #F8F8F8 solid 2px;
+            padding: 10px 0px;
+        }
+
         .Weixin {
             background-image: url("{% static 'img/Index_ing/WeiXin.png' %}");
             background-size: 100% 100%;
@@ -241,7 +275,7 @@
             height: 170px;
         }
 
-        .Mei{
+        .Mei {
             background-image: url("{% static 'img/Index_ing/mei.jpg' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
@@ -294,6 +328,7 @@
     </div>
 </div>
 
+
 {#轮播图#}
 <div class="row Lunbotu">
     <div class="col-md-8 col-md-offset-2 Picture">
@@ -318,50 +353,123 @@
                     </div>
                 </a>
             </div>
-            {% for m_xd in Movie_xd %}
-                <div class="xiaode col-md-12">
-                    <div class="Movie_Img col-md-4">
-                        <a href="">
-                            <img src="/static/media/{{ m_xd.img_url }}" width="100%" height="100%" alt="">
-                        </a>
+            {% for Mx in Movie_xd %}
+                <div class="col-md-12 Tu1">
+                    <div class="col-md-4">
+                        <img src="/static/media/{{ Mx.img_url }}" width="100%" height="100%" alt="">
                     </div>
-                    <div class="Movie_Info col-md-8">
-                        <a href="">
 
-                        </a>
+                    <div class="col-md-8">
+                        <div>
+                            <a href="" class="Mx">
+                                {{ Mx.Movie_Title }}
+                            </a>
+                        </div>
+                        <div class="mx">
+                            <a href="" class="Mxx">
+                                {{ Mx.Movie_Info }}
+                            </a>
+                            <div class="col-md-1 col-md-offset-9">
+                                <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
+                            </div>
+                            <div class="col-md-1">
+                                <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             {% endfor %}
         </div>
 
 
-
-
-
-        <div class="TV_list"></div>
-        <div class="Star_list"></div>
-
+{#    电视剧#}
         <div class="Movie_list row">
-            <div class="Movie_Title col-md-12">
+            <div class="Tv_Title col-md-12"></div>
+            <div class="dade col-md-12">
+                <a href="">
+                    <div class="DaDe_Img">
+                        {% for T in Tv_Title %}
+                            <div class="Mtitle">
+                                {{ T.Tv_Title }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </a>
             </div>
-            <div class="dade col-md-12"></div>
+            {% for T in Tv_Title %}
+                <div class="col-md-12 Tu1">
+                    <div class="col-md-4">
+                        <img src="/static/media/{{ T.Tv_Url }}" width="100%" height="100%" alt="">
+                    </div>
+
+                    <div class="col-md-8">
+                        <div>
+                            <a href="" class="Mx">
+                                {{ T.Tv_Title }}
+                            </a>
+                        </div>
+                        <div class="mx">
+                            <a href="" class="Mxx">
+                                {{ T.Tv_Info }}
+                            </a>
+                            <div class="col-md-1 col-md-offset-9">
+                                <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
+                            </div>
+                            <div class="col-md-1">
+                                <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
-        <div class="TV_list"></div>
-        <div class="Star_list"></div>
 
 
+{#明星#}
         <div class="Movie_list row">
-            <div class="Movie_Title col-md-12">
-
+            <div class="Star_Title col-md-12"></div>
+            <div class="dade col-md-12">
+                <a href="">
+                    <div class="DaDe_Img">
+                        {% for St in Star_Title1 %}
+                            <div class="Mtitle">
+                                {{ St.Star_Title }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </a>
             </div>
+            {% for St in Star_Title1 %}
+                <div class="col-md-12 Tu1">
+                    <div class="col-md-4">
+                        <img src="/static/media/{{ St.Star_Url }}" width="100%" height="100%" alt="">
+                    </div>
 
-            <div class="dade col-md-12"></div>
+                    <div class="col-md-8">
+                        <div>
+                            <a href="" class="Mx">
+                                {{ St.Star_Title }}
+                            </a>
+                        </div>
+                        <div class="mx">
+                            <a href="" class="Mxx">
+                                {{ St.Star_Info }}
+                            </a>
+                            <div class="col-md-1 col-md-offset-9">
+                                <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
+                            </div>
+                            <div class="col-md-1">
+                                <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
-        <div class="TV_list"></div>
-        <div class="Star_list"></div>
     </div>
 
-{#    福利社#}
+    {#    福利社#}
 
     <div class="col-md-3 row r-List">
 
@@ -378,9 +486,9 @@
                     <li><img class="col-md-12" src="{% static 'img/Index_ing/90.jpg' %}" alt=""></li>
                     <li class="Padding_L">"键盘侠"老爸在线寻女创意满分
 
-                    {% for WelFare in Welfare_T %}
-                        {{ WelFare.Walfare_Info }}
-                    {% endfor %}
+                        {% for WelFare in Welfare_T %}
+                            {{ WelFare.Walfare_Info }}
+                        {% endfor %}
 
                     </li>
                     <li><img class="col-md-12" src="{% static 'img/Index_ing/u.png' %}" alt=""></li>
@@ -388,7 +496,7 @@
                 </ul>
             </div>
         </div>
-{#巨咖来了#}
+        {#巨咖来了#}
 
         <div class="col-md-11 col-md-offset-1 row Exclusive_list">
             <div class="ju_Title col-md-12"></div>
@@ -396,9 +504,9 @@
 
                 <div class="daTu row">
                     <div>正邪较量谁胜谁负？ “大人物”永不言败
-                    {% for Juka in Jukalaile %}
-                       {{ Juka.Jukalail_title }}
-                    {% endfor %}
+                        {% for Juka in Jukalaile %}
+                            {{ Juka.Jukalail_title }}
+                        {% endfor %}
                     </div>
                 </div>
 
@@ -415,7 +523,7 @@
             </div>
         </div>
 
-{# 明星美图 #}
+        {# 明星美图 #}
 
         <div class="col-md-11 col-md-offset-1 row Exclusive_list">
             <div class="Mei col-md-12"></div>
@@ -428,7 +536,7 @@
 
         </div>
 
-{#  联系我们      #}
+        {#  联系我们      #}
         <div class="col-md-11 row col-md-offset-1 Scheme5">
             <div class="col-md-12 LianXiWoMen_Title"></div>
             <div class="col-md-12 Emil_title">
