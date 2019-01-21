@@ -84,7 +84,7 @@
             height: 45px;
         }
 
-         .Tv_Title {
+        .Tv_Title {
             background-image: url("{% static 'img/Index_ing/DianShiJu.png' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
@@ -97,6 +97,7 @@
             background-repeat: repeat;
             height: 45px;
         }
+
         .dade {
             height: 300px;
             margin-bottom: 10px;
@@ -158,19 +159,6 @@
             height: 40px;
         }
 
-        .Welfare_Info li {
-            list-style: none;
-            margin-left: -20%;
-            line-height: 60px;
-        }
-
-        .Welfare_Info {
-            padding-top: 15px;
-        }
-
-        .Padding_L {
-            padding-left: 20px;
-        }
 
 
         .EX_Info {
@@ -382,7 +370,7 @@
         </div>
 
 
-{#    电视剧#}
+        {#    电视剧#}
         <div class="Movie_list row">
             <div class="Tv_Title col-md-12"></div>
             <div class="dade col-md-12">
@@ -426,7 +414,7 @@
         </div>
 
 
-{#明星#}
+        {#明星#}
         <div class="Movie_list row">
             <div class="Star_Title col-md-12"></div>
             <div class="dade col-md-12">
@@ -469,51 +457,53 @@
         </div>
     </div>
 
-    {#    福利社#}
 
-    <div class="col-md-3 row r-List">
-
-        <div class="col-md-11 col-md-offset-1 row Exclusive_list">
+    {#右边#}
+    <div class="col-md-3 row ">
+        {#独家专访#}
+        <div class="col-md-12 row col-md-offset-2 Exclusive_list">
             <div class="Exclusive_Title col-md-12"></div>
             <div class="EX_Info col-md-12"></div>
         </div>
 
 
-        <div class="col-md-11 col-md-offset-1 row Exclusive_list">
+        {#福利社#}
+        <div class="col-md-12 row col-md-offset-2 Exclusive_list">
             <div class="Welfare_Title col-md-12"></div>
-            <div class="Welfare_Info col-md-12">
-                <ul>
-                    <li><img class="col-md-12" src="{% static 'img/Index_ing/90.jpg' %}" alt=""></li>
-                    <li class="Padding_L">"键盘侠"老爸在线寻女创意满分
-
-                        {% for WelFare in Welfare_T %}
-                            {{ WelFare.Walfare_Info }}
-                        {% endfor %}
-
-                    </li>
-                    <li><img class="col-md-12" src="{% static 'img/Index_ing/u.png' %}" alt=""></li>
-                    <li class="Padding_L">《蜘蛛侠：平行宇宙》揭蜘蛛侠隐身之谜</li>
-                </ul>
+            <div class="EX_Info col-md-12">
+                {% for WelFare in Welfare_T %}
+                    <div>
+                        <img src="/static/media/{{ WelFare.Walfare_Url }}" width="100%" height="100%" alt="">
+                    </div>
+                    <div>
+                        {{ WelFare.Welfare_Title }}
+                    </div>
+                {% endfor %}
             </div>
         </div>
+
+
+
         {#巨咖来了#}
 
-        <div class="col-md-11 col-md-offset-1 row Exclusive_list">
+        <div class="col-md-12 row col-md-offset-2 Exclusive_list">
             <div class="ju_Title col-md-12"></div>
+
             <div class="JU_Info col-md-12 ">
-
+            {% for Juka in Jukalaile %}
                 <div class="daTu row">
-                    <div>正邪较量谁胜谁负？ “大人物”永不言败
-                        {% for Juka in Jukalaile %}
+                    <div>
                             {{ Juka.Jukalail_title }}
-                        {% endfor %}
-                    </div>
-                </div>
 
+                    </div>
+
+
+                </div>
+            {% endfor %}
                 <table class="col-md-12 row">
                     <tr>
                         <td><img class="col-md-12 Ci" src="{% static 'img/Index_ing/jiang.png' %}" alt=""></td>
-                        <td>《大江大河》宝瓶大婚童谣一袭红妆出嫁</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td><img class="col-md-12 Ci" src="{% static 'img/Index_ing/tu.png' %}" alt=""></td>
@@ -525,7 +515,7 @@
 
         {# 明星美图 #}
 
-        <div class="col-md-11 col-md-offset-1 row Exclusive_list">
+        <div class="col-md-12 row col-md-offset-2 Exclusive_list">
             <div class="Mei col-md-12"></div>
             <div class="EX_Info col-md-12"></div>
 
@@ -537,7 +527,7 @@
         </div>
 
         {#  联系我们      #}
-        <div class="col-md-11 row col-md-offset-1 Scheme5">
+        <div class="col-md-12 row col-md-offset-2 Scheme5">
             <div class="col-md-12 LianXiWoMen_Title"></div>
             <div class="col-md-12 Emil_title">
 
