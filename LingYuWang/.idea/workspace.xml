@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4afbddc-9664-4cbb-a7b0-42356dc43dc9" name="Default Changelist" comment="添加  电影电视剧明星">
-      <change afterPath="$PROJECT_DIR$/Film_review/migrations/0004_auto_20190122_0245.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Star/migrations/0004_auto_20190121_0920.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TV_Play/migrations/0004_auto_20190121_0920.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/cehua.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/sanjiao.png" afterDir="false" />
+    <list default="true" id="e4afbddc-9664-4cbb-a7b0-42356dc43dc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b2f72925-bb68-400e-a93d-4e80e80b16c4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b2f72925-bb68-400e-a93d-4e80e80b16c4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Film_review/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Film_review/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/templates/Index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Index2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Index/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JuKaLaiLe/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/JuKaLaiLe/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JuKaLaiLe/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/JuKaLaiLe/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JuKaLaiLe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/JuKaLaiLe/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Star/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Star/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Star/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Star/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Star/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Star/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TV_Play/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TV_Play/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TV_Play/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TV_Play/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TV_Play/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TV_Play/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +45,7 @@
         <item name="LingYuDB@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="LingYuDB: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="Star_find_star_info: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="JuKaLaiLe_jukalai_l_xd: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -73,19 +58,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Index/templates/Index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="765" column="22" lean-forward="true" selection-start-line="765" selection-start-column="22" selection-end-line="765" selection-end-column="22" />
+            <state relative-caret-position="368">
+              <caret line="449" column="27" lean-forward="true" selection-start-line="449" selection-start-column="27" selection-end-line="449" selection-end-column="27" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -94,22 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Star/models.py">
+        <entry file="file://$PROJECT_DIR$/Index/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Star/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="287">
+              <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -118,12 +88,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Star/admin.py">
+        <entry file="file://$PROJECT_DIR$/JuKaLaiLe/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JuKaLaiLe/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,22 +168,22 @@
         <option value="$PROJECT_DIR$/TV_Play/views.py" />
         <option value="$PROJECT_DIR$/Star/models.py" />
         <option value="$PROJECT_DIR$/Star/views.py" />
-        <option value="$PROJECT_DIR$/Index/views.py" />
         <option value="$PROJECT_DIR$/TV_Play/admin.py" />
         <option value="$PROJECT_DIR$/Star/admin.py" />
         <option value="$PROJECT_DIR$/JuKaLaiLe/views.py" />
         <option value="$PROJECT_DIR$/JuKaLaiLe/admin.py" />
         <option value="$PROJECT_DIR$/JuKaLaiLe/models.py" />
         <option value="$PROJECT_DIR$/Film_review/models.py" />
+        <option value="$PROJECT_DIR$/Index/views.py" />
         <option value="$PROJECT_DIR$/Index/templates/Index2.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="25" />
-    <option name="width" value="799" />
-    <option name="height" value="575" />
+    <option name="x" value="2296" />
+    <option name="y" value="72" />
+    <option name="width" value="1389" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -222,7 +201,12 @@
             <path>
               <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
               <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
+              <item name="JuKaLaiLe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,7 +304,7 @@
       <workItem from="1547427131480" duration="22018000" />
       <workItem from="1547607745426" duration="1807000" />
       <workItem from="1547622189009" duration="1198000" />
-      <workItem from="1547774148231" duration="38938000" />
+      <workItem from="1547774148231" duration="44177000" />
     </task>
     <task id="LOCAL-00001" summary="topType">
       <created>1546223229842</created>
@@ -420,17 +404,24 @@
       <option name="project" value="LOCAL" />
       <updated>1548055696777</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="电影">
+      <created>1548135927513</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1548135927513</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128694000" />
+    <option name="totallyTimeSpent" value="133933000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18947369" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1826923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -444,15 +435,15 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.25297296" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24474789" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.1827027" />
-      <window_info anchor="bottom" id="manage.py@LingYuWang" order="14" visible="true" weight="0.32540542" />
+      <window_info anchor="bottom" id="manage.py@LingYuWang" order="14" visible="true" weight="0.32457983" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.15124653" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.14583333" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,16 +459,10 @@
     <MESSAGE value="明星美图" />
     <MESSAGE value="xadmin" />
     <MESSAGE value="添加  电影电视剧明星" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加  电影电视剧明星" />
+    <MESSAGE value="电影" />
+    <option name="LAST_COMMIT_MESSAGE" value="电影" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LunBo/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LunBo/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -705,16 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Movie_column/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -745,40 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JuKaLaiLe/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JuKaLaiLe/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JuKaLaiLe/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Film_review/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -819,12 +764,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Star/models.py">
+    <entry file="file://$PROJECT_DIR$/Star/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -839,31 +784,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Star/admin.py">
+    <entry file="file://$PROJECT_DIR$/Star/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="173">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Film_review/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="das://b2f72925-bb68-400e-a93d-4e80e80b16c4/schema/LingYuDB/table/JuKaLaiLe_jukalai_l_xd">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuKaLaiLe/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuKaLaiLe/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Index/templates/Index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="765" column="22" lean-forward="true" selection-start-line="765" selection-start-column="22" selection-end-line="765" selection-end-column="22" />
+        <state relative-caret-position="368">
+          <caret line="449" column="27" lean-forward="true" selection-start-line="449" selection-start-column="27" selection-end-line="449" selection-end-column="27" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
           </folding>
