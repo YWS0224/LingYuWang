@@ -60,7 +60,7 @@
             height: 500px;
         }
 
-        .Picture div {
+        .Lun {
             background-color: rgba(255, 255, 255, 0.5);
             font-weight: 600;
             font-size: 35px;
@@ -166,10 +166,11 @@
 
 
         .Exclusive_list {
-            height: 600px;
-            margin-bottom: 15px;
+            height: 550px;
         }
-
+        .Star_list{
+           margin-top: 220px;
+        }
 
         .ju_Title {
             background-image: url("{% static 'img/Index_ing/ju.png' %}");
@@ -182,7 +183,6 @@
             background-image: url("{% static 'img/Index_ing/i0.jpg' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
-            height: 40px;
         }
 
 
@@ -448,8 +448,10 @@
         }
         .Tu3{
             color: #8c8c8c;
+            font-size: 16px;
             padding-left: 20px;
         }
+
     </style>
 </head>
 <body>
@@ -474,9 +476,14 @@
 
 
 {#轮播图#}
-<div class="row Lunbotu">
+<div class="row ">
     <div class="col-md-8 col-md-offset-2 Picture">
-        <div class="row"> 《无敌破坏王2》 中国首映最强动画阵容大战互联网</div>
+
+        {% for Lunbotu in LunBo_T %}
+            <div class="col-md-12 Lun">
+                <img src="/static/media/{{ Lunbotu.LunBo_title }}" alt="">
+            </div>
+      {% endfor %}
     </div>
 </div>
 
@@ -782,13 +789,17 @@
 
         {# 明星美图 #}
 
-        <div class="col-md-12 row col-md-offset-2 Exclusive_list">
+        <div class="col-md-12 row col-md-offset-2 Star_list">
+
             <div class="Mei col-md-12"></div>
+
+            {% for Star_Phto in Star_Phtos %}
             <div class="EX_Info col-md-12">
-                {% for Star_Phto in Star_Phtos %}
+
                     {{ Star_Phto.Star_Info }}
-                {% endfor %}
+
             </div>
+            {% endfor %}
         </div>
 
         {#  联系我们      #}
