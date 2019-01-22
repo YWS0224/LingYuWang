@@ -8,3 +8,11 @@ class Jukalai_L_admin(object):
     list_display_links = ('id', 'Jukalaile_title')
     model_icon = 'fa'
     style_fields = {"Jukalail_Info": "ueditor"}
+
+
+@xadmin.sites.register(Jukalai_L_Xd)
+class Jukalai_L_admin_Xd(object):
+    list_display = ('id', 'Jukalail_title', 'Jukalail_Info', 'Jukalail_URL')
+    list_display_links = ('id', 'Jukalaile_title')
+    model_icon = 'fa'
+    style_fields = {"Jukalail_Info": "ueditor"}

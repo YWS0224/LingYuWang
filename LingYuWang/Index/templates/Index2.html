@@ -107,9 +107,42 @@
         .DaDe_Img {
             width: 100%;
             height: 100%;
-        {% for m in Movie %}
-            background-image: url("/static/media/{{ m.img_url }}");
-        {% endfor %}
+            {% for m in Movie %}
+                background-image: url("/static/media/{{ m.img_url }}");
+            {% endfor %}
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            position: relative
+        }
+
+        .TV_Img {
+            width: 100%;
+            height: 100%;
+            {% for m in Tv_Title %}
+                background-image: url("/static/media/{{ m.Tv_Url }}");
+            {% endfor %}
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            position: relative
+        }
+
+        .Star_Img {
+            width: 100%;
+            height: 100%;
+            {% for m in Star_Title1 %}
+                background-image: url("/static/media/{{ m.Star_Url }}");
+            {% endfor %}
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            position: relative
+        }
+
+        .DaDe_Img2 {
+            width: 100%;
+            height: 100%;
+            {% for Juka in Jukalaile %}
+                background-image: url("/static/media/{{ Juka.Jukalail_URL }}");
+            {% endfor %}
             background-repeat: no-repeat;
             background-size: 100% 100%;
             position: relative
@@ -160,35 +193,28 @@
         }
 
 
-
         .EX_Info {
             height: 450px;
             padding-top: 25px;
         }
 
-        .JU_Info {
-            padding-top: 25px;
-        }
 
-        .daTu {
-            background-image: url("{% static 'img/Index_ing/q.png' %}");
-            background-size: 100% 100%;
-            background-repeat: repeat;
-            height: 230px;
-            margin-bottom: 25px;
-        }
+        {#.daTu {#}
+        {#    background-image: url("{% static 'img/Index_ing/q.png' %}");#}
+        {#    background-size: 100% 100%;#}
+        {#    background-repeat: repeat;#}
+        {#    height: 230px;#}
+        {#    margin-bottom: -25px;#}
+        {
+        #}#}
 
         .daTu div {
             background-color: rgba(255, 255, 255, 0.5);
             line-height: 50px;
             font-size: 18px;
             font-weight: 600;
-            margin-top: 180px;
         }
 
-        .Ci {
-            padding-bottom: 25px;
-        }
 
         .Scheme5 {
             margin-bottom: 15px;
@@ -294,6 +320,141 @@
             padding-bottom: 20px;
         }
 
+        .zhuanfang_list {
+            height: 500px;
+            margin-bottom: 15px;
+        }
+
+        .zhuanfang_Info {
+            background-color: yellow;
+            height: 415px;
+        }
+
+        .zhuanfang_Title {
+            background-image: url("{% static 'img/Index_ing/DuJiaZhuanFang.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .zhuangfang_img {
+            background-image: url("{% static 'img/Index_ing/dujia.png' %}");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            height: 210px;
+            padding-top: 175px;
+        }
+
+        .zhuanfang_img_red {
+            height: 35px;
+            width: 150px;
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            float: left;
+            padding-left: 15px;
+        }
+
+        .zhuanfang_zitiao {
+            height: 35px;
+            background-color: rgba(255, 255, 255, 0.5);
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 40px;
+        }
+
+        .zhuangfang_table {
+            font-size: 18px;
+            color: darkgray;
+        }
+
+        .zhuangfang_tab {
+            width: 430px;
+            height: 70px;
+        }
+
+        .zhuanfang_ziti {
+            color: red;
+            font-size: 23px;
+        }
+
+        .dujiacehua_list {
+            height: 500px;
+            margin-bottom: 15px;
+        }
+
+        .dujiacehua_Info {
+            background-color: yellow;
+            height: 450px;
+        }
+
+        .dujiacehua_Title {
+            background-image: url("{% static 'img/Index_ing/cehua.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .dujiacehua {
+            font-size: 20px;
+            padding-top: 30px;
+        }
+
+        .dujiacehua li {
+            display: inline;
+        }
+
+        .dujiacehua_img {
+            height: 200px;
+            background-image: url("{% static '/img/Index_ing/独家策划.png' %}");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        .yingpingshe_list {
+            height: 500px;
+            margin-bottom: 15px;
+        }
+
+        .yingpingshe_Info {
+            background-color: yellow;
+            height: 450px;
+        }
+
+        .yingpingshe_Title {
+            background-image: url("{% static 'img/Index_ing/DuJiaZhuanFang.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .yingpingshe_img {
+            background-image: url("{% static 'img/Index_ing/yingpingshe001.png' %}");
+            height: 200px;
+            background-color: #c7254e;
+        }
+
+        .yingpingshe_table {
+            padding-top: 30px;
+            background-color: #46b8da;
+            height: 120px;
+        }
+
+        .yingpingshe_table_img {
+            background-image: url("{% static 'img/Index_ing/yingpingshe002.png' %}");
+            height: 100px;
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .yingpingshe_table_img02 {
+            background-image: url("{% static 'img/Index_ing/yingpingshe003.png' %}");
+            height: 100px;
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+
     </style>
 </head>
 <body>
@@ -375,7 +536,7 @@
             <div class="Tv_Title col-md-12"></div>
             <div class="dade col-md-12">
                 <a href="">
-                    <div class="DaDe_Img">
+                    <div class="TV_Img">
                         {% for T in Tv_Title %}
                             <div class="Mtitle">
                                 {{ T.Tv_Title }}
@@ -384,7 +545,7 @@
                     </div>
                 </a>
             </div>
-            {% for T in Tv_Title %}
+            {% for T in Tv_Title_xd %}
                 <div class="col-md-12 Tu1">
                     <div class="col-md-4">
                         <img src="/static/media/{{ T.Tv_Url }}" width="100%" height="100%" alt="">
@@ -419,7 +580,7 @@
             <div class="Star_Title col-md-12"></div>
             <div class="dade col-md-12">
                 <a href="">
-                    <div class="DaDe_Img">
+                    <div class="Star_Img">
                         {% for St in Star_Title1 %}
                             <div class="Mtitle">
                                 {{ St.Star_Title }}
@@ -428,7 +589,7 @@
                     </div>
                 </a>
             </div>
-            {% for St in Star_Title1 %}
+            {% for St in Star_xd %}
                 <div class="col-md-12 Tu1">
                     <div class="col-md-4">
                         <img src="/static/media/{{ St.Star_Url }}" width="100%" height="100%" alt="">
@@ -461,9 +622,113 @@
     {#右边#}
     <div class="col-md-3 row ">
         {#独家专访#}
-        <div class="col-md-12 row col-md-offset-2 Exclusive_list">
-            <div class="Exclusive_Title col-md-12"></div>
-            <div class="EX_Info col-md-12"></div>
+        <div class="col-md-11 col-md-offset-1 row zhuanfang_list">
+            <div class="zhuanfang_Title col-md-12"></div>
+            <div class="zhuanfang_Info">
+                <div class="zhuangfang_img">
+                    <div class="zhuanfang_zitiao">
+                        <div class=" zhuanfang_img_red">
+                            <p>专访：徐克 </p>
+                        </div>
+                        <div>
+                            <p>从两个字找武侠电影的意义</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="zhuangfang_table">
+                    <table class="zhuangfang_tab">
+                        <tr bgcolor="#f0ffff">
+                            <td>
+                                <p class="zhuanfang_ziti">巨星滙</p>
+
+                                诺兰：望中国观众最大屏幕看《敦刻尔克》
+                            </td>
+                        </tr>
+                        <tr bgcolor="white">
+                            <td>
+                                <p class="zhuanfang_ziti">新秀滙</p>
+                                没牙仔雪诺同框试镜 片场彪戏县
+                            </td>
+                        </tr>
+                        <tr bgcolor="#f0ffff">
+                            <td>
+                                <p class="zhuanfang_ziti">星影滙</p>
+                                诺兰：望中国观众最大屏幕看《敦刻尔克》
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+
+        {#独家策划#}
+        <div class="col-md-11 col-md-offset-1 row dujiacehua_list">
+            <div class="dujiacehua_Title col-md-12"></div>
+            <div class="dujiacehua_Info col-md-12">
+                <div class="dujiacehua">
+                    <ul>
+                        <li><img src="{% static 'img/Index_ing/sanjiao.png' %}" alt="" width="25px" height="25px"></li>
+                        <li>星影汇之三言两语话闺蜜</li>
+                    </ul>
+
+                    <div class="dujiacehua_img">
+
+                    </div>
+                    <div class="dujiacehua_table">
+                        <table width="300px" height="180px">
+                            <tr>
+                                <td>
+                                    星影汇之三言两语话闺蜜
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    星影汇之三言两语话闺蜜
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    星影汇之三言两语话闺蜜
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-11 col-md-offset-1 row yingpingshe_list">
+            <div class="yingpingshe_Title col-md-12"></div>
+            <div class="yingpingshe_Info col-md-12">
+                <div class="yingpingshe">
+                    <div class="yingpingshe_img">
+
+                    </div>
+                    <div class="row yingpingshe_table">
+                        <div class="col-md-6 yingpingshe_table_img">
+
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                《浊鸟》男主叶玮：男孩年少时都会依恋大姐姐。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row yingpingshe_table">
+                        <div class="col-md-6 yingpingshe_table_img02">
+
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                《浊鸟》男主叶玮：男孩年少时都会依恋大姐姐。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
@@ -483,55 +748,59 @@
         </div>
 
 
-
         {#巨咖来了#}
 
         <div class="col-md-12 row col-md-offset-2 Exclusive_list">
             <div class="ju_Title col-md-12"></div>
-
-            <div class="JU_Info col-md-12 ">
-            {% for Juka in Jukalaile %}
-                <div class="daTu row">
-                    <div>
-                            {{ Juka.Jukalail_title }}
-
-                    </div>
-
-
+            <div class="row col-md-12">
+                <div class="dade col-md-12">
+                    <a href="">
+                        <div class="DaDe_Img2">
+                            {% for Juka in Jukalaile %}
+                                <div class="Mtitle">
+                                    {{ Juka.Jukalail_title }}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </a>
                 </div>
-            {% endfor %}
-                <table class="col-md-12 row">
-                    <tr>
-                        <td><img class="col-md-12 Ci" src="{% static 'img/Index_ing/jiang.png' %}" alt=""></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td><img class="col-md-12 Ci" src="{% static 'img/Index_ing/tu.png' %}" alt=""></td>
-                        <td>于湉全新单曲《Fighter》首发 Be a Fighter 勇者无畏</td>
-                    </tr>
-                </table>
+            </div>
+            <div>
+                {% for Juka in Jukalaile %}
+                    <a href="">
+                        <div class="col-md-12 row">
+                            <a href="">
+                                <div class="col-md-6">
+                                    <img src="/static/media/{{ Juka.Jukalail_URL }}" width="100%" height="100%" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="col-md-6">
+                                    {{ Juka.Jukalail_title }}
+                                </div>
+                            </a>
+                        </div>
+                    </a>
+                {% endfor %}
             </div>
         </div>
+
 
         {# 明星美图 #}
 
         <div class="col-md-12 row col-md-offset-2 Exclusive_list">
             <div class="Mei col-md-12"></div>
-            <div class="EX_Info col-md-12"></div>
-
-
-            {% for Star_Phto in Star_Phtos %}
-                {{ Star_Phto.Star_Info }}
-            {% endfor %}
-
+            <div class="EX_Info col-md-12">
+                {% for Star_Phto in Star_Phtos %}
+                    {{ Star_Phto.Star_Info }}
+                {% endfor %}
+            </div>
         </div>
 
         {#  联系我们      #}
         <div class="col-md-12 row col-md-offset-2 Scheme5">
             <div class="col-md-12 LianXiWoMen_Title"></div>
             <div class="col-md-12 Emil_title">
-
-
                 <ul class="M">
                     <li>媒体公邮：lingmoviegoyuo@qq.com</li>
                     <li>稿件合作：lingmoviegoyuo@qq.com</li>

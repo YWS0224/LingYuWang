@@ -16,7 +16,10 @@ def Index_html(request):
     Movie = select_Movie(request)
     Movie_xd = select_Movie_Xiaode(request)
     Star_Title = Find_Star(request)
+    Star_Title_xd = Find_Star_xd(request)
     Tv = Tv_play(request)
+    Tv_xd = Tv_play_xd(request)
+
     return render(request, 'Index2.html', {'LunBo_T': LunBo_T,
                                            'Welfare_T': Welfare_T,
                                            'Jukalaile': Jukalaile,
@@ -24,7 +27,9 @@ def Index_html(request):
                                            'Movie': Movie,
                                            'Movie_xd': Movie_xd,
                                            'Star_Title1': Star_Title,
-                                           'Tv_Title': Tv
+                                           'Star_xd': Star_Title_xd,
+                                           'Tv_Title': Tv,
+                                           'Tv_Title_xd': Tv_xd,
                                            })
 
 

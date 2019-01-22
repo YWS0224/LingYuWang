@@ -14,5 +14,5 @@ class film_review(models.Model):
         return self.f_Title
 
     class Meta:
-        verbose_name = "影评"
+        verbose_name = "影评大"
         verbose_name_plural = verbose_name
