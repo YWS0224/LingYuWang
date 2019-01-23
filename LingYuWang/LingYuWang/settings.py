@@ -52,7 +52,8 @@ INSTALLED_APPS = [
     'Welfare',
     'ZhuanFang',
     'Index',
-    
+    'Yingpinshe',
+
 ]
 
 MIDDLEWARE = [
