@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4afbddc-9664-4cbb-a7b0-42356dc43dc9" name="Default Changelist" comment="" />
+    <list default="true" id="e4afbddc-9664-4cbb-a7b0-42356dc43dc9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Index/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/Index/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -66,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/Index/templates/Index3.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-988">
-              <caret line="350" column="28" lean-forward="true" selection-start-line="350" selection-start-column="28" selection-end-line="350" selection-end-column="28" />
+              <caret line="350" column="28" selection-start-line="350" selection-start-column="28" selection-end-line="350" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -74,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Index/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+            <state relative-caret-position="245">
+              <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -87,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/Index/templates/Index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1216">
-              <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+              <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -156,10 +158,10 @@
         <option value="$PROJECT_DIR$/JuKaLaiLe/admin.py" />
         <option value="$PROJECT_DIR$/JuKaLaiLe/models.py" />
         <option value="$PROJECT_DIR$/Film_review/models.py" />
-        <option value="$PROJECT_DIR$/Index/views.py" />
         <option value="$PROJECT_DIR$/Index/templates/Index2.html" />
         <option value="$PROJECT_DIR$/LingYuWang/urls.py" />
         <option value="$PROJECT_DIR$/Index/urls.py" />
+        <option value="$PROJECT_DIR$/Index/views.py" />
       </list>
     </option>
   </component>
@@ -293,7 +295,7 @@
       <workItem from="1547427131480" duration="22018000" />
       <workItem from="1547607745426" duration="1807000" />
       <workItem from="1547622189009" duration="1198000" />
-      <workItem from="1547774148231" duration="49987000" />
+      <workItem from="1547774148231" duration="50252000" />
     </task>
     <task id="LOCAL-00001" summary="topType">
       <created>1546223229842</created>
@@ -428,14 +430,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548221815851</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="二级页面">
+      <created>1548223826244</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1548223826244</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139743000" />
+    <option name="totallyTimeSpent" value="140008000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18947369" />
@@ -449,13 +458,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.24474789" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.1827027" />
-      <window_info active="true" anchor="bottom" id="manage.py@LingYuWang" order="14" visible="true" weight="0.33405405" />
+      <window_info anchor="bottom" id="manage.py@LingYuWang" order="14" weight="0.33405405" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -813,7 +822,7 @@
     <entry file="file://$PROJECT_DIR$/Index/templates/Index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
-          <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -834,7 +843,7 @@
     <entry file="file://$PROJECT_DIR$/Index/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -854,7 +863,7 @@
     <entry file="file://$PROJECT_DIR$/Index/templates/Index3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-988">
-          <caret line="350" column="28" lean-forward="true" selection-start-line="350" selection-start-column="28" selection-end-line="350" selection-end-column="28" />
+          <caret line="350" column="28" selection-start-line="350" selection-start-column="28" selection-end-line="350" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -867,8 +876,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Index/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+        <state relative-caret-position="245">
+          <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
