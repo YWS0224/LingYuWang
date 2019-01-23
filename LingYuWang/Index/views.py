@@ -36,6 +36,8 @@ def Index_html(request):
                                            'Tv_Title_xd': Tv_xd,
                                            'Yingpingshe': Yingpin,
                                            'Yingpingshe_Xd': Yingpin_xd,
+
+
                                            })
 
 
