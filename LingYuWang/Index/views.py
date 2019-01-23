@@ -13,6 +13,7 @@ def Index_html(request):
     LunBo_T = Lun_Bo(request)
     Welfare_T = Find_Welfare(request)
     Jukalaile = Jukalaile_find_all(request)
+    Jukalai_Xd = Jukalaile_find_all_Xd(request)
     Starphotos = Find_Star_Photos(request)
     Movie = select_Movie(request)
     Movie_xd = select_Movie_Xiaode(request)
@@ -25,6 +26,7 @@ def Index_html(request):
     return render(request, 'Index2.html', {'LunBo_T': LunBo_T,
                                            'Welfare_T': Welfare_T,
                                            'Jukalaile': Jukalaile,
+                                           'Jukalail_Xiaode': Jukalai_Xd,
                                            'Star_Phtos': Starphotos,
                                            'Movie': Movie,
                                            'Movie_xd': Movie_xd,
