@@ -1,0 +1,684 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <style>
+        .DaoHangLan {
+            margin-bottom: 25px;
+            font-size: 18px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .logo {
+            height: 120px;
+            background-image: url("{% static 'img/Index_ing/logo.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .SouSuo1 {
+            height: 28px;
+            background-image: url("{% static 'img/Index_ing/App下载.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .SouSuo2 {
+            height: 28px;
+            background-image: url("{% static 'img/Index_ing/SouSuo.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .SouSuo3 {
+            height: 28px;
+            background-image: url("{% static 'img/Index_ing/TouGao.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .DaoHang {
+            padding-top: 50px;
+        }
+
+        .DaoHangLan a {
+            color: black;
+        }
+
+        .border_r {
+            border-right: 2px solid #C4C4C4;
+        }
+
+
+        .News_body {
+            margin-top: 50px;
+        }
+
+
+        .dade {
+            height: 300px;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        .Xian{
+            width: 100%;
+            height: 100%;
+
+        }
+
+
+        .DaDe_Img2 {
+            width: 100%;
+            height: 100%;
+        {% for Juka in Jukalaile %}
+            background-image: url("/static/media/{{ Juka.Jukalail_URL }}");
+        {% endfor %}
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            position: relative
+        }
+
+        .Mtitle {
+            background-color: rgba(255, 255, 255, 0.3);
+            font-size: 20px;
+            padding-left: 30px;
+            color: black;
+            font-weight: 500;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+        }
+
+
+        .xiaode img {
+            display: block;
+        }
+
+
+        .Exclusive_list {
+            height: 550px;
+        }
+        .Star_list{
+           margin-top: 220px;
+        }
+
+        .ju_Title {
+            background-image: url("{% static 'img/Index_ing/ju.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 40px;
+        }
+
+        .Welfare_Title {
+            background-image: url("{% static 'img/Index_ing/i0.jpg' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+
+        .EX_Info {
+            height: 450px;
+            padding-top: 25px;
+        }
+
+
+        .daTu div {
+            background-color: rgba(255, 255, 255, 0.5);
+            line-height: 50px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+
+        .Scheme5 {
+            margin-bottom: 15px;
+            height: 600px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .LianXiWoMen_Title {
+            background-image: url("{% static 'img/Index_ing/LianXiWoMen.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .ZiMeiTi {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .ZiMeiTi table {
+            line-height: 26px;
+        }
+
+        .ZiMeiTi td {
+            width: 65px;
+            text-align: center;
+        }
+
+        .ErWeiMa {
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+
+        .Weibo {
+            background-image: url("{% static 'img/Index_ing/WeiBo.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 170px;
+        }
+
+
+        .Weixin {
+            background-image: url("{% static 'img/Index_ing/WeiXin.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 170px;
+        }
+
+        .Mei {
+            background-image: url("{% static 'img/Index_ing/mei.jpg' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 40px;
+        }
+
+        .M li {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .Yi li {
+            list-style: none;
+            display: inline;
+        }
+
+        .Yi2 li {
+            list-style: none;
+            padding-top: 10px;
+        }
+
+        .Yi3 {
+            padding-left: 60px;
+        }
+
+        .L li {
+            list-style: none;
+            padding-bottom: 20px;
+        }
+
+        .zhuanfang_list {
+            height: 500px;
+            margin-bottom: 15px;
+        }
+
+        .zhuanfang_Info {
+            background-color: yellow;
+            height: 415px;
+        }
+
+        .zhuanfang_Title {
+            background-image: url("{% static 'img/Index_ing/DuJiaZhuanFang.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .zhuangfang_img {
+            background-image: url("{% static 'img/Index_ing/dujia.png' %}");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            height: 210px;
+            padding-top: 175px;
+        }
+
+        .zhuanfang_img_red {
+            height: 35px;
+            width: 150px;
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            float: left;
+            padding-left: 15px;
+        }
+
+        .zhuanfang_zitiao {
+            height: 35px;
+            background-color: rgba(255, 255, 255, 0.5);
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 40px;
+        }
+
+        .zhuangfang_table {
+            font-size: 18px;
+            color: darkgray;
+        }
+
+        .zhuangfang_tab {
+            width: 430px;
+            height: 70px;
+        }
+
+        .zhuanfang_ziti {
+            color: red;
+            font-size: 23px;
+        }
+
+        .dujiacehua_list {
+            height: 500px;
+            margin-bottom: 15px;
+        }
+
+        .dujiacehua_Info {
+            background-color: yellow;
+            height: 450px;
+        }
+
+        .dujiacehua_Title {
+            background-image: url("{% static 'img/Index_ing/cehua.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .dujiacehua {
+            font-size: 20px;
+            padding-top: 30px;
+        }
+
+        .dujiacehua li {
+            display: inline;
+        }
+
+        .dujiacehua_img {
+            height: 200px;
+            background-image: url("{% static '/img/Index_ing/独家策划.png' %}");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        .yingpingshe_list {
+            height: 500px;
+            margin-bottom: 15px;
+        }
+
+        .yingpingshe_Info {
+            background-color: yellow;
+            height: 450px;
+        }
+
+        .yingpingshe_Title {
+            background-image: url("{% static 'img/Index_ing/DuJiaZhuanFang.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .yingpingshe_img {
+            background-image: url("{% static 'img/Index_ing/yingpingshe001.png' %}");
+            height: 200px;
+            background-color: #c7254e;
+        }
+
+        .yingpingshe_table {
+            padding-top: 30px;
+            background-color: #46b8da;
+            height: 120px;
+        }
+
+        .yingpingshe_table_img {
+            background-image: url("{% static 'img/Index_ing/yingpingshe002.png' %}");
+            height: 100px;
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .yingpingshe_table_img02 {
+            background-image: url("{% static 'img/Index_ing/yingpingshe003.png' %}");
+            height: 100px;
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+        .Tou{
+            margin-top: -30px;
+        }
+        .Tu2 {
+            padding: 10px 0px;
+        }
+        .Welfare_d{
+            padding: 20px 0px;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .Tu3{
+            color: #8c8c8c;
+            font-size: 16px;
+            padding-left: 20px;
+        }
+         .Mx {
+            color: black;
+            font-size: 20px;
+            font-weight: 600;
+         }
+        .Mxx {
+            color: #8c8c8c;
+        }
+        .mx {
+            padding-top: 30px;
+        }
+        .Mx_photos {
+            width: 30px;
+            height: 30px;
+        }
+
+        .Tu1 {
+            border-bottom: #F8F8F8 solid 2px;
+            padding: 10px 0px;
+        }
+
+    </style>
+</head>
+<body>
+
+{#导航栏#}
+<div class="DaoHangLan row ">
+    <div class="col-md-2 col-md-offset-2 logo"></div>
+    <div class="col-md-3 DaoHang">
+        <div class="col-md-2 border_r"><a href="#">资讯</a></div>
+        <div class="col-md-2 border_r"><a href="#">独家</a></div>
+        <div class="col-md-2 border_r"><a href="{% url 'Index:Movie' %}">电影</a></div>
+        <div class="col-md-2 border_r"><a href="{% url 'Index:Tv' %}">电视</a></div>
+        <div class="col-md-2 border_r"><a href="{% url 'Index:Star' %}">明星</a></div>
+        <div class="col-md-2"><a href="#">产业</a></div>
+    </div>
+    <div class="col-md-2 col-md-offset-1 row DaoHang">
+        <div class="col-md-4 SouSuo1"></div>
+        <div class="col-md-4 SouSuo2"></div>
+        <div class="col-md-4 SouSuo3"></div>
+    </div>
+
+         <div class="col-md-8 col-md-offset-2 "><img class="Xian" src="{% static 'img/daohanglan/xain.png' %}" alt=""></div>
+
+
+</div>
+
+
+<div class="row News_body">
+
+{#   电视剧#}
+    <div class="col-md-5  col-md-offset-2 Tou">
+
+       {% for St in Star_xd %}
+                <div class="col-md-12 Tu1">
+                    <div class="col-md-4">
+                        <img src="/static/media/{{ St.Star_Url }}" width="100%" height="100%" alt="">
+                    </div>
+
+                    <div class="col-md-8">
+                        <div>
+                            <a href="{% url 'Index:Ding' %}" class="Mx">
+                                {{ St.Star_Title }}
+                            </a>
+                        </div>
+                        <div class="mx">
+                            <a href="" class="Mxx">
+                                {{ St.Star_Info }}
+                            </a>
+                            <div class="col-md-1 col-md-offset-9">
+                                <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
+                            </div>
+                            <div class="col-md-1">
+                                <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+    </div>
+    {#右边#}
+    <div class="col-md-3 row ">
+        {#独家专访#}
+        <div class="col-md-11 col-md-offset-1 row zhuanfang_list">
+            <div class="zhuanfang_Title col-md-12"></div>
+            <div class="zhuanfang_Info">
+                <div class="zhuangfang_img">
+                    <div class="zhuanfang_zitiao">
+                        <div class=" zhuanfang_img_red">
+                            <p>专访：徐克 </p>
+                        </div>
+                        <div>
+                            <p>从两个字找武侠电影的意义</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="zhuangfang_table">
+                    <table class="zhuangfang_tab">
+                        <tr bgcolor="#f0ffff">
+                            <td>
+                                <p class="zhuanfang_ziti">巨星滙</p>
+
+                                诺兰：望中国观众最大屏幕看《敦刻尔克》
+                            </td>
+                        </tr>
+                        <tr bgcolor="white">
+                            <td>
+                                <p class="zhuanfang_ziti">新秀滙</p>
+                                没牙仔雪诺同框试镜 片场彪戏县
+                            </td>
+                        </tr>
+                        <tr bgcolor="#f0ffff">
+                            <td>
+                                <p class="zhuanfang_ziti">星影滙</p>
+                                诺兰：望中国观众最大屏幕看《敦刻尔克》
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+
+        {#独家策划#}
+        <div class="col-md-11 col-md-offset-1 row dujiacehua_list">
+            <div class="dujiacehua_Title col-md-12"></div>
+            <div class="dujiacehua_Info col-md-12">
+                <div class="dujiacehua">
+                    <ul>
+                        <li><img src="{% static 'img/Index_ing/sanjiao.png' %}" alt="" width="25px" height="25px"></li>
+                        <li>星影汇之三言两语话闺蜜</li>
+                    </ul>
+
+                    <div class="dujiacehua_img">
+
+                    </div>
+                    <div class="dujiacehua_table">
+                        <table width="300px" height="180px">
+                            <tr>
+                                <td>
+                                    星影汇之三言两语话闺蜜
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    星影汇之三言两语话闺蜜
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    星影汇之三言两语话闺蜜
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-11 col-md-offset-1 row yingpingshe_list">
+            <div class="yingpingshe_Title col-md-12"></div>
+            <div class="yingpingshe_Info col-md-12">
+                <div class="yingpingshe">
+                    <div class="yingpingshe_img">
+
+                    </div>
+                    <div class="row yingpingshe_table">
+                        <div class="col-md-6 yingpingshe_table_img">
+
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                《浊鸟》男主叶玮：男孩年少时都会依恋大姐姐。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row yingpingshe_table">
+                        <div class="col-md-6 yingpingshe_table_img02">
+
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                《浊鸟》男主叶玮：男孩年少时都会依恋大姐姐。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        {#福利社#}
+        <div class="col-md-12 row col-md-offset-2 Exclusive_list">
+            <div class="Welfare_Title col-md-12"></div>
+            <div class="EX_Info col-md-12">
+                {% for WelFare in Welfare_T %}
+                    <div >
+                        <img src="/static/media/{{ WelFare.Walfare_Url }}" width="100%" height="100%" alt="">
+                    </div>
+                    <div class="Welfare_d">
+                        {{ WelFare.Welfare_Title }}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+
+        {#巨咖来了#}
+
+        <div class="col-md-12 row col-md-offset-2 Exclusive_list">
+            <div class="ju_Title col-md-12"></div>
+            <div class="row col-md-12">
+                <div class="dade">
+                    <a href="">
+                        <div class="DaDe_Img2">
+                            {% for Juka in Jukalaile %}
+                                <div class="Mtitle col-md-12">
+                                    {{ Juka.Jukalail_title }}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            {% for Ju in Jukalail_Xiaode %}
+                <div>
+                    <div class="col-md-12 row">
+                        <a href="">
+                            <div class="col-md-6 Tu2">
+                                <img src="/static/media/{{ Ju.Jukalail_URL }}" width="100%" height="100%" alt="">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="col-md-6 Tu3 Tu2">
+                                {{ Ju.Jukalail_title }}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+
+        {# 明星美图 #}
+
+        <div class="col-md-12 row col-md-offset-2 Star_list">
+
+            <div class="Mei col-md-12"></div>
+
+            {% for Star_Phto in Star_Phtos %}
+            <div class="EX_Info col-md-12">
+
+                    {{ Star_Phto.Star_Info }}
+
+            </div>
+            {% endfor %}
+        </div>
+
+        {#  联系我们      #}
+        <div class="col-md-12 row col-md-offset-2 Scheme5">
+            <div class="col-md-12 LianXiWoMen_Title"></div>
+            <div class="col-md-12 Emil_title">
+                <ul class="M">
+                    <li>媒体公邮：lingmoviegoyuo@qq.com</li>
+                    <li>稿件合作：lingmoviegoyuo@qq.com</li>
+                    <li>媒法务联系：lingmoviegoyuo@qq.com</li>
+                </ul>
+            </div>
+            <div class="col-md-11 col-md-offset-1 ZiMeiTi">
+                <table>
+                    <tr>
+                        <td>自媒体：</td>
+                        <td class="border_r">星影滙</td>
+                        <td class="border_r">大号风</td>
+                        <td class="border_r">头号条</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="border_r">百家号</td>
+                        <td>一点资讯</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-12 row ErWeiMa">
+                <div class="col-md-4 col-md-offset-2 Weixin"></div>
+                <div class="col-md-4 col-md-offset-1 Weibo"></div>
+            </div>
+
+
+            <div class="row Ba_title">
+                <div class="col-md-12">
+                    <div class="col-md-11 col-md-offset-1">
+                        ---------------------------------------------------------------
+                    </div>
+                    <ul class="Yi">
+                        <li class="border_r">关于我们&nbsp&nbsp</li>
+                        <li class="border_r">&nbsp&nbsp版权声明&nbsp&nbsp</li>
+                        <li>&nbsp&nbsp免责条款&nbsp</li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <ul class="Yi2">
+                        <li>零娱网 lingmovie.Com.ALL righes reserved.</li>
+                        <li>京ICP备11034519</li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <p class="Yi3">京公安网备 110112021001312</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -6,7 +6,7 @@ from DjangoUeditor.models import UEditorField
 
 class film_review(models.Model):
     f_Title = models.CharField(u'标题', max_length=30)
-    f_URL = models.ImageField(u'图片', upload_to='Film_review')
+    f_URL = models.ImageField(u'图片', upload_to='Film_review', blank=True)
     f_Info = UEditorField(verbose_name=u'内容', width=800, height=600, imagePath="courses/ueditor/",
                              filePath="courses/ueditor/", default='')
 

@@ -183,6 +183,7 @@
             background-image: url("{% static 'img/Index_ing/i0.jpg' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
+            height: 40px;
         }
 
 
@@ -462,9 +463,9 @@
     <div class="col-md-3 DaoHang">
         <div class="col-md-2 border_r"><a href="#">资讯</a></div>
         <div class="col-md-2 border_r"><a href="#">独家</a></div>
-        <div class="col-md-2 border_r"><a href="#">电影</a></div>
-        <div class="col-md-2 border_r"><a href="#">电视</a></div>
-        <div class="col-md-2 border_r"><a href="#">明星</a></div>
+        <div class="col-md-2 border_r"><a href="{% url 'Index:Movie'%}">电影</a></div>
+        <div class="col-md-2 border_r"><a href="{% url 'Index:Tv' %}">电视</a></div>
+        <div class="col-md-2 border_r"><a href="{% url 'Index:Star' %}">明星</a></div>
         <div class="col-md-2"><a href="#">产业</a></div>
     </div>
     <div class="col-md-2 col-md-offset-1 DaoHang">
