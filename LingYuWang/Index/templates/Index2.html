@@ -55,19 +55,8 @@
 
 
         .Picture {
-            background-color: #4cae4c;
-            background-image: url("{% static 'img/LunBoTu/Lunbotu.png' %}");
             height: 500px;
         }
-
-        .Lun {
-            background-color: rgba(255, 255, 255, 0.5);
-            font-weight: 600;
-            font-size: 35px;
-            color: white;
-            margin-top: 435px;
-        }
-
 
         .News_body {
             margin-top: 50px;
@@ -166,7 +155,7 @@
 
 
         .Exclusive_list {
-            height: 550px;
+            height: 700px;
         }
         .Star_list{
            margin-top: 220px;
@@ -456,10 +445,10 @@
     </style>
 </head>
 <body>
-
+{% autoescape off %}
 {#导航栏#}
 <div class="DaoHangLan row ">
-    <div class="col-md-2 col-md-offset-2 logo"></div>
+    <a href="{% url 'Index:index' %}"><div class="col-md-2 col-md-offset-2 logo"></div></a>
     <div class="col-md-3 DaoHang">
         <div class="col-md-2 border_r"><a href="#">资讯</a></div>
         <div class="col-md-2 border_r"><a href="#">独家</a></div>
@@ -480,11 +469,22 @@
 <div class="row ">
     <div class="col-md-8 col-md-offset-2 Picture">
 
-        {% for Lunbotu in LunBo_T %}
-            <div class="col-md-12 Lun">
-                <img src="/static/media/{{ Lunbotu.LunBo_title }}" alt="">
-            </div>
-      {% endfor %}
+            <div id="myCarousel" class="carousel slide Picture">
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                    {% for Lunbotu in LunBo_T %}
+                        <div class="item active">
+                            <img src="/static/media/{{ Lunbotu.LunBo_URL }}" alt="">
+                        </div>
+                    {% endfor %}
+                </div>
+                <!-- 轮播（Carousel）导航 -->
+                <a class="carousel-control left" href="#myCarousel"
+                   data-slide="prev"> <span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="carousel-control right" href="#myCarousel"
+                   data-slide="next">&rsaquo;</a>
+		    </div>
+
     </div>
 </div>
 
@@ -495,15 +495,15 @@
         <div class="Movie_list row">
             <div class="Movie_Title col-md-12"></div>
             <div class="dade col-md-12">
-                <a href="">
-                    <div class="DaDe_Img">
-                        {% for m in Movie %}
-                            <div class="Mtitle">
-                                {{ m.Movie_Title }}
-                            </div>
-                        {% endfor %}
-                    </div>
-                </a>
+                {% for m in Movie %}
+                    <a href="">
+                        <div class="DaDe_Img">
+                                <div class="Mtitle">
+                                    {{ m.Movie_Title }}
+                                </div>
+                        </div>
+                    </a>
+                {% endfor %}
             </div>
             {% for Mx in Movie_xd %}
                 <div class="col-md-12 Tu1">
@@ -831,5 +831,9 @@
         </div>
     </div>
 </div>
+{% endautoescape %}
+
+<script type="text/javascript" src="{% static 'js/jquery-3.3.1.min.js' %}" ></script>
+<script type="text/javascript" src="{% static 'js/bootstrap.js' %}" ></script>
 </body>
 </html>

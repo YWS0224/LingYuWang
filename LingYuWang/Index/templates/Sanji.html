@@ -56,7 +56,7 @@
 
 
         .News_body {
-            margin-top: 50px;
+            margin-top: 80px;
         }
 
 
@@ -102,7 +102,7 @@
 
 
         .Exclusive_list {
-            height: 550px;
+            height: 700px;
         }
         .Star_list{
            margin-top: 220px;
@@ -119,6 +119,7 @@
             background-image: url("{% static 'img/Index_ing/i0.jpg' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
+            height: 40px;
         }
 
 
@@ -348,9 +349,6 @@
             background-size: 100% 100%;
             background-repeat: repeat;
         }
-        .Tou{
-            margin-top: -30px;
-        }
         .Tu2 {
             padding: 10px 0px;
         }
@@ -364,34 +362,15 @@
             font-size: 16px;
             padding-left: 20px;
         }
-         .Mx {
-            color: black;
-            font-size: 20px;
-            font-weight: 600;
-         }
-        .Mxx {
-            color: #8c8c8c;
-        }
-        .mx {
-            padding-top: 30px;
-        }
-        .Mx_photos {
-            width: 30px;
-            height: 30px;
-        }
-
-        .Tu1 {
-            border-bottom: #F8F8F8 solid 2px;
-            padding: 10px 0px;
-        }
 
 </style>
 
 </head>
 <body>
+{% autoescape off %}
 {#导航栏#}
 <div class="DaoHangLan row ">
-    <div class="col-md-2 col-md-offset-2 logo"></div>
+    <a href="{% url 'Index:index' %}"><div class="col-md-2 col-md-offset-2 logo"></div></a>
     <div class="col-md-3 DaoHang">
         <div class="col-md-2 border_r"><a href="#">资讯</a></div>
         <div class="col-md-2 border_r"><a href="#">独家</a></div>
@@ -410,44 +389,16 @@
 
 
 </div>
-
+<div class="Xian col-md-8 col-md-offset-2"><img src="{% static 'img/daohanglan/Xian.png' %}"></div>
 
 {#详情#}
 <div class="row News_body">
     <div class="col-md-5  col-md-offset-2">
 
-       {% for St in Star_xd %}
-                <div class="col-md-12 Tu1">
-                    <div class="col-md-4">
-                        <img src="/static/media/{{ St.Star_Url }}" width="100%" height="100%" alt="">
-                    </div>
-
-                    <div class="col-md-8">
-                        <div>
-                            <a href="{% url 'Index:Ding' %}" class="Mx">
-                                {{ St.Star_Title }}
-                            </a>
-                        </div>
-                        <div class="mx">
-                            <a href="" class="Mxx">
-                                {{ St.Star_Info }}
-                            </a>
-                            <div class="col-md-1 col-md-offset-9">
-                                <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
-                            </div>
-                            <div class="col-md-1">
-                                <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
-
-
     </div>
 
  {#右边#}
-    <div class="col-md-3 row ">
+    <div class="col-md-3 row Right">
         {#独家专访#}
         <div class="col-md-11 col-md-offset-1 row zhuanfang_list">
             <div class="zhuanfang_Title col-md-12"></div>
@@ -682,6 +633,6 @@
         </div>
     </div>
 </div>
-
+{% endautoescape %}
 </body>
 </html>

@@ -101,7 +101,7 @@
 
 
         .Exclusive_list {
-            height: 550px;
+            height: 700px;
         }
         .Star_list{
            margin-top: 220px;
@@ -118,6 +118,7 @@
             background-image: url("{% static 'img/Index_ing/i0.jpg' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
+            height: 40px;
         }
 
 
@@ -387,10 +388,10 @@
     </style>
 </head>
 <body>
-
+{% autoescape off %}
 {#导航栏#}
 <div class="DaoHangLan row ">
-    <div class="col-md-2 col-md-offset-2 logo"></div>
+    <a href="{% url 'Index:index' %}"><div class="col-md-2 col-md-offset-2 logo"></div></a>
     <div class="col-md-3 DaoHang">
         <div class="col-md-2 border_r"><a href="#">资讯</a></div>
         <div class="col-md-2 border_r"><a href="#">独家</a></div>
@@ -679,5 +680,6 @@
         </div>
     </div>
 </div>
+{% endautoescape %}
 </body>
 </html>
