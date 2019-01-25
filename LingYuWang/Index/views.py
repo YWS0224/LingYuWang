@@ -13,6 +13,7 @@ from Yingpinshe.views import *
 # 总
 def Index_html(request):
     LunBo_T = Lun_Bo(request)
+    Lun_first = Lun_Bo_First(request)
     Welfare_T = Find_Welfare(request)
     Jukalaile = Jukalaile_find_all(request)
     Jukalai_Xd = Jukalaile_find_all_Xd(request)
@@ -26,6 +27,7 @@ def Index_html(request):
     Yingpin = Yingping_Star_Info(request)
     Yingpin_xd = Yingping_find_all_Xd(request)
     return render(request, 'Index2.html', {'LunBo_T': LunBo_T,
+                                           'Lun_first': Lun_first,
                                            'Welfare_T': Welfare_T,
                                            'Jukalaile': Jukalaile,
                                            'Jukalail_Xiaode': Jukalai_Xd,

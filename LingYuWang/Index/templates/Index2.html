@@ -468,23 +468,51 @@
 {#轮播图#}
 <div class="row ">
     <div class="col-md-8 col-md-offset-2 Picture">
-
             <div id="myCarousel" class="carousel slide Picture">
+                <ol class="carousel-indicators">
+                    {% for lun in Lun_first %}
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    {% endfor %}
+                    {% for lun in LunBo_T %}
+                        <li data-target="#myCarousel" data-slide-to="{{ lun.id }}"></li>
+                    {% endfor %}
+
+
+
+                </ol>
                 <!-- 轮播（Carousel）项目 -->
                 <div class="carousel-inner">
-                    {% for Lunbotu in LunBo_T %}
+                    {% for lun in Lun_first %}
                         <div class="item active">
-                            <img src="/static/media/{{ Lunbotu.LunBo_URL }}" alt="">
+                            <img src="/static/media/{{ lun.LunBo_URL }}" alt="" width="100%" height="100%">
+                            <div class="carousel-caption">{{ lun.LunBo_title }}</div>
+                        </div>
+                    {% endfor %}
+                    {% for Lunbotu in LunBo_T %}
+                        <div class="item">
+                            <img src="/static/media/{{ Lunbotu.LunBo_URL }}" alt="" width="100%" height="100%">
+                            <div class="carousel-caption">{{ Lunbotu.LunBo_title }}</div>
                         </div>
                     {% endfor %}
                 </div>
-                <!-- 轮播（Carousel）导航 -->
-                <a class="carousel-control left" href="#myCarousel"
-                   data-slide="prev"> <span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a>
-                <a class="carousel-control right" href="#myCarousel"
-                   data-slide="next">&rsaquo;</a>
-		    </div>
 
+            <!-- 轮播（Carousel）导航 -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+{#                                <!-- 轮播（Carousel）导航 -->#}
+{#                <a class="carousel-control left"  href="#myCarousel"#}
+{#                   data-slide="prev"> </a>#}
+{#                <a class="carousel-control right" href="#myCarousel"#}
+{#                   data-slide="next"></a>#}
+{#		    </div>#}
     </div>
 </div>
 
