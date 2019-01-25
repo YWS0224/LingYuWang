@@ -9,7 +9,7 @@ app_name = 'Index'
 
 urlpatterns = [
     path('index/', Index_html, name='index'),
-    path('index3/', Movie, name='Movie'),
+    path('Movie/', Movie, name='Movie'),
     path('Tv/', Tv, name='Tv'),
     path('Star/', Star, name='Star'),
     path('Ding/', San, name='Ding')

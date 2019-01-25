@@ -406,7 +406,7 @@
         <div class="col-md-4 SouSuo3"></div>
     </div>
 
-         <div class="col-md-8 col-md-offset-2 "><img class="Xian" src="{% static 'img/daohanglan/xain.png' %}" alt=""></div>
+    <div class="col-md-8 col-md-offset-2 "><img class="Xian" src="{% static 'img/daohanglan/Xian.png' %}" alt=""></div>
 
 
 </div>
@@ -416,33 +416,26 @@
     {#电影#}
     <div class="col-md-5  col-md-offset-2 Tou">
 
-        {% for Mx in Movie_xd %}
-                <div class="col-md-12 Tu1">
-                    <div class="col-md-4">
-                        <img src="/static/media/{{ Mx.img_url }}" width="100%" height="100%" alt="">
-                    </div>
+        {% for Mx in Movie_all %}
+            <div class="col-md-12 Tu1">
+                <div class="col-md-4">
+                    <img src="/static/media/{{ Mx.img_url }}" width="100%" height="100%" alt="">
+                </div>
 
-                    <div class="col-md-8">
-                        <div>
-                            <a href="" class="Mx">
-                                {{ Mx.Movie_Title }}
-                            </a>
-                        </div>
-                        <div class="mx">
-                            <a href="" class="Mxx">
-                                {{ Mx.Movie_Info }}
-                            </a>
-                            <div class="col-md-1 col-md-offset-9">
-                                <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
-                            </div>
-                            <div class="col-md-1">
-                                <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
-                            </div>
-                        </div>
+                <div class="col-md-8">
+                    <div>
+                        <a href="" class="Mx">
+                            {{ Mx.Movie_Title }}
+                        </a>
+                    </div>
+                    <div class="mx">
+                        <a href="" class="Mxx">
+                            {{ Mx.Movie_Title_xd }}
+                        </a>
                     </div>
                 </div>
-            {% endfor %}
-
+            </div>
+        {% endfor %}
     </div>
     {#右边#}
     <div class="col-md-3 row ">
