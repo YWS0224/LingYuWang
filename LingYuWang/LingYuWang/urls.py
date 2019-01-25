@@ -22,6 +22,10 @@ from django.views.static import serve
 urlpatterns = [
     path('admin/', xadmin.site.urls),
     path('index/', include('Index.urls', namespace='Index')),
+    path('Movie/', include('Movie_column.urls', namespace='Movie')),
+    path('Tv/', include('TV_Play.urls', namespace='Tv')),
+    path('Star/', include('Star.urls', namespace='Star')),
+    path('LunBo/', include('LunBo.urls', namespace='LunBo')),
     re_path(r'^ueditor/', include('DjangoUeditor.urls')),
     re_path(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
 ]

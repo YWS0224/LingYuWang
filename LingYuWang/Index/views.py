@@ -12,34 +12,43 @@ from Yingpinshe.views import *
 
 # 总
 def Index_html(request):
-    LunBo_T = Lun_Bo(request)
+    LunBo_List = Lun_Bo(request)
     Lun_first = Lun_Bo_First(request)
+
     Welfare_T = Find_Welfare(request)
     Jukalaile = Jukalaile_find_all(request)
-    Jukalai_Xd = Jukalaile_find_all_Xd(request)
     Starphotos = Find_Star_Photos(request)
-    Movie = select_Movie(request)
-    Movie_xd = select_Movie_Xiaode(request)
-    Star_Title = Find_Star(request)
-    Star_Title_xd = Find_Star_xd(request)
-    Tv = Tv_play(request)
-    Tv_xd = Tv_play_xd(request)
+
+    Movie_list = select_Movie(request)
+    Movie_first = select_Movie_first(request)
+
+    Star_List = Find_Star(request)
+    Star_first = Find_Star_first(request)
+
+    Tv_list = Tv_play(request)
+    Tv_First = Tv_first(request)
+
     Yingpin = Yingping_Star_Info(request)
-    Yingpin_xd = Yingping_find_all_Xd(request)
-    return render(request, 'Index2.html', {'LunBo_T': LunBo_T,
+
+    return render(request, 'Index2.html', {
+                                           'LunBo_list': LunBo_List,
                                            'Lun_first': Lun_first,
+
                                            'Welfare_T': Welfare_T,
                                            'Jukalaile': Jukalaile,
-                                           'Jukalail_Xiaode': Jukalai_Xd,
                                            'Star_Phtos': Starphotos,
-                                           'Movie': Movie,
-                                           'Movie_xd': Movie_xd,
-                                           'Star_Title1': Star_Title,
-                                           'Star_xd': Star_Title_xd,
-                                           'Tv_Title': Tv,
-                                           'Tv_Title_xd': Tv_xd,
+
+                                           'Movie_list': Movie_list,
+                                           'Movie_first': Movie_first,
+
+                                           'Star_list': Star_List,
+                                           'Star_first': Star_first,
+
+
+                                           'Tv_list': Tv_list,
+                                           'Tv_first': Tv_First,
+
                                            'Yingpingshe': Yingpin,
-                                           'Yingpingshe_Xd': Yingpin_xd,
                                            })
 
 
@@ -48,29 +57,19 @@ def Movie(request):
     LunBo_T = Lun_Bo(request)
     Welfare_T = Find_Welfare(request)
     Jukalaile = Jukalaile_find_all(request)
-    Jukalai_Xd = Jukalaile_find_all_Xd(request)
     Starphotos = Find_Star_Photos(request)
     Movie = select_Movie(request)
-    Movie_xd = select_Movie_Xiaode(request)
     Star_Title = Find_Star(request)
-    Star_Title_xd = Find_Star_xd(request)
     Tv = Tv_play(request)
-    Tv_xd = Tv_play_xd(request)
     Yingpin = Yingping_Star_Info(request)
-    Yingpin_xd = Yingping_find_all_Xd(request)
     return render(request, 'Movie.html', {'LunBo_T': LunBo_T,
                                            'Welfare_T': Welfare_T,
                                            'Jukalaile': Jukalaile,
-                                           'Jukalail_Xiaode': Jukalai_Xd,
                                            'Star_Phtos': Starphotos,
                                            'Movie': Movie,
-                                           'Movie_xd': Movie_xd,
                                            'Star_Title1': Star_Title,
-                                          'Star_xd': Star_Title_xd,
                                           'Tv_Title': Tv,
-                                          'Tv_Title_xd': Tv_xd,
                                           'Yingpingshe': Yingpin,
-                                          'Yingpingshe_Xd': Yingpin_xd,
                                           })
 
 
@@ -79,29 +78,19 @@ def Tv(request):
     LunBo_T = Lun_Bo(request)
     Welfare_T = Find_Welfare(request)
     Jukalaile = Jukalaile_find_all(request)
-    Jukalai_Xd = Jukalaile_find_all_Xd(request)
     Starphotos = Find_Star_Photos(request)
     Movie = select_Movie(request)
-    Movie_xd = select_Movie_Xiaode(request)
     Star_Title = Find_Star(request)
-    Star_Title_xd = Find_Star_xd(request)
     Tv = Tv_play(request)
-    Tv_xd = Tv_play_xd(request)
     Yingpin = Yingping_Star_Info(request)
-    Yingpin_xd = Yingping_find_all_Xd(request)
     return render(request, 'Tv.html', {'LunBo_T': LunBo_T,
                                            'Welfare_T': Welfare_T,
                                            'Jukalaile': Jukalaile,
-                                           'Jukalail_Xiaode': Jukalai_Xd,
                                            'Star_Phtos': Starphotos,
                                            'Movie': Movie,
-                                           'Movie_xd': Movie_xd,
                                            'Star_Title1': Star_Title,
-                                           'Star_xd': Star_Title_xd,
                                            'Tv_Title': Tv,
-                                           'Tv_Title_xd': Tv_xd,
                                            'Yingpingshe': Yingpin,
-                                           'Yingpingshe_Xd': Yingpin_xd,
                                            })
 
 
@@ -110,29 +99,19 @@ def Star(request):
     LunBo_T = Lun_Bo(request)
     Welfare_T = Find_Welfare(request)
     Jukalaile = Jukalaile_find_all(request)
-    Jukalai_Xd = Jukalaile_find_all_Xd(request)
     Starphotos = Find_Star_Photos(request)
     Movie = select_Movie(request)
-    Movie_xd = select_Movie_Xiaode(request)
     Star_Title = Find_Star(request)
-    Star_Title_xd = Find_Star_xd(request)
     Tv = Tv_play(request)
-    Tv_xd = Tv_play_xd(request)
     Yingpin = Yingping_Star_Info(request)
-    Yingpin_xd = Yingping_find_all_Xd(request)
     return render(request, 'Star.html', {'LunBo_T': LunBo_T,
                                            'Welfare_T': Welfare_T,
                                            'Jukalaile': Jukalaile,
-                                           'Jukalail_Xiaode': Jukalai_Xd,
                                            'Star_Phtos': Starphotos,
                                            'Movie': Movie,
-                                           'Movie_xd': Movie_xd,
                                            'Star_Title1': Star_Title,
-                                           'Star_xd': Star_Title_xd,
                                            'Tv_Title': Tv,
-                                           'Tv_Title_xd': Tv_xd,
                                            'Yingpingshe': Yingpin,
-                                           'Yingpingshe_Xd': Yingpin_xd,
                                            })
 
 
@@ -142,30 +121,19 @@ def San(request):
     LunBo_T = Lun_Bo(request)
     Welfare_T = Find_Welfare(request)
     Jukalaile = Jukalaile_find_all(request)
-    Jukalai_Xd = Jukalaile_find_all_Xd(request)
     Starphotos = Find_Star_Photos(request)
     Movie = select_Movie(request)
-    Movie_xd = select_Movie_Xiaode(request)
     Star_Title = Find_Star(request)
-    Star_Title_xd = Find_Star_xd(request)
     Tv = Tv_play(request)
-    Tv_xd = Tv_play_xd(request)
     Yingpin = Yingping_Star_Info(request)
-    Yingpin_xd = Yingping_find_all_Xd(request)
     return render(request, 'Sanji.html', {'LunBo_T': LunBo_T,
                                            'Welfare_T': Welfare_T,
                                            'Jukalaile': Jukalaile,
-                                           'Jukalail_Xiaode': Jukalai_Xd,
                                            'Star_Phtos': Starphotos,
                                            'Movie': Movie,
-                                           'Movie_xd': Movie_xd,
                                            'Star_Title1': Star_Title,
-                                          'Star_xd': Star_Title_xd,
                                           'Tv_Title': Tv,
-                                          'Tv_Title_xd': Tv_xd,
                                           'Yingpingshe': Yingpin,
-                                          'Yingpingshe_Xd': Yingpin_xd,
                                           })
-#
-# def dash(request):
-#     return render(request, 'Index.html')
+
+

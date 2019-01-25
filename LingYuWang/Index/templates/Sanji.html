@@ -56,7 +56,7 @@
 
 
         .News_body {
-            margin-top: 80px;
+            margin-top: 40px;
         }
 
 
@@ -363,6 +363,23 @@
             padding-left: 20px;
         }
 
+
+        .TextUrl{
+            font-size: 16px;
+            background-color: #f4f4f4;
+            border: 1px solid #cacaca;
+            line-height: 30px;
+        }
+
+        .TextTime{
+            height: 100px;
+            background-color: #f4f4f4;
+        }
+
+        .TextInfo{
+            border-top: 2px solid #9d9d9d;
+        }
+
 </style>
 
 </head>
@@ -385,16 +402,24 @@
         <div class="col-md-4 SouSuo3"></div>
     </div>
 
-         <div class="col-md-8 col-md-offset-2 "><img class="Xian" src="{% static 'img/daohanglan/xain.png' %}" alt=""></div>
-
-
+    <div class="col-md-8 col-md-offset-2 "><img class="Xian" src="{% static 'img/daohanglan/Xian.png' %}" alt=""></div>
 </div>
-<div class="Xian col-md-8 col-md-offset-2"><img src="{% static 'img/daohanglan/Xian.png' %}"></div>
 
 {#详情#}
 <div class="row News_body">
     <div class="col-md-5  col-md-offset-2">
+        <div class="TextUrl col-md-12">
+            新闻地址
+        </div>
+        <div class="TextTitle col-md-12">
+            <h2>新闻标题</h2>
+        </div>
+        <div class="TextTime col-md-12">
 
+        </div>
+        <div class="TextInfo col-md-12">
+            内容
+        </div>
     </div>
 
  {#右边#}

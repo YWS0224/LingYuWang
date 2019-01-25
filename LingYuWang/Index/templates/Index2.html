@@ -96,9 +96,9 @@
         .DaDe_Img {
             width: 100%;
             height: 100%;
-        {% for m in Movie %}
-            background-image: url("/static/media/{{ m.img_url }}");
-        {% endfor %}
+            {% for m in Movie_first %}
+                background-image: url("/static/media/{{ m.img_url }}");
+            {% endfor %}
             background-repeat: no-repeat;
             background-size: 100% 100%;
             position: relative
@@ -107,9 +107,9 @@
         .TV_Img {
             width: 100%;
             height: 100%;
-        {% for m in Tv_Title %}
-            background-image: url("/static/media/{{ m.Tv_Url }}");
-        {% endfor %}
+            {% for m in Tv_first %}
+                background-image: url("/static/media/{{ m.Tv_Url }}");
+            {% endfor %}
             background-repeat: no-repeat;
             background-size: 100% 100%;
             position: relative
@@ -118,9 +118,9 @@
         .Star_Img {
             width: 100%;
             height: 100%;
-        {% for m in Star_Title1 %}
-            background-image: url("/static/media/{{ m.Star_Url }}");
-        {% endfor %}
+            {% for m in Star_first %}
+                background-image: url("/static/media/{{ m.Star_Url }}");
+            {% endfor %}
             background-repeat: no-repeat;
             background-size: 100% 100%;
             position: relative
@@ -129,9 +129,9 @@
         .DaDe_Img2 {
             width: 100%;
             height: 100%;
-        {% for Juka in Jukalaile %}
-            background-image: url("/static/media/{{ Juka.Jukalail_URL }}");
-        {% endfor %}
+            {% for Juka in Jukalaile %}
+                background-image: url("/static/media/{{ Juka.Jukalail_URL }}");
+            {% endfor %}
             background-repeat: no-repeat;
             background-size: 100% 100%;
             position: relative
@@ -245,11 +245,6 @@
             padding-top: 30px;
         }
 
-
-        .Mx_photos {
-            width: 30px;
-            height: 30px;
-        }
 
         .Tu1 {
             border-bottom: #F8F8F8 solid 2px;
@@ -385,49 +380,6 @@
             background-repeat: no-repeat;
         }
 
-        .yingpingshe_list {
-            height: 500px;
-            margin-bottom: 15px;
-        }
-
-        .yingpingshe_Info {
-            background-color: yellow;
-            height: 450px;
-        }
-
-        .yingpingshe_Title {
-            background-image: url("{% static 'img/Index_ing/DuJiaZhuanFang.png' %}");
-            background-size: 100% 100%;
-            background-repeat: repeat;
-            height: 45px;
-        }
-
-        .yingpingshe_img {
-            background-image: url("{% static 'img/Index_ing/yingpingshe001.png' %}");
-            height: 200px;
-            background-color: #c7254e;
-        }
-
-        .yingpingshe_table {
-            padding-top: 30px;
-            background-color: #46b8da;
-            height: 120px;
-        }
-
-        .yingpingshe_table_img {
-            background-image: url("{% static 'img/Index_ing/yingpingshe002.png' %}");
-            height: 100px;
-            background-size: 100% 100%;
-            background-repeat: repeat;
-        }
-
-        .yingpingshe_table_img02 {
-            background-image: url("{% static 'img/Index_ing/yingpingshe003.png' %}");
-            height: 100px;
-            background-size: 100% 100%;
-            background-repeat: repeat;
-        }
-
         .Tu2 {
             padding: 10px 0px;
         }
@@ -470,15 +422,12 @@
     <div class="col-md-8 col-md-offset-2 Picture">
             <div id="myCarousel" class="carousel slide Picture">
                 <ol class="carousel-indicators">
-                    {% for lun in Lun_first %}
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    {% endfor %}
-                    {% for lun in LunBo_T %}
-                        <li data-target="#myCarousel" data-slide-to="{{ lun.id }}"></li>
-                    {% endfor %}
-
-
-
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
                 </ol>
                 <!-- 轮播（Carousel）项目 -->
                 <div class="carousel-inner">
@@ -488,7 +437,7 @@
                             <div class="carousel-caption">{{ lun.LunBo_title }}</div>
                         </div>
                     {% endfor %}
-                    {% for Lunbotu in LunBo_T %}
+                    {% for Lunbotu in LunBo_list %}
                         <div class="item">
                             <img src="/static/media/{{ Lunbotu.LunBo_URL }}" alt="" width="100%" height="100%">
                             <div class="carousel-caption">{{ Lunbotu.LunBo_title }}</div>
@@ -497,12 +446,12 @@
                 </div>
 
             <!-- 轮播（Carousel）导航 -->
-                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <a class="left carousel-control" style="height: 60px;margin: auto 0px;width: 50px;" href="#myCarousel" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only"></span>
                     </a>
 
-                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <a class="right carousel-control" style="height: 60px;margin: auto 0px;width: 50px;" href="#myCarousel" role="button" data-slide="next">
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -515,7 +464,7 @@
 {#		    </div>#}
     </div>
 </div>
-
+</div>
 
 <div class="row News_body">
     {#电影#}
@@ -523,7 +472,7 @@
         <div class="Movie_list row">
             <div class="Movie_Title col-md-12"></div>
             <div class="dade col-md-12">
-                {% for m in Movie %}
+                {% for m in Movie_first %}
                     <a href="">
                         <div class="DaDe_Img">
                                 <div class="Mtitle">
@@ -533,7 +482,7 @@
                     </a>
                 {% endfor %}
             </div>
-            {% for Mx in Movie_xd %}
+            {% for Mx in Movie_list %}
                 <div class="col-md-12 Tu1">
                     <div class="col-md-4">
                         <img src="/static/media/{{ Mx.img_url }}" width="100%" height="100%" alt="">
@@ -547,14 +496,8 @@
                         </div>
                         <div class="mx">
                             <a href="" class="Mxx">
-                                {{ Mx.Movie_Info }}
+                                {{ Mx.Movie_Title_xd }}
                             </a>
-                            <div class="col-md-1 col-md-offset-9">
-                                <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
-                            </div>
-                            <div class="col-md-1">
-                                <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -568,7 +511,7 @@
             <div class="dade col-md-12">
                 <a href="">
                     <div class="TV_Img">
-                        {% for T in Tv_Title %}
+                        {% for T in Tv_first %}
                             <div class="Mtitle">
                                 {{ T.Tv_Title }}
                             </div>
@@ -576,7 +519,7 @@
                     </div>
                 </a>
             </div>
-            {% for T in Tv_Title_xd %}
+            {% for T in Tv_list %}
                 <div class="col-md-12 Tu1">
                     <div class="col-md-4">
                         <img src="/static/media/{{ T.Tv_Url }}" width="100%" height="100%" alt="">
@@ -590,14 +533,8 @@
                         </div>
                         <div class="mx">
                             <a href="" class="Mxx">
-                                {{ T.Tv_Info }}
+                                {{ T.Tv_Title_xd }}
                             </a>
-                            <div class="col-md-1 col-md-offset-9">
-                                <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
-                            </div>
-                            <div class="col-md-1">
-                                <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
-                            </div>
 
                         </div>
                     </div>
@@ -612,7 +549,7 @@
             <div class="dade col-md-12">
                 <a href="">
                     <div class="Star_Img">
-                        {% for St in Star_Title1 %}
+                        {% for St in Star_first %}
                             <div class="Mtitle">
                                 {{ St.Star_Title }}
                             </div>
@@ -620,7 +557,7 @@
                     </div>
                 </a>
             </div>
-            {% for St in Star_xd %}
+            {% for St in Star_list %}
                 <div class="col-md-12 Tu1">
                     <div class="col-md-4">
                         <img src="/static/media/{{ St.Star_Url }}" width="100%" height="100%" alt="">
@@ -634,14 +571,8 @@
                         </div>
                         <div class="mx">
                             <a href="" class="Mxx">
-                                {{ St.Star_Info }}
+                                {{ St.Star_Title_xd }}
                             </a>
-                            <div class="col-md-1 col-md-offset-9">
-                                <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
-                            </div>
-                            <div class="col-md-1">
-                                <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
-                            </div>
                         </div>
                     </div>
                 </div>
