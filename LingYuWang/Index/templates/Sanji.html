@@ -372,12 +372,19 @@
         }
 
         .TextTime{
-            height: 100px;
             background-color: #f4f4f4;
         }
 
         .TextInfo{
             border-top: 2px solid #9d9d9d;
+        }
+        .zi{
+            font-weight: 600;
+            font-size: 20px;
+            font-family: Chandas;
+        }
+        .zi1{
+            color: #2D64B3;
         }
 
 </style>
@@ -407,21 +414,23 @@
 
 {#详情#}
 <div class="row News_body">
+    {% for m in Movie_Info %}
     <div class="col-md-5  col-md-offset-2">
         <div class="TextUrl col-md-12">
-            新闻地址
+            零电影>{{ m.Movie_Title_Keyword }}>{{ m.Movie_Title }}
         </div>
         <div class="TextTitle col-md-12">
-            <h2>新闻标题</h2>
+                <h2>{{ m.Movie_Title}}</h2>
         </div>
         <div class="TextTime col-md-12">
-
+                {{ m.Movie_Info}}
         </div>
-        <div class="TextInfo col-md-12">
-            内容
+        <div class="zi">
+            <div class="TextInfo col-md-12">[责任编辑：{{ m.Movie_UserName }}]</div>
+            <div class="col-md-12">相关阅读：<span class="zi1">{{ m.Movie_Title_Keyword }}</span></div>
         </div>
-    </div>
-
+ </div>
+{% endfor %}
  {#右边#}
     <div class="col-md-3 row Right">
         {#独家专访#}

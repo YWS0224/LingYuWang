@@ -58,6 +58,11 @@ def Movie(request):
     return render(request, 'Movie.html', {'Movie_all': Movie_all})
 
 
+def MovieId(request, id):
+    Movie_Info = select_Movie_ById(request, id)
+    return render(request, 'Sanji.html', {'Movie_Info': Movie_Info})
+
+
 # 电视剧
 def Tv(request):
     Tv_all_list = Tv_all(request)
@@ -71,7 +76,7 @@ def Star(request):
 
 
 
-def San(request):
+def San(request, id):
     LunBo_T = Lun_Bo(request)
     Welfare_T = Find_Welfare(request)
     Jukalaile = Jukalaile_find_all(request)
@@ -80,6 +85,7 @@ def San(request):
     Star_Title = Find_Star(request)
     Tv = Tv_play(request)
     Yingpin = Yingping_Star_Info(request)
+    Movie_Info = select_Movie_ById(request, id)
     return render(request, 'Sanji.html', {'LunBo_T': LunBo_T,
                                            'Welfare_T': Welfare_T,
                                            'Jukalaile': Jukalaile,
@@ -88,6 +94,8 @@ def San(request):
                                            'Star_Title1': Star_Title,
                                           'Tv_Title': Tv,
                                           'Yingpingshe': Yingpin,
+                                          'Movie_Info': Movie_Info,
+
                                           })
 
 

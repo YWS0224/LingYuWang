@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'ZhuanFang',
     'Index',
     'Yingpinshe',
+    'DUJIACEHUA',
 
 ]
 

@@ -18,7 +18,7 @@ class Find_ZhuanFang(models.Model):
         return self.ZhuanFang_Title
 
     class Meta:
-        verbose_name = '专访'
+        verbose_name = '专访1'
         verbose_name_plural = verbose_name
 
 

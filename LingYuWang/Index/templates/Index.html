@@ -376,7 +376,14 @@
             background-size: 100% 100%;
             background-repeat: no-repeat;
         }
-
+        .yingingshe_01{
+            height: 200px;
+            background-color: #6ce26c;
+        }
+        .yingingshe_02{
+            height: 200px;
+            background-color: #0095dd;
+        }
         .Tu2 {
             padding: 10px 0px;
         }
@@ -472,7 +479,7 @@
             <div class="Movie_Title col-md-12"></div>
             <div class="dade col-md-12">
                 {% for m in Movie_first %}
-                    <a href="">
+                    <a href="{% url 'Index:Ding' m.id %}">
                         <div class="DaDe_Img">
                                 <div class="Mtitle">
                                     {{ m.Movie_Title }}
@@ -489,7 +496,7 @@
 
                     <div class="col-md-8">
                         <div>
-                            <a href="" class="Mx">
+                            <a href="{% url 'Index:Ding' Mx.id %}" class="Mx">
                                 {{ Mx.Movie_Title }}
                             </a>
                         </div>
@@ -620,7 +627,6 @@
                         </tr>
                     </table>
                 </div>
-
             </div>
         </div>
 
@@ -661,7 +667,27 @@
             </div>
         </div>
 
-
+        {#影评社#}
+        <div class="col-md-11 col-md-offset-1 row dujiacehua_list">
+            <div class="dujiacehua_Title col-md-12"></div>
+            <div class="dujiacehua_Info col-md-12">
+                <div class="yingingshe_01">
+                <h1>影评社</h1>
+                </div>
+                <div class="yingingshe_02">
+                    <table border="1">
+                        <tr>
+                            <td width="180" height="100">haha</td>
+                            <td width="180" height="100">《卓鸟》耶耶耶主演；男孩少年时都会依恋大姐姐</td>
+                        </tr>
+                        <tr>
+                            <td width="180" height="100">haha</td>
+                            <td width="180" height="100">《卓鸟》耶耶耶主演；男孩少年时都会依恋大姐姐</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
 
 
 
