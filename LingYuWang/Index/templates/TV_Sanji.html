@@ -1,4 +1,5 @@
-{% load static %}
+
+    {% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,7 +56,7 @@
 
 
         .News_body {
-            margin-top: 50px;
+            margin-top: 40px;
         }
 
 
@@ -348,9 +349,6 @@
             background-size: 100% 100%;
             background-repeat: repeat;
         }
-        .Tou{
-            margin-top: -30px;
-        }
         .Tu2 {
             padding: 10px 0px;
         }
@@ -364,7 +362,31 @@
             font-size: 16px;
             padding-left: 20px;
         }
-         .Mx {
+
+
+        .TextUrl{
+            font-size: 16px;
+            background-color: #f4f4f4;
+            border: 1px solid #cacaca;
+            line-height: 30px;
+        }
+
+        .TextTime{
+            background-color: #f4f4f4;
+        }
+
+        .TextInfo{
+            border-top: 2px solid #9d9d9d;
+        }
+        .zi{
+            font-weight: 600;
+            font-size: 20px;
+            font-family: Chandas;
+        }
+        .zi1{
+            color: #2D64B3;
+        }
+           .Mx {
             color: black;
             font-size: 20px;
             font-weight: 600;
@@ -375,12 +397,25 @@
         .mx {
             padding-top: 30px;
         }
+        .Mx_photos {
+            width: 30px;
+            height: 30px;
+        }
+
         .Tu1 {
             border-bottom: #F8F8F8 solid 2px;
             padding: 10px 0px;
         }
+          .DiDH{
+            background-image: url("{% static 'img/daohanglan/tu.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 65px;
+            margin-top: 60px;
+            margin-bottom: 20px;
+        }
+</style>
 
-    </style>
 </head>
 <body>
 {% autoescape off %}
@@ -402,39 +437,68 @@
     </div>
 
     <div class="col-md-8 col-md-offset-2 "><img class="Xian" src="{% static 'img/daohanglan/Xian.png' %}" alt=""></div>
-
-
 </div>
 
+{#详情#}
 
-<div class="row News_body">
-    {#电影#}
-    <div class="col-md-5  col-md-offset-2 Tou">
+{#    电视剧#}
+    <div class="row News_body">
+    {% for Tv in Tv_Biao %}
+    <div class="col-md-5  col-md-offset-2">
+        <div class="TextUrl col-md-12">
+            零电影>{{ Tv.Tv_Type }}>{{ Tv.Tv_Title }}
+        </div>
+        <div class="TextTitle col-md-12">
+                <h2>{{ Tv.Tv_Title }}</h2>
+        </div>
+        <div class="col-md-12">
+            发布日期：{{ Tv.Ty_RiQi }}<br>
+            来源：{{ Tv.Tv_Title }}
+        </div>
+        <div class="TextTime col-md-12">
+                {{ Tv.Tv_Info}}
+        </div>
+        <div class="zi">
+            <div class="TextInfo col-md-12">[责任编辑：{{ Tv.TV_UserName }}]</div>
+            <div class="col-md-12">相关阅读：<span class="zi1">{{ Tv.Tv_Title_Keyword }}</span></div>
+        </div>
+        <div class="DiDH col-md-12"></div>
+     {% endfor %}
 
-        {% for Mx in Movie_all %}
+     {% for T in Tv_all %}
             <div class="col-md-12 Tu1">
                 <div class="col-md-4">
-                    <img src="/static/media/{{ Mx.img_url }}" width="100%" height="100%" alt="">
+                    <a href="{% url 'Index:Tvinfo' T.id %}">
+                        <img src="/static/media/{{ T.Tv_Url }}" width="100%" height="100%" alt="">
+                    </a>
                 </div>
 
                 <div class="col-md-8">
                     <div>
-                        <a href="{% url 'Index:Ding' Mx.id %}" class="Mx">
-                            {{ Mx.Movie_Title }}
+                        <a href="{% url 'Index:Tvinfo' T.id %}" class="Mx">
+                            {{ T.Tv_Title }}
                         </a>
                     </div>
                     <div class="mx">
-                        <a href="{% url 'Index:Ding' Mx.id %}" class="Mxx">
-                            {{ Mx.Movie_Title_xd }}
+                        <a href="{% url 'Index:Tvinfo' T.id %}" class="Mxx">
+                            {{ T.Tv_Title_xd }}
                         </a>
+                        <div class="col-md-1 col-md-offset-9">
+                            <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
+                        </div>
+                        <div class="col-md-1">
+                            <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
+                        </div>
+
                     </div>
                 </div>
             </div>
-        {% endfor %}
+     {% endfor %}
     </div>
 
-    {#右边#}
-    <div class="col-md-3 row ">
+
+ {#右边#}
+    <div class="col-md-3 row Right">
         {#独家专访#}
         <div class="col-md-11 col-md-offset-1 row zhuanfang_list">
             <div class="zhuanfang_Title col-md-12"></div>

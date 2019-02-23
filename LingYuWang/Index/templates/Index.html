@@ -411,7 +411,7 @@
 <div class="DaoHangLan row ">
     <a href="{% url 'Index:index' %}"><div class="col-md-2 col-md-offset-2 logo"></div></a>
     <div class="col-md-3 DaoHang">
-        <div class="col-md-2 border_r"><a href="#">资讯</a></div>
+        <div class="col-md-2 border_r"><a href="{% url 'Index:Zixun' %}">资讯</a></div>
         <div class="col-md-2 border_r"><a href="#">独家</a></div>
         <div class="col-md-2 border_r"><a href="{% url 'Index:Movie'%}">电影</a></div>
         <div class="col-md-2 border_r"><a href="{% url 'Index:Tv' %}">电视</a></div>
@@ -491,7 +491,9 @@
             {% for Mx in Movie_list %}
                 <div class="col-md-12 Tu1">
                     <div class="col-md-4">
-                        <img src="/static/media/{{ Mx.img_url }}" width="100%" height="100%" alt="">
+                        <a href="{% url 'Index:Tvinfo' Mx.id %}">
+                            <img src="/static/media/{{ Mx.img_url }}" width="100%" height="100%" alt="">
+                        </a>
                     </div>
 
                     <div class="col-md-8">
@@ -501,7 +503,7 @@
                             </a>
                         </div>
                         <div class="mx">
-                            <a href="" class="Mxx">
+                            <a href="{% url 'Index:Ding' Mx.id %}" class="Mxx">
                                 {{ Mx.Movie_Title_xd }}
                             </a>
                         </div>
@@ -515,33 +517,36 @@
         <div class="Movie_list row">
             <div class="Tv_Title col-md-12"></div>
             <div class="dade col-md-12">
-                <a href="">
+             {% for T in Tv_first %}
+                <a href="{% url 'Index:Tvinfo' T.id %}">
                     <div class="TV_Img">
-                        {% for T in Tv_first %}
+
                             <div class="Mtitle">
                                 {{ T.Tv_Title }}
                             </div>
-                        {% endfor %}
                     </div>
                 </a>
+             {% endfor %}
             </div>
             {% for T in Tv_list %}
                 <div class="col-md-12 Tu1">
                     <div class="col-md-4">
+                        <a href="{% url 'Index:Tvinfo' T.id %}">
                         <img src="/static/media/{{ T.Tv_Url }}" width="100%" height="100%" alt="">
+                        </a>
                     </div>
 
                     <div class="col-md-8">
+
                         <div>
-                            <a href="" class="Mx">
+                            <a href="{% url 'Index:Tvinfo' T.id %}" class="Mx">
                                 {{ T.Tv_Title }}
                             </a>
                         </div>
                         <div class="mx">
-                            <a href="" class="Mxx">
+                            <a href="{% url 'Index:Tvinfo' T.id %}" class="Mxx">
                                 {{ T.Tv_Title_xd }}
                             </a>
-
                         </div>
                     </div>
                 </div>
@@ -553,30 +558,33 @@
         <div class="Movie_list row">
             <div class="Star_Title col-md-12"></div>
             <div class="dade col-md-12">
-                <a href="">
-                    <div class="Star_Img">
-                        {% for St in Star_first %}
+
+                {% for St in Star_first %}
+                     <a href="{% url 'Index:Star_info' St.id %}">
+                        <div class="Star_Img">
                             <div class="Mtitle">
                                 {{ St.Star_Title }}
                             </div>
-                        {% endfor %}
-                    </div>
-                </a>
+                         </div>
+                     </a>
+            {% endfor %}
             </div>
             {% for St in Star_list %}
                 <div class="col-md-12 Tu1">
                     <div class="col-md-4">
-                        <img src="/static/media/{{ St.Star_Url }}" width="100%" height="100%" alt="">
+                        <a href="{% url 'Index:Star_info' St.id %}">
+                            <img src="/static/media/{{ St.Star_Url }}" width="100%" height="100%" alt="">
+                        </a>
                     </div>
 
                     <div class="col-md-8">
                         <div>
-                            <a href="" class="Mx">
+                            <a href="{% url 'Index:Star_info' St.id %}" class="Mx">
                                 {{ St.Star_Title }}
                             </a>
                         </div>
                         <div class="mx">
-                            <a href="" class="Mxx">
+                            <a href="{% url 'Index:Star_info' St.id %}" class="Mxx">
                                 {{ St.Star_Title_xd }}
                             </a>
                         </div>
@@ -593,40 +601,24 @@
         <div class="col-md-11 col-md-offset-1 row zhuanfang_list">
             <div class="zhuanfang_Title col-md-12"></div>
             <div class="zhuanfang_Info">
-                <div class="zhuangfang_img">
-                    <div class="zhuanfang_zitiao">
-                        <div class=" zhuanfang_img_red">
-                            <p>专访：徐克 </p>
-                        </div>
-                        <div>
-                            <p>从两个字找武侠电影的意义</p>
-                        </div>
-                    </div>
-
-                </div>
                 <div class="zhuangfang_table">
                     <table class="zhuangfang_tab">
-                        <tr bgcolor="#f0ffff">
-                            <td>
-                                <p class="zhuanfang_ziti">巨星滙</p>
-
-                                诺兰：望中国观众最大屏幕看《敦刻尔克》
-                            </td>
-                        </tr>
-                        <tr bgcolor="white">
-                            <td>
-                                <p class="zhuanfang_ziti">新秀滙</p>
-                                没牙仔雪诺同框试镜 片场彪戏县
-                            </td>
-                        </tr>
-                        <tr bgcolor="#f0ffff">
-                            <td>
-                                <p class="zhuanfang_ziti">星影滙</p>
-                                诺兰：望中国观众最大屏幕看《敦刻尔克》
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+                        {% for ZF in ZhuanF %}
+                            <tr bgcolor="#f0ffff">
+                                <td>
+                                    <p class="zhuanfang_ziti">
+                                        <a href="{% url 'Index:ZhuanFangInfo' ZF.id %}">{{ ZF.ZhuanFang_Title }} </a>
+                                    </p>
+                                </td>
+                                    <td>
+                                        <p class="zhuanfang_ziti">
+                                            <a href="{% url 'Index:ZhuanFangInfo' ZF.id %}">{{ ZF.ZhuanFang_Info }}</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </table>
+                    </div>
             </div>
         </div>
 
@@ -636,33 +628,20 @@
             <div class="dujiacehua_Title col-md-12"></div>
             <div class="dujiacehua_Info col-md-12">
                 <div class="dujiacehua">
-                    <ul>
-                        <li><img src="{% static 'img/Index_ing/sanjiao.png' %}" alt="" width="25px" height="25px"></li>
-                        <li>星影汇之三言两语话闺蜜</li>
-                    </ul>
-
-                    <div class="dujiacehua_img">
-
-                    </div>
                     <div class="dujiacehua_table">
                         <table width="300px" height="180px">
-                            <tr>
-                                <td>
-                                    星影汇之三言两语话闺蜜
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    星影汇之三言两语话闺蜜
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    星影汇之三言两语话闺蜜
-                                </td>
-                            </tr>
+                            {% for ch in CeHua %}
+                                <tr>
+                                    <td>
+                                        <a href="{% url 'Index:CeHuaInfo' ch.id %}">
+                                            {{ ch.CeHua_Title }}
+                                        </a>
+                                    </td>
+                                </tr>
+                            {% endfor %}
                         </table>
                     </div>
+
                 </div>
             </div>
         </div>

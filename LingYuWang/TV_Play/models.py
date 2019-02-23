@@ -9,6 +9,9 @@ class Tv_Play(models.Model):
     TV_UserName = models.CharField(u'编辑名称', max_length=30, default='')
     TV_Index = models.IntegerField(u'排序', default=2)
     Tv_Url = models.ImageField(u'图片', upload_to='TV_Play', blank=True)
+    Tv_Type = models.CharField(u'分类', max_length=30, default='')
+    Ty_LaiY = models.CharField(u'来源', max_length=30, default='')
+    Ty_RiQi = models.DateField(u'发布日期', auto_now_add=True)
     Tv_Info = UEditorField(verbose_name=u'内容', width=800, height=600, imagePath="courses/ueditor/",
                              filePath="courses/ueditor/", default='')
 

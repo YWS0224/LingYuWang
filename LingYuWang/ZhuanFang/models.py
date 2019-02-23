@@ -11,6 +11,9 @@ class Find_ZhuanFang(models.Model):
     ZhuanFang_Keyword = models.CharField(u'关键词', max_length=50, default='')
     ZhuanFang_UserName = models.CharField(u'编辑名称', max_length=30, default='')
     ZhuanFang_Index = models.IntegerField(u'排序', default=2)
+    ZhuanFang_Type = models.CharField(u'分类', max_length=30, default='')
+    ZhuanFang_LaiYu = models.CharField(u'来源', max_length=30, default='')
+    ZhuanFang_RiQi = models.DateTimeField(u'发布日期', auto_now_add=True)
     ZhuanFang_Info = UEditorField(verbose_name=u'内容', width=800, height=600, imagePath="courses/ueditor/",
                              filePath="courses/ueditor/", default='')
 
@@ -18,7 +21,7 @@ class Find_ZhuanFang(models.Model):
         return self.ZhuanFang_Title
 
     class Meta:
-        verbose_name = '专访1'
+        verbose_name = '专访'
         verbose_name_plural = verbose_name
 
 

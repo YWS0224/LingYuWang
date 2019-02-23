@@ -408,9 +408,9 @@
 
 
 <div class="row News_body">
-    {#电影#}
-    <div class="col-md-5  col-md-offset-2 Tou">
 
+    <div class="col-md-5  col-md-offset-2 Tou">
+    {#电影#}
         {% for Mx in Movie_all %}
             <div class="col-md-12 Tu1">
                 <div class="col-md-4">
@@ -426,6 +426,46 @@
                     <div class="mx">
                         <a href="{% url 'Index:Ding' Mx.id %}" class="Mxx">
                             {{ Mx.Movie_Title_xd }}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        {% for Mx in Star_all %}
+            <div class="col-md-12 Tu1">
+                <div class="col-md-4">
+                    <img src="/static/media/{{ Mx.Star_Url }}" width="100%" height="100%" alt="">
+                </div>
+
+                <div class="col-md-8">
+                    <div>
+                        <a href="{% url 'Index:Ding' Mx.id %}" class="Mx">
+                            {{ Mx.Star_Title }}
+                        </a>
+                    </div>
+                    <div class="mx">
+                        <a href="{% url 'Index:Ding' Mx.id %}" class="Mxx">
+                            {{ Mx.Star_Title_xd }}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        {% for Mx in Tv_all_list %}
+            <div class="col-md-12 Tu1">
+                <div class="col-md-4">
+                    <img src="/static/media/{{ Mx.Tv_Url }}" width="100%" height="100%" alt="">
+                </div>
+
+                <div class="col-md-8">
+                    <div>
+                        <a href="{% url 'Index:Ding' Mx.id %}" class="Mx">
+                            {{ Mx.Tv_Title }}
+                        </a>
+                    </div>
+                    <div class="mx">
+                        <a href="{% url 'Index:Ding' Mx.id %}" class="Mxx">
+                            {{ Mx.Tv_Title_xd }}
                         </a>
                     </div>
                 </div>
