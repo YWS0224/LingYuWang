@@ -2,49 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4afbddc-9664-4cbb-a7b0-42356dc43dc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CeHua/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CeHua/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CeHua/migrations/0002_auto_20190223_0948.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CeHua/migrations/0003_auto_20190223_0949.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CeHua/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CeHua/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/templates/CeHua_Sanji.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/templates/Movie_Sanji.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/templates/Star_Sanji.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/templates/ZiXun.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Movie_column/migrations/0009_auto_20190223_0224.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Movie_column/migrations/0011_auto_20190223_0227.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Star/migrations/0010_find_star_info_star_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Star/migrations/0011_find_star_info_star_laiy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Star/migrations/0012_find_star_info_star_riqi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TV_Play/migrations/0010_auto_20190223_0539.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZhuanFang/migrations/0006_auto_20190223_0640.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/daohanglan/tu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/templates/FuLiShe_Sanji.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/templates/JuKaLaiLe_Sanji.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/templates/YingPingShe_Sanji.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuKaLaiLe/migrations/0010_auto_20190223_1236.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Welfare/migrations/0009_auto_20190223_1216.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Yingpinshe/migrations/0007_auto_20190223_1157.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/TuBiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/YIngPingShe.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b2f72925-bb68-400e-a93d-4e80e80b16c4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b2f72925-bb68-400e-a93d-4e80e80b16c4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUJIACEHUA/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/CeHua/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUJIACEHUA/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/CeHua/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUJIACEHUA/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUJIACEHUA/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUJIACEHUA/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/CeHua/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUJIACEHUA/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUJIACEHUA/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/CeHua/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DUJIACEHUA/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CeHua/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/CeHua/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/migrations/0002_auto_20190114_0212.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/migrations/0003_auto_20190116_0526.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/migrations/0004_auto_20190122_0245.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/migrations/0005_auto_20190123_0529.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/migrations/0006_auto_20190123_0535.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Film_review/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/CeHua_Sanji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/CeHua_Sanji.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/templates/Movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Movie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index/templates/Sanji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/TV_Sanji.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/Movie_Sanji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Movie_Sanji.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/templates/Star.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Star.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/Star_Sanji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Star_Sanji.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/TV_Sanji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/TV_Sanji.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/templates/Tv.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Tv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/ZiXun.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/ZiXun.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Index/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JuKaLaiLe/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/JuKaLaiLe/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JuKaLaiLe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/JuKaLaiLe/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LingYuWang/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LingYuWang/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie_column/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie_column/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Star/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Star/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Star_Photos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Star_Photos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TV_Play/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TV_Play/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhuanFang/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZhuanFang/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhuanFang/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZhuanFang/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Welfare/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Welfare/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Welfare/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Welfare/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yingpinshe/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yingpinshe/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yingpinshe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yingpinshe/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +87,7 @@
         <item name="LingYuDB@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="LingYuDB: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="CeHua_cehua_photos: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="JuKaLaiLe_jukalai_l: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -107,11 +107,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Index/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+            <state relative-caret-position="206">
+              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Index/templates/Index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="168" column="25" selection-start-line="168" selection-start-column="25" selection-end-line="168" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JuKaLaiLe/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -120,40 +141,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Index/templates/Index.html">
+        <entry file="file://$PROJECT_DIR$/Movie_column/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="635" column="60" lean-forward="true" selection-start-line="635" selection-start-column="60" selection-end-line="635" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Index/templates/CeHua_Sanji.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="489" column="53" lean-forward="true" selection-start-line="489" selection-start-column="53" selection-end-line="490" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Index/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CeHua/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="152">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="50" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -178,19 +169,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JuKaLaiLe/views.py" />
-        <option value="$PROJECT_DIR$/JuKaLaiLe/admin.py" />
-        <option value="$PROJECT_DIR$/Movie_column/admin.py" />
-        <option value="$PROJECT_DIR$/Star/admin.py" />
-        <option value="$PROJECT_DIR$/TV_Play/admin.py" />
-        <option value="$PROJECT_DIR$/Yingpinshe/views.py" />
         <option value="$PROJECT_DIR$/Yingpinshe/admin.py" />
         <option value="$PROJECT_DIR$/ZhuanFang/admin.py" />
-        <option value="$PROJECT_DIR$/JuKaLaiLe/models.py" />
         <option value="$PROJECT_DIR$/LunBo/models.py" />
         <option value="$PROJECT_DIR$/Star_Photos/models.py" />
-        <option value="$PROJECT_DIR$/Welfare/models.py" />
-        <option value="$PROJECT_DIR$/Yingpinshe/models.py" />
         <option value="$PROJECT_DIR$/Movie_column/urls.py" />
         <option value="$PROJECT_DIR$/TV_Play/urls.py" />
         <option value="$PROJECT_DIR$/Star/urls.py" />
@@ -204,39 +186,48 @@
         <option value="$PROJECT_DIR$/DUJIACEHUA/models.py" />
         <option value="$PROJECT_DIR$/DUJIACEHUA/admin.py" />
         <option value="$PROJECT_DIR$/Index/templates/Sanji.html" />
-        <option value="$PROJECT_DIR$/Index/templates/Movie.html" />
-        <option value="$PROJECT_DIR$/Index/templates/ZiXun.html" />
         <option value="$PROJECT_DIR$/Movie_column/models.py" />
         <option value="$PROJECT_DIR$/Star/models.py" />
-        <option value="$PROJECT_DIR$/Index/templates/Star.html" />
-        <option value="$PROJECT_DIR$/Index/templates/Movie_Sanji.html" />
         <option value="$PROJECT_DIR$/TV_Play/models.py" />
-        <option value="$PROJECT_DIR$/Index/templates/Star_Sanji.html" />
-        <option value="$PROJECT_DIR$/Index/templates/TV_Sanji.html" />
-        <option value="$PROJECT_DIR$/Index/templates/Tv.html" />
         <option value="$PROJECT_DIR$/ZhuanFang/models.py" />
         <option value="$PROJECT_DIR$/LingYuWang/urls.py" />
         <option value="$PROJECT_DIR$/ZhuanFang/views.py" />
-        <option value="$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html" />
         <option value="$PROJECT_DIR$/Star_Photos/views.py" />
-        <option value="$PROJECT_DIR$/LingYuWang/settings.py" />
         <option value="$PROJECT_DIR$/CeHua/admin.py" />
         <option value="$PROJECT_DIR$/CeHua/apps.py" />
         <option value="$PROJECT_DIR$/CeHua/__init__.py" />
-        <option value="$PROJECT_DIR$/CeHua/views.py" />
         <option value="$PROJECT_DIR$/CeHua/models.py" />
+        <option value="$PROJECT_DIR$/LingYuWang/settings.py" />
+        <option value="$PROJECT_DIR$/Yingpinshe/models.py" />
+        <option value="$PROJECT_DIR$/Yingpinshe/views.py" />
+        <option value="$PROJECT_DIR$/Welfare/models.py" />
+        <option value="$PROJECT_DIR$/Welfare/views.py" />
+        <option value="$PROJECT_DIR$/JuKaLaiLe/models.py" />
         <option value="$PROJECT_DIR$/Index/urls.py" />
+        <option value="$PROJECT_DIR$/Index/templates/YingPingShe_Sanji.html" />
+        <option value="$PROJECT_DIR$/Index/templates/TV_Sanji.html" />
+        <option value="$PROJECT_DIR$/Index/templates/Star_Sanji.html" />
+        <option value="$PROJECT_DIR$/Index/templates/Movie_Sanji.html" />
+        <option value="$PROJECT_DIR$/Index/templates/FuLiShe_Sanji.html" />
+        <option value="$PROJECT_DIR$/Index/templates/JuKaLaiLe_Sanji.html" />
         <option value="$PROJECT_DIR$/Index/templates/CeHua_Sanji.html" />
-        <option value="$PROJECT_DIR$/Index/templates/Index.html" />
+        <option value="$PROJECT_DIR$/Index/templates/Star.html" />
+        <option value="$PROJECT_DIR$/Index/templates/Tv.html" />
+        <option value="$PROJECT_DIR$/Index/templates/ZiXun.html" />
+        <option value="$PROJECT_DIR$/CeHua/views.py" />
+        <option value="$PROJECT_DIR$/Index/templates/Movie.html" />
+        <option value="$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html" />
+        <option value="$PROJECT_DIR$/JuKaLaiLe/views.py" />
         <option value="$PROJECT_DIR$/Index/views.py" />
+        <option value="$PROJECT_DIR$/Index/templates/Index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="131" />
-    <option name="y" value="-30" />
-    <option name="width" value="1507" />
-    <option name="height" value="1053" />
+    <option name="x" value="386" />
+    <option name="y" value="121" />
+    <option name="width" value="1497" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -255,24 +246,7 @@
             <path>
               <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
               <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="CeHua" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="CeHua" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
               <item name="Index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="Index" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
@@ -304,11 +278,11 @@
       <recent name="$PROJECT_DIR$/static/css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img/Index_ing" />
       <recent name="$PROJECT_DIR$/Index/templates" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/Index" />
       <recent name="$PROJECT_DIR$/LunBo" />
-      <recent name="$PROJECT_DIR$/Star" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,7 +387,9 @@
       <workItem from="1550803388256" duration="13136000" />
       <workItem from="1550885290521" duration="20114000" />
       <workItem from="1550912892490" duration="188000" />
-      <workItem from="1550913112537" duration="3673000" />
+      <workItem from="1550913112537" duration="3938000" />
+      <workItem from="1550922475691" duration="7958000" />
+      <workItem from="1551143940579" duration="12340000" />
     </task>
     <task id="LOCAL-00001" summary="topType">
       <created>1546223229842</created>
@@ -597,17 +573,24 @@
       <option name="project" value="LOCAL" />
       <updated>1550747096056</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="完成80%">
+      <created>1550916870867</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1550916870867</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223524000" />
+    <option name="totallyTimeSpent" value="244087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.14072022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.14404432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50151056" side_tool="true" weight="0.1368421" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -630,7 +613,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.17174515" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.18504155" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,117 +636,10 @@
     <MESSAGE value="新" />
     <MESSAGE value="修改数据结构，Index2" />
     <MESSAGE value="修改数据结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改数据结构" />
+    <MESSAGE value="完成80%" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成80%" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DUJIACEHUA/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/DUJIACEHUA/views.py" />
-    <entry file="file://$PROJECT_DIR$/DUJIACEHUA/models.py" />
-    <entry file="file://$PROJECT_DIR$/Index/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Film_review/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZhuanFang/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/ZiXun.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="465" column="28" selection-start-line="465" selection-start-column="28" selection-end-line="465" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b2f72925-bb68-400e-a93d-4e80e80b16c4/schema/LingYuDB/table/Movie_column_movie">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b2f72925-bb68-400e-a93d-4e80e80b16c4/schema/LingYuDB/table/TV_Play_tv_play">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b2f72925-bb68-400e-a93d-4e80e80b16c4/schema/LingYuDB/table/Star_find_star_info">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/Movie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="394" column="60" selection-start-line="394" selection-start-column="60" selection-end-line="394" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/daohanglan/tu.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/Movie_Sanji.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="451" lean-forward="true" selection-start-line="451" selection-end-line="451" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TV_Play/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/Star.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="432" column="70" selection-start-line="432" selection-start-column="70" selection-end-line="432" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/Star_Sanji.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="452" column="14" lean-forward="true" selection-start-line="452" selection-start-column="14" selection-end-line="452" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TV_Play/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -771,20 +647,6 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/TV_Sanji.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="467" column="26" lean-forward="true" selection-start-line="467" selection-start-column="26" selection-end-line="467" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/Tv.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="425" column="24" selection-start-line="425" selection-start-column="24" selection-end-line="425" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -822,23 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LingYuWang/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding>
-            <element signature="e#634#680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Star/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Star/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -856,13 +701,6 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="456" column="23" selection-start-line="456" selection-start-column="23" selection-end-line="456" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -886,16 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZhuanFang/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZhuanFang/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -903,13 +731,6 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LingYuWang/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -934,34 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CeHua/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CeHua/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Movie_column/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CeHua/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -975,20 +772,250 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Movie_column/models.py">
+    <entry file="file://$PROJECT_DIR$/Film_review/models.py" />
+    <entry file="file://$PROJECT_DIR$/Yingpinshe/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="95">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yingpinshe/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Welfare/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CeHua/models.py">
+    <entry file="file://$PROJECT_DIR$/Welfare/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuKaLaiLe/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhuanFang/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/TV_Sanji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="610" column="18" lean-forward="true" selection-start-line="610" selection-start-column="18" selection-end-line="610" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/Star_Sanji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="558" column="43" lean-forward="true" selection-start-line="558" selection-start-column="43" selection-end-line="558" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/YingPingShe_Sanji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="568" column="67" lean-forward="true" selection-start-line="568" selection-start-column="67" selection-end-line="568" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/Movie_Sanji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="600" column="26" lean-forward="true" selection-start-line="600" selection-start-column="26" selection-end-line="600" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/FuLiShe_Sanji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="556" column="57" selection-start-line="556" selection-start-column="57" selection-end-line="556" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/CeHua_Sanji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="592" lean-forward="true" selection-start-line="592" selection-end-line="592" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/JuKaLaiLe_Sanji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="613" lean-forward="true" selection-start-line="613" selection-end-line="613" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/Star.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10602">
+          <caret line="558" selection-start-line="558" selection-end-line="558" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/Tv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9842">
+          <caret line="518" selection-start-line="518" selection-end-line="518" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/ZiXun.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11153">
+          <caret line="587" selection-start-line="587" selection-end-line="587" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CeHua/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CeHua/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CeHua/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CeHua/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CeHua/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LingYuWang/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LingYuWang/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Star/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TV_Play/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CeHua/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LingYuWang/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="e#634#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/Movie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="451" column="66" selection-start-line="451" selection-start-column="66" selection-end-line="451" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4004">
+          <caret line="302" column="23" selection-start-line="302" selection-start-column="9" selection-end-line="302" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie_column/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="61" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -998,54 +1025,37 @@
     <entry file="file://$PROJECT_DIR$/Movie_column/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="50" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CeHua/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/CeHua_Sanji.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="489" column="53" lean-forward="true" selection-start-line="489" selection-start-column="53" selection-end-line="490" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="635" column="60" lean-forward="true" selection-start-line="635" selection-start-column="60" selection-end-line="635" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Index/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+        <state relative-caret-position="206">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuKaLaiLe/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="168" column="25" selection-start-line="168" selection-start-column="25" selection-end-line="168" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -447,168 +447,114 @@
     </div>
     {#右边#}
     <div class="col-md-3 row ">
-        {#独家专访#}
-        <div class="col-md-11 col-md-offset-1 row zhuanfang_list">
-            <div class="zhuanfang_Title col-md-12"></div>
-            <div class="zhuanfang_Info">
-                <div class="zhuangfang_img">
-                    <div class="zhuanfang_zitiao">
-                        <div class=" zhuanfang_img_red">
-                            <p>专访：徐克 </p>
-                        </div>
-                        <div>
-                            <p>从两个字找武侠电影的意义</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="zhuangfang_table">
-                    <table class="zhuangfang_tab">
-                        <tr bgcolor="#f0ffff">
-                            <td>
-                                <p class="zhuanfang_ziti">巨星滙</p>
-
-                                诺兰：望中国观众最大屏幕看《敦刻尔克》
-                            </td>
-                        </tr>
-                        <tr bgcolor="white">
-                            <td>
-                                <p class="zhuanfang_ziti">新秀滙</p>
-                                没牙仔雪诺同框试镜 片场彪戏县
-                            </td>
-                        </tr>
-                        <tr bgcolor="#f0ffff">
-                            <td>
-                                <p class="zhuanfang_ziti">星影滙</p>
-                                诺兰：望中国观众最大屏幕看《敦刻尔克》
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
-            </div>
-        </div>
-
-
-        {#独家策划#}
-        <div class="col-md-11 col-md-offset-1 row dujiacehua_list">
-            <div class="dujiacehua_Title col-md-12"></div>
-            <div class="dujiacehua_Info col-md-12">
-                <div class="dujiacehua">
-                    <ul>
-                        <li><img src="{% static 'img/Index_ing/sanjiao.png' %}" alt="" width="25px" height="25px"></li>
-                        <li>星影汇之三言两语话闺蜜</li>
-                    </ul>
-
-                    <div class="dujiacehua_img">
-
-                    </div>
-                    <div class="dujiacehua_table">
-                        <table width="300px" height="180px">
-                            <tr>
-                                <td>
-                                    星影汇之三言两语话闺蜜
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    星影汇之三言两语话闺蜜
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    星影汇之三言两语话闺蜜
-                                </td>
-                            </tr>
+         {#独家专访#}
+            <div class="col-md-11 col-md-offset-1 row zhuanfang_list">
+                <div class="zhuanfang_Title col-md-12"></div>
+                <div class="zhuanfang_Info">
+                    <div class="zhuangfang_table">
+                        <table class="zhuangfang_tab">
+                            {% for ZF in ZhuanF %}
+                                <tr bgcolor="#f0ffff">
+                                    <td>
+                                        <p class="zhuanfang_ziti">
+                                            <a href="{% url 'Index:ZhuanFangInfo' ZF.id %}">{{ ZF.ZhuanFang_Title }} </a>
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="zhuanfang_ziti">
+                                            <a href="{% url 'Index:ZhuanFangInfo' ZF.id %}">{{ ZF.ZhuanFang_Info }}</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            {% endfor %}
                         </table>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-md-11 col-md-offset-1 row yingpingshe_list">
-            <div class="yingpingshe_Title col-md-12"></div>
-            <div class="yingpingshe_Info col-md-12">
-                <div class="yingpingshe">
-                    <div class="yingpingshe_img">
 
-                    </div>
-                    <div class="row yingpingshe_table">
-                        <div class="col-md-6 yingpingshe_table_img">
+            {#独家策划#}
+            <div class="col-md-11 col-md-offset-1 row dujiacehua_list">
+                <div class="dujiacehua_Title col-md-12"></div>
+                <div class="dujiacehua_Info col-md-12">
+                    <div class="dujiacehua">
+                        <div class="dujiacehua_table">
+                            <table width="300px" height="180px">
+                                {% for ch in CeHua %}
+                                    <tr>
+                                        <td>
+                                            <a href="{% url 'Index:CeHuaInfo' ch.id %}">
+                                                {{ ch.CeHua_Title }}
+                                            </a>
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            </table>
+                        </div>
 
-                        </div>
-                        <div class="col-md-6">
-                            <p>
-                                《浊鸟》男主叶玮：男孩年少时都会依恋大姐姐。
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row yingpingshe_table">
-                        <div class="col-md-6 yingpingshe_table_img02">
-
-                        </div>
-                        <div class="col-md-6">
-                            <p>
-                                《浊鸟》男主叶玮：男孩年少时都会依恋大姐姐。
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+
+            {#影评社#}
+            <div class="col-md-11 col-md-offset-1 row dujiacehua_list">
+                <div class="YingPingShe_Title col-md-12"></div>
+                <div class="dujiacehua_Info col-md-12">
+                    <table width="300px" height="180px">
+                        {% for yingping in Yingpingshe %}
+                            <tr>
+                                <td>
+                                    <a href="{% url 'Index:YingPingShe' yingping.id %}">
+                                        {{ yingping.Yingping_Title }}
+                                    </a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            </div>
 
 
-        {#福利社#}
-        <div class="col-md-12 row col-md-offset-2 Exclusive_list">
-            <div class="Welfare_Title col-md-12"></div>
-            <div class="EX_Info col-md-12">
-                {% for WelFare in Welfare_T %}
-                    <div >
-                        <img src="/static/media/{{ WelFare.Walfare_Url }}" width="100%" height="100%" alt="">
-                    </div>
-                    <div class="Welfare_d">
-                        {{ WelFare.Welfare_Title }}
+            {#福利社#}
+            <div class="col-md-12 row col-md-offset-2 Exclusive_list">
+                <div class="Welfare_Title col-md-12"></div>
+                <div class="EX_Info col-md-12">
+                    {% for WelFare in Welfare_T %}
+                        <div>
+                            <a href="{% url 'Index:Welfare' WelFare.id %}">
+                                <img src="/static/media/{{ WelFare.Walfare_Url }}" width="100%" height="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="Welfare_d">
+                            <a href="{% url 'Index:Welfare' WelFare.id %}">
+                                {{ WelFare.Welfare_Title }}
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            {#巨咖来了#}
+            <div class="col-md-12 row col-md-offset-2 Exclusive_list">
+                <div class="ju_Title col-md-12"></div>
+                {% for Ju in Jukalaile %}
+                    <div>
+                        <div class="col-md-12 row">
+
+                            <div class="col-md-6 Tu2">
+                                <a href="{% url 'Index:JuKa' Ju.id %}">
+                                    <img src="/static/media/{{ Ju.Jukalail_URL }}" width="100%" height="100%" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-6 Tu3 Tu2">
+                                <a href="{% url 'Index:JuKa' Ju.id %}">
+                                    {{ Ju.Jukalail_title }}
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 {% endfor %}
             </div>
-        </div>
-
-
-        {#巨咖来了#}
-
-        <div class="col-md-12 row col-md-offset-2 Exclusive_list">
-            <div class="ju_Title col-md-12"></div>
-            <div class="row col-md-12">
-                <div class="dade">
-                    <a href="">
-                        <div class="DaDe_Img2">
-                            {% for Juka in Jukalaile %}
-                                <div class="Mtitle col-md-12">
-                                    {{ Juka.Jukalail_title }}
-                                </div>
-                            {% endfor %}
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            {% for Ju in Jukalail_Xiaode %}
-                <div>
-                    <div class="col-md-12 row">
-                        <a href="">
-                            <div class="col-md-6 Tu2">
-                                <img src="/static/media/{{ Ju.Jukalail_URL }}" width="100%" height="100%" alt="">
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="col-md-6 Tu3 Tu2">
-                                {{ Ju.Jukalail_title }}
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
 
 
         {# 明星美图 #}

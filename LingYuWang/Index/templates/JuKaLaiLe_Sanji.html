@@ -399,10 +399,6 @@
         .mx {
             padding-top: 30px;
         }
-        .Mx_photos {
-            width: 30px;
-            height: 30px;
-        }
 
         .Tu1 {
             border-bottom: #F8F8F8 solid 2px;
@@ -416,6 +412,7 @@
             margin-top: 60px;
             margin-bottom: 20px;
         }
+
 </style>
 
 </head>
@@ -441,68 +438,66 @@
     <div class="col-md-8 col-md-offset-2 "><img class="Xian" src="{% static 'img/daohanglan/Xian.png' %}" alt=""></div>
 </div>
 
-{#明星详情#}
-    <div class="row News_body">
-    {% for St in Star %}
+{#电影详情#}
+<div class="row News_body">
+    {% for j in JuKa_Info %}
     <div class="col-md-5  col-md-offset-2">
         <div class="TextUrl col-md-12">
-            零电影>{{ St.Star_Type }}>{{ St.Star_Title }}
-        </div>
-        <div class="TextTitle col-md-12">
-                <h2>{{ St.Star_Title }}</h2>
+            零电影>{{ j.Jukalail_Type }}>{{ j.Jukalail_title }}
         </div>
 
-        <div class="col-md-12">
-            发布日期：{{ St.Star_RiQi }}<br>
-            来源：{{ St.Star_LaiY }}
+        <div class="TextTitle col-md-12">
+                <h2>{{ j.Jukalail_title}}</h2>
+        </div>
+
+        <div class="">
+            发布日期：{{ j.Jukalail_RiQi }}<br>
+            来源：{{ j.Jukalail_LaiYuan }}
         </div>
 
         <div class="TextTime col-md-12">
-                {{ St.Star_Info }}
+                {{ j.Jukalail_Info }}
         </div>
-
-
-
         <div class="zi">
-            <div class="TextInfo col-md-12">[责任编辑：{{ St.Star_UserName }}]</div>
-            <div class="col-md-12">相关阅读：<span class="zi1">{{ St.Star_Title_Keyword }}</span></div>
+            <div class="TextInfo col-md-12">[责任编辑：{{ j.Jukalail_UserName }}]</div>
+            <div class="col-md-12">相关阅读：<span class="zi1">{{ j.Jukalail_title_Keyword }}</span></div>
         </div>
-
-        <div class="DiDH col-md-12"></div>
+          <div class="DiDH col-md-12"></div>
     {% endfor %}
+        <div>
+           {% for J in Jukalaile %}
 
-          {% for St in Star_all %}
-                <div class="col-md-12 Tu1">
-                    <div class="col-md-4">
-                        <img src="/static/media/{{ St.Star_Url }}" width="100%" height="100%" alt="">
+            <div class="col-md-12 Tu1">
+                <div class="col-md-4">
+                    <a href="{% url 'Index:JuKa' J.id %}">
+                        <img src="/static/media/{{ J.Jukalail_URL }}" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-8">
+                    <div>
+                        <a href="{% url 'Index:JuKa' J.id %}" class="Mx">
+                            {{ J.Jukalail_title }}
+                        </a>
                     </div>
-
-                    <div class="col-md-8">
-                        <div>
-                            <a href="{% url 'Index:Ding' St.id %}" class="Mx">
-                                {{ St.Star_Title }}
-                            </a>
-                        </div>
-                        <div class="mx">
-                            <a href="" class="Mxx">
-                                {{ St.Star_Title_xd }}
-                            </a>
-                            <div class="col-md-1 col-md-offset-9">
-                                <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
-                            </div>
-                            <div class="col-md-1">
-                                <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
-                            </div>
-                        </div>
+                    <div class="mx">
+                        <a href="{% url 'Index:JuKa' J.id %}" class="Mxx">
+                            {{ J.Jukalail_title_xd}}
+                        </a>
                     </div>
                 </div>
-            {% endfor %}
+            </div>
+        {% endfor %}
+        </div>
     </div>
+
+
 
 
  {#右边#}
     <div class="col-md-3 row Right">
-               {#独家专访#}
+        {#独家专访#}
+                {#独家专访#}
             <div class="col-md-11 col-md-offset-1 row zhuanfang_list">
                 <div class="zhuanfang_Title col-md-12"></div>
                 <div class="zhuanfang_Info">
@@ -610,7 +605,6 @@
                     </div>
                 {% endfor %}
             </div>
-
 
         {# 明星美图 #}
 

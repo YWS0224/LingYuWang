@@ -4,6 +4,13 @@ from Yingpinshe.models import *
 
 # Create your views here.
 
+# 查询所有影评社信息
 def Yingping_find_all(request):
     Yingping = Yingping_Star_Info.objects.all()
     return Yingping
+
+
+# 根据Id查询影评信息
+def YingPing_Byid(request, Yid):
+    YingPing_Info = Yingping_Star_Info.objects.filter(id = Yid)
+    return YingPing_Info

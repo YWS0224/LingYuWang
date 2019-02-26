@@ -18,5 +18,8 @@ urlpatterns = [
     re_path(r'^Star/(\d{1,2})/', Star_San, name='Star_info'),
     re_path(r'^Ding/(\d{1,2})/', San, name='Ding'),
     re_path(r'^CeHua/(\d{1,2})/', CeHua, name='CeHuaInfo'),
+    re_path(r'^YingPingShe/(\d{1,2})/', YingPingShe_SanJi, name='YingPingShe'),
+    re_path(r'^Welfare/(\d{1,2})/', Welfare_SanJi, name='Welfare'),
+    re_path(r'^JuKaLaiL/(\d{1,2})/', JuKaLaiLe_SanJi, name='JuKa'),
 
 ]
