@@ -20,31 +20,47 @@ def Index_html(request):
     Lun_first = Lun_Bo_First(request)
 
     Welfare_T = Find_Welfare(request)
+
     Jukalaile = Jukalaile_find_all(request)
     JuKa_first = JuKaiLaiLe_first(request)
     Starphotos = Find_Star_Photos(request)
+
+
     Yingping = Yingping_find_all(request)
     Yingping_first = YingPing_first(request)
+
     ZhuangF = select_ZhuanFang(request)
+    ZhuanFang_first_info = ZhuanFang_first(request)
+    ZhuanFang_not1 = ZhuanFang_Not1(request)
+
     CeHua_List = select_CeHua(request)
 
 
     Movie_list = select_Movie(request)
     Movie_first = select_Movie_first(request)
+
     Star_List = Find_Star(request)
     Star_first = Find_Star_first(request)
+
     Tv_list = Tv_play(request)
     Tv_First = Tv_first(request)
     return render(request, 'Index.html', {
         'LunBo_list': LunBo_List,
         'Lun_first': Lun_first,
         'Welfare_T': Welfare_T,
+
         'Jukalaile': Jukalaile,
         'JuKa_first': JuKa_first,
+
         'Star_Phtos': Starphotos,
+
         'Yingpingshe': Yingping,
         'Yingping_first': Yingping_first,
+
         'ZhuanF': ZhuangF,
+        'ZhuanFang_first_info': ZhuanFang_first_info,
+        'ZhuanFang_not1': ZhuanFang_not1,
+
         'CeHua': CeHua_List,
 
         'Movie_list': Movie_list,
@@ -52,6 +68,7 @@ def Index_html(request):
 
         'Star_list': Star_List,
         'Star_first': Star_first,
+
         'Tv_list': Tv_list,
         'Tv_first': Tv_First,
 
@@ -125,7 +142,6 @@ def ZhuanF(request, Zid):
     ZhuangF = select_ZhuanFang(request)
     CeHua_List = select_CeHua(request)
     ZF = Find_ZhuanFang_ByID(request, Zid)
-
     return render(request, "ZhuanFang_Sanji.html", {'ZF': ZF,
                                                     'Welfare_T': Welfare_T,
                                                     'Jukalaile': Jukalaile,

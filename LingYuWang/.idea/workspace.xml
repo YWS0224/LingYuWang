@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4afbddc-9664-4cbb-a7b0-42356dc43dc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/img/Index_ing/HongBaiTiao.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/CeHua_Sanji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/CeHua_Sanji.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/FuLiShe_Sanji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/FuLiShe_Sanji.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/JuKaLaiLe_Sanji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/JuKaLaiLe_Sanji.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/Movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Movie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/Movie_Sanji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Movie_Sanji.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/Star.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/Star.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Index/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LingYuWang/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LingYuWang/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yingpinshe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yingpinshe/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/Index_ing/DianYing.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/Index_ing/DianYing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/Index_ing/i0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/Index_ing/i0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/Index_ing/ju.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/Index_ing/ju.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie_column/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie_column/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZhuanFang/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZhuanFang/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +57,6 @@
         <item name="LingYuDB@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="LingYuDB: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="Yingpinshe_yingping_star_info: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="LingYuDB@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="LingYuDB: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="ZhuanFang_find_zhuanfang: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
@@ -73,64 +71,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Index/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Index/templates/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="374" column="31" lean-forward="true" selection-start-line="374" selection-start-column="31" selection-end-line="374" selection-end-column="31" />
+            <state relative-caret-position="152">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="467" selection-end-column="9" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#20854#20860#0#HTML" expanded="true" />
+                <element signature="e#20861#20867#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#22365#22371#0#HTML" expanded="true" />
+                <element signature="e#22382#22388#0#HTML" expanded="true" />
+                <element signature="e#22388#22394#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Yingpinshe/views.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Index/templates/CeHua_Sanji.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JuKaLaiLe/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Movie_column/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="249">
+              <caret line="207" column="25" lean-forward="true" selection-start-line="207" selection-start-column="25" selection-end-line="207" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -163,7 +131,6 @@
         <option value="$PROJECT_DIR$/LunBo/urls.py" />
         <option value="$USER_HOME$/.virtualenvs/env2/lib/python3.6/site-packages/xadmin/static/xadmin/vendor/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/Index/templates/Index2.html" />
-        <option value="$PROJECT_DIR$/Movie_column/views.py" />
         <option value="$PROJECT_DIR$/Star/views.py" />
         <option value="$PROJECT_DIR$/TV_Play/views.py" />
         <option value="$PROJECT_DIR$/DUJIACEHUA/models.py" />
@@ -174,7 +141,6 @@
         <option value="$PROJECT_DIR$/TV_Play/models.py" />
         <option value="$PROJECT_DIR$/ZhuanFang/models.py" />
         <option value="$PROJECT_DIR$/LingYuWang/urls.py" />
-        <option value="$PROJECT_DIR$/ZhuanFang/views.py" />
         <option value="$PROJECT_DIR$/Star_Photos/views.py" />
         <option value="$PROJECT_DIR$/CeHua/admin.py" />
         <option value="$PROJECT_DIR$/CeHua/apps.py" />
@@ -188,21 +154,23 @@
         <option value="$PROJECT_DIR$/Index/templates/YingPingShe_Sanji.html" />
         <option value="$PROJECT_DIR$/Index/templates/TV_Sanji.html" />
         <option value="$PROJECT_DIR$/Index/templates/Star_Sanji.html" />
-        <option value="$PROJECT_DIR$/Index/templates/Movie_Sanji.html" />
-        <option value="$PROJECT_DIR$/Index/templates/FuLiShe_Sanji.html" />
-        <option value="$PROJECT_DIR$/Index/templates/JuKaLaiLe_Sanji.html" />
-        <option value="$PROJECT_DIR$/Index/templates/CeHua_Sanji.html" />
-        <option value="$PROJECT_DIR$/Index/templates/Star.html" />
         <option value="$PROJECT_DIR$/Index/templates/Tv.html" />
         <option value="$PROJECT_DIR$/Index/templates/ZiXun.html" />
         <option value="$PROJECT_DIR$/CeHua/views.py" />
-        <option value="$PROJECT_DIR$/Index/templates/Movie.html" />
-        <option value="$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html" />
         <option value="$PROJECT_DIR$/JuKaLaiLe/views.py" />
         <option value="$PROJECT_DIR$/LingYuWang/settings.py" />
         <option value="$PROJECT_DIR$/Yingpinshe/views.py" />
+        <option value="$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html" />
+        <option value="$PROJECT_DIR$/ZhuanFang/views.py" />
         <option value="$PROJECT_DIR$/Index/views.py" />
+        <option value="$PROJECT_DIR$/Index/templates/FuLiShe_Sanji.html" />
+        <option value="$PROJECT_DIR$/Movie_column/views.py" />
+        <option value="$PROJECT_DIR$/Index/templates/JuKaLaiLe_Sanji.html" />
+        <option value="$PROJECT_DIR$/Index/templates/Movie.html" />
+        <option value="$PROJECT_DIR$/Index/templates/Movie_Sanji.html" />
         <option value="$PROJECT_DIR$/Index/templates/Index.html" />
+        <option value="$PROJECT_DIR$/Index/templates/Star.html" />
+        <option value="$PROJECT_DIR$/Index/templates/CeHua_Sanji.html" />
       </list>
     </option>
   </component>
@@ -233,7 +201,18 @@
             <path>
               <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
               <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
-              <item name="Yingpinshe" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
+              <item name="Movie_column" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LingYuWang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LingYuWang" type="462c0819:PsiDirectoryNode" />
+              <item name="ZhuanFang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -375,7 +354,7 @@
       <workItem from="1551143940579" duration="12705000" />
       <workItem from="1551172912197" duration="51000" />
       <workItem from="1551420987858" duration="558000" />
-      <workItem from="1551422635863" duration="3513000" />
+      <workItem from="1551422635863" duration="14292000" />
     </task>
     <task id="LOCAL-00001" summary="topType">
       <created>1546223229842</created>
@@ -573,17 +552,24 @@
       <option name="project" value="LOCAL" />
       <updated>1551172368101</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="完成80%2">
+      <created>1551426178085</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1551426178085</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248574000" />
+    <option name="totallyTimeSpent" value="259353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.14903048" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.13850416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50151056" side_tool="true" weight="0.1368421" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -600,13 +586,13 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.24474789" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.1827027" />
-      <window_info anchor="bottom" id="manage.py@LingYuWang" order="14" visible="true" weight="0.31783783" />
+      <window_info anchor="bottom" id="manage.py@LingYuWang" order="14" visible="true" weight="0.16108108" />
       <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" order="15" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.18504155" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.18060942" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +617,8 @@
     <MESSAGE value="修改数据结构" />
     <MESSAGE value="完成80%" />
     <MESSAGE value="完成80%1" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成80%1" />
+    <MESSAGE value="完成80%2" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成80%2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Star_Photos/models.py">
@@ -730,32 +717,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JuKaLaiLe/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZhuanFang/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -778,41 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="568" column="67" lean-forward="true" selection-start-line="568" selection-start-column="67" selection-end-line="568" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/Movie_Sanji.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="600" column="26" lean-forward="true" selection-start-line="600" selection-start-column="26" selection-end-line="600" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/FuLiShe_Sanji.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="556" column="57" selection-start-line="556" selection-start-column="57" selection-end-line="556" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/CeHua_Sanji.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="592" lean-forward="true" selection-start-line="592" selection-end-line="592" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/JuKaLaiLe_Sanji.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="613" lean-forward="true" selection-start-line="613" selection-end-line="613" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/Star.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10602">
-          <caret line="558" selection-start-line="558" selection-end-line="558" />
         </state>
       </provider>
     </entry>
@@ -904,20 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/Movie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="451" column="66" selection-start-line="451" selection-start-column="66" selection-end-line="451" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4004">
-          <caret line="302" column="23" selection-start-line="302" selection-start-column="9" selection-end-line="302" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Movie_column/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -963,6 +881,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Yingpinshe/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JuKaLaiLe/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -973,10 +901,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/ZhuanFang_Sanji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="468" column="16" lean-forward="true" selection-start-line="468" selection-start-column="16" selection-end-line="468" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Movie_column/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="50" />
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhuanFang/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -985,34 +940,133 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Index/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="621">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Yingpinshe/views.py">
+    <entry file="file://$PROJECT_DIR$/Index/templates/FuLiShe_Sanji.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="230">
+          <caret line="660" column="32" lean-forward="true" selection-start-line="660" selection-start-column="32" selection-end-line="660" selection-end-column="32" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#13468#13474#0#HTML" expanded="true" />
+            <element signature="e#13474#13480#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#16379#16385#0#HTML" expanded="true" />
+            <element signature="e#16390#16396#0#HTML" expanded="true" />
+            <element signature="e#16396#16402#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/JuKaLaiLe_Sanji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="551" lean-forward="true" selection-start-line="551" selection-end-line="551" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#13271#13277#0#HTML" expanded="true" />
+            <element signature="e#13277#13283#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#16182#16188#0#HTML" expanded="true" />
+            <element signature="e#16193#16199#0#HTML" expanded="true" />
+            <element signature="e#16199#16205#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/Movie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="600" column="55" lean-forward="true" selection-start-line="600" selection-start-column="55" selection-end-line="600" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11587#11593#0#HTML" expanded="true" />
+            <element signature="e#11593#11599#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14498#14504#0#HTML" expanded="true" />
+            <element signature="e#14509#14515#0#HTML" expanded="true" />
+            <element signature="e#14515#14521#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/Movie_Sanji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="616" column="41" lean-forward="true" selection-start-line="616" selection-start-column="41" selection-end-line="616" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#13138#13144#0#HTML" expanded="true" />
+            <element signature="e#13144#13150#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#16049#16055#0#HTML" expanded="true" />
+            <element signature="e#16060#16066#0#HTML" expanded="true" />
+            <element signature="e#16066#16072#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/Star.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="435" lean-forward="true" selection-start-line="435" selection-end-line="435" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#12152#12158#0#HTML" expanded="true" />
+            <element signature="e#12158#12164#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#15063#15069#0#HTML" expanded="true" />
+            <element signature="e#15074#15080#0#HTML" expanded="true" />
+            <element signature="e#15080#15086#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Index/templates/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="374" column="31" lean-forward="true" selection-start-line="374" selection-start-column="31" selection-end-line="374" selection-end-column="31" />
+        <state relative-caret-position="152">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="467" selection-end-column="9" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#20854#20860#0#HTML" expanded="true" />
+            <element signature="e#20861#20867#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#22365#22371#0#HTML" expanded="true" />
+            <element signature="e#22382#22388#0#HTML" expanded="true" />
+            <element signature="e#22388#22394#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index/templates/CeHua_Sanji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="207" column="25" lean-forward="true" selection-start-line="207" selection-start-column="25" selection-end-line="207" selection-end-column="25" />
         </state>
       </provider>
     </entry>

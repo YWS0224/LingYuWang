@@ -504,24 +504,32 @@
 
         {#右边#}
         <div class="col-md-3 row Right">
-                     {#独家专访#}
-            <div class="col-md-11 col-md-offset-1 row zhuanfang_list">
+                        {#独家专访#}
+            <div class="col-md-12 col-md-offset-1 row zhuanfang_list">
                 <div class="zhuanfang_Title col-md-12"></div>
                 <div class="zhuanfang_Info">
-                    <div class="zhuangfang_table">
-                        <table class="zhuangfang_tab">
-                            {% for ZF in ZhuanF %}
-                                <tr bgcolor="#f0ffff">
-                                    <td>
-                                        <p class="zhuanfang_ziti">
-                                            <a href="{% url 'Index:ZhuanFangInfo' ZF.id %}">{{ ZF.ZhuanFang_Title }} </a>
-                                        </p>
-                                    </td>
-                                    <td>
-                                        <p class="zhuanfang_ziti">
-                                            <a href="{% url 'Index:ZhuanFangInfo' ZF.id %}">{{ ZF.ZhuanFang_Info }}</a>
-                                        </p>
-                                    </td>
+                    {% for zhuanfang in ZhuanFang_first_info %}
+                        <a href="{% url 'Index:ZhuanFangInfo' zhuanfang.id %}">
+                            <div class="ZhuanFang_first col-md-12">
+                                <div class="ZhuanFang_first_title row">
+                                    <table>
+                                        <tr>
+                                            <td style="color: white;width: 130px">&nbsp;&nbsp;{{ zhuanfang.ZhuanFang_sTitle }}</td>
+                                            <td>{{ zhuanfang.ZhuanFang_Title }}</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </a>
+                    {% endfor %}
+                    <div style="padding-left: 20px; background-color: #f3f3f3;">
+                        <table width="100%">
+                            {% for zhuanfang in ZhuanFang_not1 %}
+                                <tr class="ZhuanFang_DiYiHang">
+                                   <td> <a href="{% url 'Index:ZhuanFangInfo' zhuanfang.id %}">{{ zhuanfang.ZhuanFang_sTitle }}</a></td>
+                                </tr>
+                                <tr class="ZhuanFang_DiErHang">
+                                    <td> <a href="{% url 'Index:ZhuanFangInfo' zhuanfang.id %}">{{ zhuanfang.ZhuanFang_Title }}</a></td>
                                 </tr>
                             {% endfor %}
                         </table>
@@ -531,7 +539,7 @@
 
 
             {#独家策划#}
-            <div class="col-md-11 col-md-offset-1 row dujiacehua_list">
+            <div class="col-md-12 col-md-offset-1 row dujiacehua_list">
                 <div class="dujiacehua_Title col-md-12"></div>
                 <div class="dujiacehua_Info col-md-12">
                     <div class="dujiacehua">
@@ -539,9 +547,10 @@
                             <table width="300px" height="180px">
                                 {% for ch in CeHua %}
                                     <tr>
-                                        <td>
+                                        <td class="dujiacehua_tr1">
                                             <a href="{% url 'Index:CeHuaInfo' ch.id %}">
-                                                {{ ch.CeHua_Title }}
+                                                <img src="/static/img/Index_ing/TuBiao.png" width="25px" height="25px">{{ ch.CeHua_Title }}
+                                                <img class="dujiacehua_img" src="/static/media/{{ ch.CeHua_url }}" alt="" width="380px" height="280px">
                                             </a>
                                         </td>
                                     </tr>
@@ -554,27 +563,40 @@
             </div>
 
             {#影评社#}
-            <div class="col-md-11 col-md-offset-1 row dujiacehua_list">
+            <div class="col-md-12 col-md-offset-1 row yingpingshe_list">
                 <div class="YingPingShe_Title col-md-12"></div>
-                <div class="dujiacehua_Info col-md-12">
-                    <table width="300px" height="180px">
-                        {% for yingping in Yingpingshe %}
-                            <tr>
-                                <td>
-                                    <a href="{% url 'Index:YingPingShe' yingping.id %}">
-                                        {{ yingping.Yingping_Title }}
-                                    </a>
-                                </td>
-                            </tr>
-                        {% endfor %}
-                    </table>
+                <div class="dujiacehua_Info">
+                {% for yingping in Yingping_first %}
+                    <a href="{% url 'Index:YingPingShe' yingping.id %}">
+                        <div class="YingPingShe_first col-md-12">
+                            <div class="YingPingShe_first_title row"><span style="color: white;">&nbsp;记者手记:&nbsp;&nbsp;</span>{{ yingping.Yingping_Title }}</div>
+                        </div>
+                    </a>
+                {% endfor %}
+                {% for yingping in Yingpingshe %}
+                    <div>
+                        <div class="col-md-12 row">
+                            <div class="col-md-7 Tu2">
+                                <a href="{% url 'Index:YingPingShe' yingping.id %}">
+                                    <img src="/static/media/{{ yingping.Yingping_Url }}" width="220px" height="150px" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-5 Tu3 Tu2">
+                                <a style="color: #9d9d9d ;" href="{% url 'Index:YingPingShe' yingping.id %}">
+                                    {{ yingping.Yingping_Title }}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
                 </div>
             </div>
 
+
             {#福利社#}
-            <div class="col-md-12 row col-md-offset-2 Exclusive_list">
+            <div class="col-md-12 row col-md-offset-1 Exclusive_list">
                 <div class="Welfare_Title col-md-12"></div>
-                <div class="EX_Info col-md-12">
+                <div class="EX_Info">
                     {% for WelFare in Welfare_T %}
                         <div>
                             <a href="{% url 'Index:Welfare' WelFare.id %}">
@@ -582,7 +604,7 @@
                             </a>
                         </div>
                         <div class="Welfare_d">
-                            <a href="{% url 'Index:Welfare' WelFare.id %}">
+                            <a style="color: black;text-decoration:none;" href="{% url 'Index:Welfare' WelFare.id %}">
                                 {{ WelFare.Welfare_Title }}
                             </a>
                         </div>
@@ -591,18 +613,28 @@
             </div>
 
             {#巨咖来了#}
-            <div class="col-md-12 row col-md-offset-2 Exclusive_list">
+            <div class="col-md-12 row col-md-offset-1 Exclusive_list">
                 <div class="ju_Title col-md-12"></div>
+
+                {% for juka in JuKa_first %}
+                    <a href="{% url 'Index:JuKa' juka.id %}">
+                    <div class="JuKaLaiLe_first col-md-12">
+                        <div class="JuKaLaiLe_first_title row">{{ juka.Jukalail_title }}</div>
+                    </div>
+                    </a>
+                {% endfor %}
+
+
                 {% for Ju in Jukalaile %}
                     <div>
                         <div class="col-md-12 row">
 
-                            <div class="col-md-6 Tu2">
+                            <div class="col-md-7 Tu2">
                                 <a href="{% url 'Index:JuKa' Ju.id %}">
-                                    <img src="/static/media/{{ Ju.Jukalail_URL }}" width="100%" height="100%" alt="">
+                                    <img src="/static/media/{{ Ju.Jukalail_URL }}" width="220px" height="150px" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-6 Tu3 Tu2">
+                            <div class="col-md-5 Tu3 Tu2">
                                 <a href="{% url 'Index:JuKa' Ju.id %}">
                                     {{ Ju.Jukalail_title }}
                                 </a>
@@ -613,20 +645,21 @@
             </div>
 
 
+
             {# 明星美图 #}
-
-            <div class="col-md-12 row col-md-offset-2 Star_list">
-
-                <div class="Mei col-md-12"></div>
-
-                {% for Star_Phto in Star_Phtos %}
-                    <div class="EX_Info col-md-12">
-
-                        {{ Star_Phto.Star_Info }}
-
-                    </div>
-                {% endfor %}
-            </div>
+{##}
+{#            <div class="col-md-12 row col-md-offset-2 Star_list">#}
+{##}
+{#                <div class="Mei col-md-12"></div>#}
+{##}
+{#                {% for Star_Phto in Star_Phtos %}#}
+{#                    <div class="EX_Info col-md-12">#}
+{##}
+{#                        {{ Star_Phto.Star_Info }}#}
+{##}
+{#                    </div>#}
+{#                {% endfor %}#}
+{#            </div>#}
 
             {#  联系我们      #}
             <div class="col-md-12 row col-md-offset-2 Scheme5">

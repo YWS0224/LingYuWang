@@ -1,5 +1,4 @@
-
-    {% load static %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,42 +58,11 @@
             margin-top: 40px;
         }
 
-
-        .dade {
-            height: 300px;
-            margin-bottom: 10px;
-            margin-top: 30px;
-        }
-
-        .Xian{
+        .Xian {
             width: 100%;
             height: 100%;
 
         }
-
-
-        .DaDe_Img2 {
-            width: 100%;
-            height: 100%;
-        {% for Juka in Jukalaile %}
-            background-image: url("/static/media/{{ Juka.Jukalail_URL }}");
-        {% endfor %}
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            position: relative
-        }
-
-        .Mtitle {
-            background-color: rgba(255, 255, 255, 0.3);
-            font-size: 20px;
-            padding-left: 30px;
-            color: black;
-            font-weight: 500;
-            position: absolute;
-            bottom: 0px;
-            width: 100%;
-        }
-
 
         .xiaode img {
             display: block;
@@ -103,9 +71,6 @@
 
         .Exclusive_list {
             height: 700px;
-        }
-        .Star_list{
-           margin-top: 220px;
         }
 
         .ju_Title {
@@ -185,13 +150,6 @@
             height: 170px;
         }
 
-        .Mei {
-            background-image: url("{% static 'img/Index_ing/mei.jpg' %}");
-            background-size: 100% 100%;
-            background-repeat: repeat;
-            height: 40px;
-        }
-
         .M li {
             list-style: none;
             margin-top: 15px;
@@ -233,47 +191,6 @@
             height: 45px;
         }
 
-        .zhuangfang_img {
-            background-image: url("{% static 'img/Index_ing/dujia.png' %}");
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-            height: 210px;
-            padding-top: 175px;
-        }
-
-        .zhuanfang_img_red {
-            height: 35px;
-            width: 150px;
-            background-color: red;
-            color: white;
-            font-size: 20px;
-            float: left;
-            padding-left: 15px;
-        }
-
-        .zhuanfang_zitiao {
-            height: 35px;
-            background-color: rgba(255, 255, 255, 0.5);
-            font-size: 15px;
-            font-weight: 600;
-            line-height: 40px;
-        }
-
-        .zhuangfang_table {
-            font-size: 18px;
-            color: darkgray;
-        }
-
-        .zhuangfang_tab {
-            width: 430px;
-            height: 70px;
-        }
-
-        .zhuanfang_ziti {
-            color: red;
-            font-size: 23px;
-        }
-
         .dujiacehua_list {
             height: 500px;
             margin-bottom: 15px;
@@ -312,93 +229,63 @@
             margin-bottom: 15px;
         }
 
-        .yingpingshe_Info {
-            background-color: yellow;
-            height: 450px;
-        }
-
-        .yingpingshe_Title {
-            background-image: url("{% static 'img/Index_ing/DuJiaZhuanFang.png' %}");
-            background-size: 100% 100%;
-            background-repeat: repeat;
-            height: 45px;
-        }
-
-        .yingpingshe_img {
-            background-image: url("{% static 'img/Index_ing/yingpingshe001.png' %}");
-            height: 200px;
-            background-color: #c7254e;
-        }
-
-        .yingpingshe_table {
-            padding-top: 30px;
-            background-color: #46b8da;
-            height: 120px;
-        }
-
-        .yingpingshe_table_img {
-            background-image: url("{% static 'img/Index_ing/yingpingshe002.png' %}");
-            height: 100px;
-            background-size: 100% 100%;
-            background-repeat: repeat;
-        }
-
-        .yingpingshe_table_img02 {
-            background-image: url("{% static 'img/Index_ing/yingpingshe003.png' %}");
-            height: 100px;
-            background-size: 100% 100%;
-            background-repeat: repeat;
-        }
         .Tu2 {
             padding: 10px 0px;
         }
-        .Welfare_d{
+
+        .Welfare_d {
             padding: 20px 0px;
             font-weight: 600;
             font-size: 18px;
         }
-        .Tu3{
+
+        .Tu3 {
             color: #8c8c8c;
             font-size: 16px;
             padding-left: 20px;
         }
 
 
-        .TextUrl{
+        .TextUrl {
             font-size: 16px;
             background-color: #f4f4f4;
             border: 1px solid white;
             line-height: 30px;
         }
 
-        .TextTime{
+        .TextTime {
             background-color: #FFFFFF;
             border-top: 3px solid #121212;
             padding: 30px 0px;
             font-size: 16px;
         }
 
-        .zi{
+        .zi {
             font-weight: 600;
             font-size: 20px;
             font-family: Chandas;
             padding-top: 30px;
             border-bottom: 3px solid #121212;
         }
-        .zi1{
+
+        .zi1 {
             color: #2D64B3;
         }
+
         .Mx {
             color: black;
             font-size: 20px;
             font-weight: 600;
-         }
+        }
+
         .Mxx {
             color: #8c8c8c;
         }
+
         .mx {
             padding-top: 30px;
         }
+
         .Mx_photos {
             width: 30px;
             height: 30px;
@@ -408,7 +295,8 @@
             border-bottom: #F8F8F8 solid 2px;
             padding: 10px 0px;
         }
-        .DiDH{
+
+        .DiDH {
             background-image: url("{% static 'img/daohanglan/tu.png' %}");
             background-size: 100% 100%;
             background-repeat: repeat;
@@ -416,14 +304,366 @@
             margin-top: 60px;
             margin-bottom: 20px;
         }
-</style>
+
+
+        .DaoHangLan {
+            margin-bottom: 25px;
+            font-size: 18px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .logo {
+            height: 120px;
+            background-image: url("{% static 'img/Index_ing/logo.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .SouSuo1 {
+            height: 28px;
+            background-image: url("{% static 'img/Index_ing/App下载.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .SouSuo2 {
+            height: 28px;
+            background-image: url("{% static 'img/Index_ing/SouSuo.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .SouSuo3 {
+            height: 28px;
+            background-image: url("{% static 'img/Index_ing/TouGao.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+        }
+
+        .DaoHang {
+            padding-top: 50px;
+        }
+
+        .DaoHangLan a {
+            color: black;
+        }
+
+        .border_r {
+            border-right: 2px solid #C4C4C4;
+        }
+
+
+        .News_body {
+            margin-top: 50px;
+        }
+
+        .xiaode img {
+            display: block;
+        }
+
+        .Exclusive_list {
+            margin-bottom: 30px;
+        }
+
+        .ju_Title {
+            background-image: url("{% static 'img/Index_ing/ju.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 40px;
+        }
+
+        .JuKaLaiLe_first {
+            height: 350px;
+        {% for juka in  JuKa_first %}
+            background-image: url("/static/media/{{ juka.Jukalail_URL }}");
+        {% endfor %}
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            width: 100%;
+        }
+
+        .JuKaLaiLe_first_title {
+            height: 50px;
+            background: rgba(000, 000, 000, 0.5);
+            color: white;
+            font-size: 28px;
+            margin-top: 50px;
+            font-weight: 600;
+            position: absolute;
+            width: 100%;
+            top: 250px;
+            text-align: center;
+        }
+
+        .Welfare_Title {
+            background-image: url("{% static 'img/Index_ing/i0.jpg' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 40px;
+        }
+
+
+        .EX_Info {
+            padding-top: 25px;
+        }
+
+
+        .daTu div {
+            background-color: rgba(255, 255, 255, 0.5);
+            line-height: 50px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+
+        .Scheme5 {
+            margin-bottom: 15px;
+            height: 600px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .LianXiWoMen_Title {
+            background-image: url("{% static 'img/Index_ing/LianXiWoMen.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .ZiMeiTi {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .ZiMeiTi table {
+            line-height: 26px;
+        }
+
+        .ZiMeiTi td {
+            width: 65px;
+            text-align: center;
+        }
+
+        .ErWeiMa {
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+
+        .Weibo {
+            background-image: url("{% static 'img/Index_ing/WeiBo.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 170px;
+        }
+
+        .Mx {
+            color: black;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .Mxx {
+            color: #8c8c8c;
+
+        }
+
+        .mx {
+            padding-top: 30px;
+        }
+
+
+        .Tu1 {
+            border-bottom: #F8F8F8 solid 2px;
+            padding: 10px 0px;
+        }
+
+        .Weixin {
+            background-image: url("{% static 'img/Index_ing/WeiXin.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 170px;
+        }
+
+        .M li {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .Yi li {
+            list-style: none;
+            display: inline;
+        }
+
+        .Yi2 li {
+            list-style: none;
+            padding-top: 10px;
+        }
+
+        .Yi3 {
+            padding-left: 60px;
+        }
+
+        .L li {
+            list-style: none;
+            padding-bottom: 20px;
+        }
+
+        .zhuanfang_list {
+            margin-bottom: 30px;
+        }
+
+        .ZhuanFang_first {
+            height: 250px;
+        {% for zhuanfang in  ZhuanFang_first_info %}
+            background-image: url("/static/media/{{ zhuanfang.ZhuanFang_Url }}");
+        {% endfor %}
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            width: 100%;
+        }
+
+        .ZhuanFang_first_title {
+            background-image: url("/static/img/Index_ing/HongBaiTiao.png");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            position: absolute;
+            width: 100%;
+            font-size: 24px;
+            top: 210px;
+            color: black;
+            height: 40px;
+            font-weight: 600;
+            padding-top: 5px;
+        }
+
+        .ZhuanFang_DiYiHang {
+            background-color: #f3f3f3;
+            font-size: 24px;
+            font-weight: 600;
+            color: red;
+            line-height: 50px;
+        }
+
+        .ZhuanFang_DiErHang {
+            font-size: 22px;
+            font-weight: 600;
+            color: #9d9d9d;
+        }
+
+        .zhuanfang_Title {
+            background-image: url("{% static 'img/Index_ing/DuJiaZhuanFang.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .dujiacehua_list {
+            height: 500px;
+            margin-bottom: 30px;
+        }
+
+
+        .dujiacehua_Title {
+            background-image: url("{% static 'img/Index_ing/cehua.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 45px;
+        }
+
+        .dujiacehua {
+            font-size: 20px;
+            padding-top: 30px;
+        }
+
+        .dujiacehua li {
+            display: inline;
+        }
+
+        .dujiacehua_img {
+            display: none;
+        }
+
+        .dujiacehua_tr1:hover .dujiacehua_img {
+            display: block;
+        }
+
+        .dujiacehua_table {
+            display: block;
+            position: absolute;
+        }
+
+        .dujiacehua_table a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .YingPingShe_first {
+            height: 250px;
+        {% for yingping in  Yingping_first %}
+            background-image: url("/static/media/{{ yingping.Yingping_Url }}");
+        {% endfor %}
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            width: 100%;
+        }
+
+        .YingPingShe_first_title {
+            background-image: url("/static/img/Index_ing/HongBaiTiao.png");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            position: absolute;
+            width: 100%;
+            font-size: 24px;
+            top: 210px;
+            color: black;
+            height: 40px;
+            font-weight: 600;
+            padding-top: 5px;
+        }
+
+        .YingPingShe_Title {
+            background-image: url("{% static 'img/Index_ing/YIngPingShe.png' %}");
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            height: 55px;
+        }
+
+        .yingpingshe_list {
+            margin-bottom: 30px;
+        }
+
+
+        .Tu2 {
+            padding: 10px 0px;
+        }
+
+        .Tu2 a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .Welfare_d {
+            padding: 20px 0px;
+            font-weight: 600;
+            font-size: 18px;
+            background-color: #f3f3f3;
+        }
+
+        .Tu3 {
+            color: #8c8c8c;
+            font-size: 16px;
+            padding-left: 20px;
+        }
+    </style>
 
 </head>
 <body>
-{% autoescape off %}
 {#导航栏#}
 <div class="DaoHangLan row ">
-    <a href="{% url 'Index:index' %}"><div class="col-md-2 col-md-offset-2 logo"></div></a>
+    <a href="{% url 'Index:index' %}">
+        <div class="col-md-2 col-md-offset-2 logo"></div>
+    </a>
     <div class="col-md-3 DaoHang">
         <div class="col-md-2 border_r"><a href="#">资讯</a></div>
         <div class="col-md-2 border_r"><a href="#">独家</a></div>
@@ -438,18 +678,19 @@
         <div class="col-md-4 SouSuo3"></div>
     </div>
 
-    <div class="col-md-8 col-md-offset-2 "><img class="Xian" src="{% static 'img/daohanglan/Xian.png' %}" alt=""></div>
+    <div class="col-md-8 col-md-offset-2 "><img class="Xian" src="{% static 'img/daohanglan/Xian.png' %}" alt="">
+    </div>
 </div>
 
 {#{策划详情#}
-    <div class="row News_body">
+<div class="row News_body">
     {% for Ch in CH %}
-    <div class="col-md-5  col-md-offset-2">
+        <div class="col-md-5  col-md-offset-2">
         <div class="TextUrl col-md-12">
             零电影>{{ Ch.CeHua_Type }}>{{ Ch.CeHua_Title }}
         </div>
         <div class="TextTitle col-md-12">
-                <h2>{{ Ch.CeHua_Title }}</h2>
+            <h2>{{ Ch.CeHua_Title }}</h2>
         </div>
 
         <div class="col-md-12">
@@ -458,7 +699,7 @@
         </div>
 
         <div class="TextTime col-md-12">
-                {{ Ch.CeHua_Info }}
+            {{ Ch.CeHua_Info }}
         </div>
 
 
@@ -471,162 +712,205 @@
         <div class="DiDH col-md-12"></div>
     {% endfor %}
 
-          {% for C in CeHua_List %}
-                <div class="col-md-12 Tu1">
-                    <div class="col-md-4">
-                        <a href="{% url 'Index:CeHuaInfo' C.id %}">
-                            <img src="/static/media/{{ C.CeHua_url }}" width="100%" height="100%" alt="">
-                        </a>
-                    </div>
+    {% for C in CeHua_List %}
+        <div class="col-md-12 Tu1">
+            <div class="col-md-4">
+                <a href="{% url 'Index:CeHuaInfo' C.id %}">
+                    <img src="/static/media/{{ C.CeHua_url }}" width="100%" height="100%" alt="">
+                </a>
+            </div>
 
-                    <div class="col-md-8">
-                        <div>
-                            <a href="{% url 'Index:CeHuaInfo' C.id %}" class="Mx">
-                                {{ C.CeHua_Title }}
-                            </a>
-                        </div>
-                        <div class="mx">s
-                            <a href="{% url 'Index:CeHuaInfo' C.id %}" class="Mxx">
-                                {{ C.CeHuaTitle_xd }}
-                            </a>
-                            <div class="col-md-1 col-md-offset-9">
-                                <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
-                            </div>
-                            <div class="col-md-1">
-                                <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
-                            </div>
-                        </div>
+            <div class="col-md-8">
+                <div>
+                    <a href="{% url 'Index:CeHuaInfo' C.id %}" class="Mx">
+                        {{ C.CeHua_Title }}
+                    </a>
+                </div>
+                <div class="mx">s
+                    <a href="{% url 'Index:CeHuaInfo' C.id %}" class="Mxx">
+                        {{ C.CeHuaTitle_xd }}
+                    </a>
+                    <div class="col-md-1 col-md-offset-9">
+                        <img class=" Mx_photos" src="{% static 'img/Movie/TuBiao1.png' %}" alt="">
+                    </div>
+                    <div class="col-md-1">
+                        <img class="Mx_photos" src="{% static 'img/Movie/TuBiao2.png' %}" alt="">
                     </div>
                 </div>
-            {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
     </div>
 
 
- {#右边#}
+    {#右边#}
     <div class="col-md-3 row Right">
-  {#独家专访#}
-            <div class="col-md-11 col-md-offset-1 row zhuanfang_list">
-                <div class="zhuanfang_Title col-md-12"></div>
-                <div class="zhuanfang_Info">
-                    <div class="zhuangfang_table">
-                        <table class="zhuangfang_tab">
-                            {% for ZF in ZhuanF %}
-                                <tr bgcolor="#f0ffff">
-                                    <td>
-                                        <p class="zhuanfang_ziti">
-                                            <a href="{% url 'Index:ZhuanFangInfo' ZF.id %}">{{ ZF.ZhuanFang_Title }} </a>
-                                        </p>
-                                    </td>
-                                    <td>
-                                        <p class="zhuanfang_ziti">
-                                            <a href="{% url 'Index:ZhuanFangInfo' ZF.id %}">{{ ZF.ZhuanFang_Info }}</a>
-                                        </p>
-                                    </td>
-                                </tr>
-                            {% endfor %}
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-
-            {#独家策划#}
-            <div class="col-md-11 col-md-offset-1 row dujiacehua_list">
-                <div class="dujiacehua_Title col-md-12"></div>
-                <div class="dujiacehua_Info col-md-12">
-                    <div class="dujiacehua">
-                        <div class="dujiacehua_table">
-                            <table width="300px" height="180px">
-                                {% for ch in CeHua %}
+        {#独家专访#}
+        <div class="col-md-12 col-md-offset-1 row zhuanfang_list">
+            <div class="zhuanfang_Title col-md-12"></div>
+            <div class="zhuanfang_Info">
+                {% for zhuanfang in ZhuanFang_first_info %}
+                    <a href="{% url 'Index:ZhuanFangInfo' zhuanfang.id %}">
+                        <div class="ZhuanFang_first col-md-12">
+                            <div class="ZhuanFang_first_title row">
+                                <table>
                                     <tr>
-                                        <td>
-                                            <a href="{% url 'Index:CeHuaInfo' ch.id %}">
-                                                {{ ch.CeHua_Title }}
-                                            </a>
-                                        </td>
+                                        <td style="color: white;width: 130px">
+                                            &nbsp;&nbsp;{{ zhuanfang.ZhuanFang_sTitle }}</td>
+                                        <td>{{ zhuanfang.ZhuanFang_Title }}</td>
                                     </tr>
-                                {% endfor %}
-                            </table>
+                                </table>
+                            </div>
                         </div>
-
-                    </div>
-                </div>
-            </div>
-
-            {#影评社#}
-            <div class="col-md-11 col-md-offset-1 row dujiacehua_list">
-                <div class="YingPingShe_Title col-md-12"></div>
-                <div class="dujiacehua_Info col-md-12">
-                    <table width="300px" height="180px">
-                        {% for yingping in Yingpingshe %}
-                            <tr>
+                    </a>
+                {% endfor %}
+                <div style="padding-left: 20px; background-color: #f3f3f3;">
+                    <table width="100%">
+                        {% for zhuanfang in ZhuanFang_not1 %}
+                            <tr class="ZhuanFang_DiYiHang">
                                 <td>
-                                    <a href="{% url 'Index:YingPingShe' yingping.id %}">
-                                        {{ yingping.Yingping_Title }}
-                                    </a>
+                                    <a href="{% url 'Index:ZhuanFangInfo' zhuanfang.id %}">{{ zhuanfang.ZhuanFang_sTitle }}</a>
+                                </td>
+                            </tr>
+                            <tr class="ZhuanFang_DiErHang">
+                                <td>
+                                    <a href="{% url 'Index:ZhuanFangInfo' zhuanfang.id %}">{{ zhuanfang.ZhuanFang_Title }}</a>
                                 </td>
                             </tr>
                         {% endfor %}
                     </table>
                 </div>
             </div>
+        </div>
 
 
-            {#福利社#}
-            <div class="col-md-12 row col-md-offset-2 Exclusive_list">
-                <div class="Welfare_Title col-md-12"></div>
-                <div class="EX_Info col-md-12">
-                    {% for WelFare in Welfare_T %}
-                        <div>
-                            <a href="{% url 'Index:Welfare' WelFare.id %}">
-                                <img src="/static/media/{{ WelFare.Walfare_Url }}" width="100%" height="100%" alt="">
-                            </a>
-                        </div>
-                        <div class="Welfare_d">
-                            <a href="{% url 'Index:Welfare' WelFare.id %}">
-                                {{ WelFare.Welfare_Title }}
-                            </a>
-                        </div>
-                    {% endfor %}
+        {#独家策划#}
+        <div class="col-md-12 col-md-offset-1 row dujiacehua_list">
+            <div class="dujiacehua_Title col-md-12"></div>
+            <div class="dujiacehua_Info col-md-12">
+                <div class="dujiacehua">
+                    <div class="dujiacehua_table">
+                        <table width="300px" height="180px">
+                            {% for ch in CeHua %}
+                                <tr>
+                                    <td class="dujiacehua_tr1">
+                                        <a href="{% url 'Index:CeHuaInfo' ch.id %}">
+                                            <img src="/static/img/Index_ing/TuBiao.png" width="25px"
+                                                 height="25px">{{ ch.CeHua_Title }}
+                                            <img class="dujiacehua_img" src="/static/media/{{ ch.CeHua_url }}"
+                                                 alt="" width="380px" height="280px">
+                                        </a>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </table>
+                    </div>
+
                 </div>
             </div>
+        </div>
 
-            {#巨咖来了#}
-            <div class="col-md-12 row col-md-offset-2 Exclusive_list">
-                <div class="ju_Title col-md-12"></div>
-                {% for Ju in Jukalaile %}
+        {#影评社#}
+        <div class="col-md-12 col-md-offset-1 row yingpingshe_list">
+            <div class="YingPingShe_Title col-md-12"></div>
+            <div class="dujiacehua_Info">
+                {% for yingping in Yingping_first %}
+                    <a href="{% url 'Index:YingPingShe' yingping.id %}">
+                        <div class="YingPingShe_first col-md-12">
+                            <div class="YingPingShe_first_title row"><span
+                                    style="color: white;">&nbsp;记者手记:&nbsp;&nbsp;</span>{{ yingping.Yingping_Title }}
+                            </div>
+                        </div>
+                    </a>
+                {% endfor %}
+                {% for yingping in Yingpingshe %}
                     <div>
                         <div class="col-md-12 row">
-
-                            <div class="col-md-6 Tu2">
-                                <a href="{% url 'Index:JuKa' Ju.id %}">
-                                    <img src="/static/media/{{ Ju.Jukalail_URL }}" width="100%" height="100%" alt="">
+                            <div class="col-md-7 Tu2">
+                                <a href="{% url 'Index:YingPingShe' yingping.id %}">
+                                    <img src="/static/media/{{ yingping.Yingping_Url }}" width="220px"
+                                         height="150px" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-6 Tu3 Tu2">
-                                <a href="{% url 'Index:JuKa' Ju.id %}">
-                                    {{ Ju.Jukalail_title }}
+                            <div class="col-md-5 Tu3 Tu2">
+                                <a style="color: #9d9d9d ;" href="{% url 'Index:YingPingShe' yingping.id %}">
+                                    {{ yingping.Yingping_Title }}
                                 </a>
                             </div>
                         </div>
                     </div>
                 {% endfor %}
             </div>
+        </div>
 
-        {# 明星美图 #}
 
-        <div class="col-md-12 row col-md-offset-2 Star_list">
-
-            <div class="Mei col-md-12"></div>
-
-            {% for Star_Phto in Star_Phtos %}
-            <div class="EX_Info col-md-12">
-
-                    {{ Star_Phto.Star_Info }}
-
+        {#福利社#}
+        <div class="col-md-12 row col-md-offset-1 Exclusive_list">
+            <div class="Welfare_Title col-md-12"></div>
+            <div class="EX_Info">
+                {% for WelFare in Welfare_T %}
+                    <div>
+                        <a href="{% url 'Index:Welfare' WelFare.id %}">
+                            <img src="/static/media/{{ WelFare.Walfare_Url }}" width="100%" height="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="Welfare_d">
+                        <a style="color: black;text-decoration:none;" href="{% url 'Index:Welfare' WelFare.id %}">
+                            {{ WelFare.Welfare_Title }}
+                        </a>
+                    </div>
+                {% endfor %}
             </div>
+        </div>
+
+        {#巨咖来了#}
+        <div class="col-md-12 row col-md-offset-1 Exclusive_list">
+            <div class="ju_Title col-md-12"></div>
+
+            {% for juka in JuKa_first %}
+                <a href="{% url 'Index:JuKa' juka.id %}">
+                    <div class="JuKaLaiLe_first col-md-12">
+                        <div class="JuKaLaiLe_first_title row">{{ juka.Jukalail_title }}</div>
+                    </div>
+                </a>
+            {% endfor %}
+
+
+            {% for Ju in Jukalaile %}
+                <div>
+                    <div class="col-md-12 row">
+
+                        <div class="col-md-7 Tu2">
+                            <a href="{% url 'Index:JuKa' Ju.id %}">
+                                <img src="/static/media/{{ Ju.Jukalail_URL }}" width="220px" height="150px" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-5 Tu3 Tu2">
+                            <a href="{% url 'Index:JuKa' Ju.id %}">
+                                {{ Ju.Jukalail_title }}
+                            </a>
+                        </div>
+                    </div>
+                </div>
             {% endfor %}
         </div>
+
+
+        {# 明星美图 #}
+        {##}
+        {#        <div class="col-md-12 row col-md-offset-2 Star_list">#}
+        {##}
+        {#            <div class="Mei col-md-12"></div>#}
+        {##}
+        {#            {% for Star_Phto in Star_Phtos %}#}
+        {#            <div class="EX_Info col-md-12">#}
+        {##}
+        {#{{ Star_Phto.Star_Info }}#}
+        {##}
+        {#            </div>#}
+        {#            {% endfor %}#}
+        {#        </div>#}
+
 
         {#  联系我们      #}
         <div class="col-md-12 row col-md-offset-2 Scheme5">
@@ -683,6 +967,5 @@
         </div>
     </div>
 </div>
-{% endautoescape %}
 </body>
 </html>
