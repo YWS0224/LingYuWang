@@ -24,6 +24,7 @@ def Index_html(request):
     JuKa_first = JuKaiLaiLe_first(request)
     Starphotos = Find_Star_Photos(request)
     Yingping = Yingping_find_all(request)
+    Yingping_first = YingPing_first(request)
     ZhuangF = select_ZhuanFang(request)
     CeHua_List = select_CeHua(request)
 
@@ -42,6 +43,7 @@ def Index_html(request):
         'JuKa_first': JuKa_first,
         'Star_Phtos': Starphotos,
         'Yingpingshe': Yingping,
+        'Yingping_first': Yingping_first,
         'ZhuanF': ZhuangF,
         'CeHua': CeHua_List,
 

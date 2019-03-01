@@ -14,3 +14,9 @@ def Yingping_find_all(request):
 def YingPing_Byid(request, Yid):
     YingPing_Info = Yingping_Star_Info.objects.filter(id = Yid)
     return YingPing_Info
+
+
+# 查询排序为1的影评信息
+def YingPing_first(request):
+    YingPing_first = Yingping_Star_Info.objects.filter(YingPing_Index=1)
+    return YingPing_first

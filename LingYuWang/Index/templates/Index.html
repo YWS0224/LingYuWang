@@ -58,9 +58,6 @@
             margin-top: 50px;
         }
 
-        .News_list {
-            height: 800px;
-        }
 
         .Movie_Title {
             background-image: url("{% static 'img/Index_ing/DianYing.png' %}");
@@ -163,16 +160,31 @@
             background-size: 100% 100%;
             background-repeat: repeat;
             height: 40px;
+
+
         }
 
         .JuKaLaiLe_first{
-            height: 250px;
+            height: 350px;
             {% for juka in  JuKa_first %}
                 background-image: url("/static/media/{{ juka.Jukalail_URL }}");
             {% endfor %}
             background-size: 100% 100%;
             background-repeat: repeat;
+            width: 100%;
+        }
 
+        .JuKaLaiLe_first_title{
+            height: 50px;
+            background: rgba(000,000,000,0.5);
+            color: white;
+            font-size: 28px;
+            margin-top: 50px;
+            font-weight: 600;
+            position:absolute;
+            width: 100%;
+            top: 250px;
+            text-align: center;
         }
 
         .Welfare_Title {
@@ -313,32 +325,6 @@
             height: 45px;
         }
 
-        .zhuangfang_img {
-            background-image: url("{% static 'img/Index_ing/dujia.png' %}");
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-            height: 210px;
-            padding-top: 175px;
-        }
-
-        .zhuanfang_img_red {
-            height: 35px;
-            width: 150px;
-            background-color: red;
-            color: white;
-            font-size: 20px;
-            float: left;
-            padding-left: 15px;
-        }
-
-        .zhuanfang_zitiao {
-            height: 35px;
-            background-color: rgba(255, 255, 255, 0.5);
-            font-size: 15px;
-            font-weight: 600;
-            line-height: 40px;
-        }
-
         .zhuangfang_table {
             font-size: 18px;
             color: darkgray;
@@ -394,8 +380,14 @@
             color: black;
         }
 
-        .yingpingshe_list{
-            height: 600px;
+        .YingPingShe_first{
+            height: 350px;
+            {% for yingping in  Yingping_first %}
+                background-image: url("/static/media/{{ yingping.Yingping_Url }}");
+            {% endfor %}
+            background-size: 100% 100%;
+            background-repeat: repeat;
+            width: 100%;
         }
 
         .YingPingShe_Title {
@@ -419,6 +411,7 @@
             padding: 20px 0px;
             font-weight: 600;
             font-size: 18px;
+            background-color: #f3f3f3;
         }
 
         .Tu3 {
@@ -511,7 +504,7 @@
     </div>
 
     <div class="row News_body">
-        {#电影#}
+        {#左边#}
         <div class="col-md-5  col-md-offset-2 News_list ">
             <div class="Movie_list row">
                 <div class="Movie_Title col-md-12"></div>
@@ -689,6 +682,11 @@
             <div class="col-md-12 col-md-offset-1 row yingpingshe_list">
                 <div class="YingPingShe_Title col-md-12"></div>
                 <div class="dujiacehua_Info col-md-12">
+                {% for yingping in Yingping_first %}
+                    <div class="YingPingShe_first col-md-12">
+                        <div class="JuKaLaiLe_first_title row">{{ yingping.Yingping_Title }}</div>
+                    </div>
+                {% endfor %}
                 {% for yingping in Yingpingshe %}
                     <div>
                         <div class="col-md-12 row">
@@ -720,7 +718,7 @@
                             </a>
                         </div>
                         <div class="Welfare_d">
-                            <a href="{% url 'Index:Welfare' WelFare.id %}">
+                            <a style="color: black;text-decoration:none;" href="{% url 'Index:Welfare' WelFare.id %}">
                                 {{ WelFare.Welfare_Title }}
                             </a>
                         </div>
@@ -733,8 +731,8 @@
                 <div class="ju_Title col-md-12"></div>
 
                 {% for juka in JuKa_first %}
-                    <div class="JuKaLaiLe_first">
-                        <div>{{ juka.Jukalail_title }}</div>
+                    <div class="JuKaLaiLe_first col-md-12">
+                        <div class="JuKaLaiLe_first_title row">{{ juka.Jukalail_title }}</div>
                     </div>
                 {% endfor %}
 
@@ -745,7 +743,7 @@
 
                             <div class="col-md-7 Tu2">
                                 <a href="{% url 'Index:JuKa' Ju.id %}">
-                                    <img src="/static/media/{{ Ju.Jukalail_URL }}" width="200px" height="150px" alt="">
+                                    <img src="/static/media/{{ Ju.Jukalail_URL }}" width="220px" height="150px" alt="">
                                 </a>
                             </div>
                             <div class="col-md-5 Tu3 Tu2">
